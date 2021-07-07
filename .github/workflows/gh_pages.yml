@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
       - name: Checkout master
-        uses: actions/checkout@v2
+        uses: actions/checkout@v1
         # with:
         #   submodules: true  # Fetch Hugo themes (true OR recursive)
         #   fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
@@ -22,7 +22,7 @@ jobs:
 
       - name: Build
          run: |
-          hugo
+              hugo
 
       - name: Deploy Hugo to gh-page
         uses: peaceiris/actions-gh-pages@v2
