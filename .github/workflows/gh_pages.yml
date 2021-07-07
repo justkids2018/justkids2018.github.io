@@ -24,6 +24,7 @@ jobs:
         run: |
              hugo
 
+
       - name: Deploy Hugo to page
         uses: peaceiris/actions-gh-pages@v2
         env:
