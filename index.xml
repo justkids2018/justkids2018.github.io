@@ -1,10 +1,1 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>JustKids</title>
-        <link>https://justkids2018.github.io/</link>
-        <description>行于途应于心</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>iwyang@qq.com (bore)</managingEditor>
-            <webMaster>iwyang@qq.com (bore)</webMaster>
-            <atom:link href="https://justkids2018.github.io/index.xml" rel="self" type="application/rss+xml" />
-        </channel>
-</rss>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>JustKids</title><link>https://justkids2018.github.io/</link><description>行于途应于心</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>iwyang@qq.com (bore)</managingEditor><webMaster>iwyang@qq.com (bore)</webMaster><atom:link href="https://justkids2018.github.io/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
