@@ -116,8 +116,8 @@ enableEmoji = true
     absoluteURL = false
     [params.search.algolia]
       index = "hugo"
-      appID = "R7GU8Q3PGK"
-      searchKey = "03cd2f39cefdd4b40deed2f1222ad496"
+      appID = "UX4C13F0ZN"
+      searchKey = "68385831afa62900b680f21215b9c5f1"
 
   # 页面头部导航栏配置
   [params.header]
@@ -188,7 +188,7 @@ enableEmoji = true
       #  主页显示的网站标题 (支持 HTML 格式)
       title = ""
       # 主页显示的网站副标题
-      subtitle = "行于途应于心"
+      subtitle = "行动中重识自我"
       # 是否为副标题显示打字机动画
       typeit = true
       # 是否显示社交账号
@@ -206,37 +206,13 @@ enableEmoji = true
 
   # 作者的社交信息设置
   [params.social]
-    GitHub = "https://github.com/justkids2018"
-    Telegram = ""
-    Gitlab = ""
-    Youtubelegacy = ""
-    Youtubecustom = ""
-    Youtubechannel = ""
+    GitHub = "justkids2018"
     Quora = ""
-    FreeCodeCamp = ""
-    Bitbucket = ""
-    Stackoverflow = ""
-    Fivehundredpx = ""
-    Zhihu = ""
-    Douban = "https://www.douban.com/people/3977131"
+    Douban = "3977131"
     Angellist = ""
     Slidershare = ""
-    Jsfiddle = ""
-    Deviantart = ""
-    Behance = ""
-    Dribbble = ""
-    Wordpress = ""
-    Vine = ""
-    Googlescholar = ""
-    Researchgate = ""
-    Mastodon = ""
-    Thingiverse = ""
-    Devto = ""
-    Gitea = ""
-    XMPP = ""
-    Matrix = ""
     Bilibili = ""
-    Email = ""
+    Email = "justkids2018101@gmail.com"
     RSS = false 
 
   #  文章页面配置
@@ -308,29 +284,7 @@ enableEmoji = true
       Twitter = false
       Facebook = false
       Linkedin = false
-      Whatsapp = true
-      Pinterest = false
-      Tumblr = false
-      HackerNews = false
-      Reddit = false
-      VK = false
-      Buffer = false
-      Xing = true
-      Line = false
-      Instapaper = false
-      Pocket = false
-      Digg = false
-      Stumbleupon = false
-      Flipboard = false
-      Weibo = true
-      Renren = false
-      Myspace = false
-      Blogger = false
-      Baidu = true
-      Odnoklassniki = false
-      Evernote = false
-      Skype = false
-      Trello = false
+      Whatsapp = false
       Mix = false
     #  评论系统设置
     [params.page.comment]
@@ -516,9 +470,9 @@ enableEmoji = true
 
 # 作者配置
 [author]
-  name = "bore"
-  email = "iwyang@qq.com"
-  link = "https://bore.vip"
+  name = "justkids"
+  email = "justkids2018101@gmail.com"
+  link = "https://justkids2018.github.io/"
 
 # 网站地图配置
 [sitemap]

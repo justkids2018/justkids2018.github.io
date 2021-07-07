@@ -21,7 +21,10 @@ jobs:
           # extended: true
 
       - name: Build
-        run:  hugo --minify
+        run:  |
+            hugo -D serve -e production
+            
+           # hugo serve -e production
 
       - name: Deploy Hugo to page
         uses: peaceiris/actions-gh-pages@v2
