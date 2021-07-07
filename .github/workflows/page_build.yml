@@ -25,7 +25,6 @@ jobs:
       - name: Deploy Hugo to page
         uses: peaceiris/actions-gh-pages@v2
         env:
-         DEPLOY_REPO: justkids2018/justkids2018.github.io
-         DEPLOY_BRANCH: master
-         DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
+         ACTIONS_DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
+         PUBLISH_BRANCH: master
          PUBLISH_DIR: ./public
