@@ -22,7 +22,7 @@ jobs:
 
       - name: Build
         run:  |
-            hugo 
+            hugo -D
             
            # hugo serve -e production
 
