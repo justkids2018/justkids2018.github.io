@@ -1,5 +1,5 @@
 ---
-title: "Hugo_目录设置"
+title: "Hugo_github Page 配置域名"
 subtitle: ""
 date: 2021-07-15T09:09:07+08:00
 lastmod: 2021-07-15T09:09:07+08:00
@@ -24,5 +24,5 @@ math:
 lightgallery: false
 license: ""
 ---
-1111
+域名
 <!--more-->
