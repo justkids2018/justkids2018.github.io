@@ -1,5 +1,5 @@
-# Hugo_目录设置
+# Hugo_github Page 配置域名
 
-1111
+域名
 <!--more-->
 

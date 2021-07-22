@@ -1,22 +1,22 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>工具 - 标签 - JustKids</title>
-        <link>https://justkids2018.github.io/tags/%E5%B7%A5%E5%85%B7/</link>
+        <link>https://justkids.top11111/tags/%E5%B7%A5%E5%85%B7/</link>
         <description>工具 - 标签 - JustKids</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>justkids2018101@gmail.com (justkids)</managingEditor>
-            <webMaster>justkids2018101@gmail.com (justkids)</webMaster><lastBuildDate>Thu, 15 Jul 2021 09:09:07 &#43;0800</lastBuildDate><atom:link href="https://justkids2018.github.io/tags/%E5%B7%A5%E5%85%B7/" rel="self" type="application/rss+xml" /><item>
-    <title>Hugo_目录设置</title>
-    <link>https://justkids2018.github.io/hug_%E7%9B%AE%E5%BD%95%E8%AE%BE%E7%BD%AE/</link>
+            <webMaster>justkids2018101@gmail.com (justkids)</webMaster><lastBuildDate>Thu, 15 Jul 2021 09:09:07 &#43;0800</lastBuildDate><atom:link href="https://justkids.top11111/tags/%E5%B7%A5%E5%85%B7/" rel="self" type="application/rss+xml" /><item>
+    <title>Hugo_github Page 配置域名</title>
+    <link>https://justkids.top11111/hug_%E7%9B%AE%E5%BD%95%E8%AE%BE%E7%BD%AE/</link>
     <pubDate>Thu, 15 Jul 2021 09:09:07 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://justkids2018.github.io/hug_%E7%9B%AE%E5%BD%95%E8%AE%BE%E7%BD%AE/</guid>
-    <description><![CDATA[<p>1111</p>]]></description>
+    <guid>https://justkids.top11111/hug_%E7%9B%AE%E5%BD%95%E8%AE%BE%E7%BD%AE/</guid>
+    <description><![CDATA[<p>域名</p>]]></description>
 </item><item>
     <title>Brewhome_install</title>
-    <link>https://justkids2018.github.io/brewhome_install/</link>
+    <link>https://justkids.top11111/brewhome_install/</link>
     <pubDate>Thu, 15 Jul 2021 08:19:16 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://justkids2018.github.io/brewhome_install/</guid>
+    <guid>https://justkids.top11111/brewhome_install/</guid>
     <description><![CDATA[<h3 id="homebrew-无法安装的问题">homebrew 无法安装的问题</h3>
 <blockquote>
 <p>1、需要翻墙，不然反应很慢</p>
