@@ -1,4 +1,4 @@
-baseURL = "https://justkids.top11111"
+baseURL = "https://justkids.top"
 # [en, zh-cn, fr, ...] 设置默认的语言
 defaultContentLanguage = "zh-cn"
 # 网站语言, 仅在这里 CN大写
@@ -188,7 +188,7 @@ enableEmoji = true
       #  主页显示的网站标题 (支持 HTML 格式)
       title = ""
       # 主页显示的网站副标题
-      subtitle = "行动中重识自我"
+      subtitle = "在行动中重塑"
       # 是否为副标题显示打字机动画
       typeit = true
       # 是否显示社交账号
