@@ -1,31 +1,36 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Flag - 标签 - JustKids</title>
-        <link>https://justkids.top/tags/flag/</link>
-        <description>Flag - 标签 - JustKids</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>justkids2018101@gmail.com (justkids)</managingEditor>
-            <webMaster>justkids2018101@gmail.com (justkids)</webMaster><lastBuildDate>Thu, 05 Aug 2021 22:01:39 &#43;0800</lastBuildDate><atom:link href="https://justkids.top/tags/flag/" rel="self" type="application/rss+xml" /><item>
-    <title>2021的下半年计划</title>
-    <link>https://justkids.top/plan_2021_year/</link>
-    <pubDate>Thu, 05 Aug 2021 22:01:39 &#43;0800</pubDate>
-    <author>作者</author>
-    <guid>https://justkids.top/plan_2021_year/</guid>
-    <description><![CDATA[<h3 id="2021-的下半年flag">2021 的下半年Flag</h3>
-<blockquote>
-<p>周计划</p>
-</blockquote>
-<h3 id="每日">每日：</h3>
-<pre><code>  1、leetcode 两日一题（最低限度）
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Flag on JustKids</title>
+    <link>https://justkids.top/tags/flag/</link>
+    <description>Recent content in Flag on JustKids</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 05 Aug 2021 22:01:39 +0800</lastBuildDate><atom:link href="https://justkids.top/tags/flag/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021的下半年计划</title>
+      <link>https://justkids.top/posts/plan/plan_2021_year/</link>
+      <pubDate>Thu, 05 Aug 2021 22:01:39 +0800</pubDate>
+      
+      <guid>https://justkids.top/posts/plan/plan_2021_year/</guid>
+      <description>&lt;h3 id=&#34;2021-的下半年flag&#34;&gt;2021 的下半年Flag&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;周计划&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;每日&#34;&gt;每日：&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;  1、leetcode 两日一题（最低限度）
   2、单词5个
-</code></pre>
-<blockquote>
-<p>阅读方面</p>
-</blockquote>
-<h3 id="1技术">1、技术</h3>
-<pre><code> 1）算法和数据结构(2周-1章)
-</code></pre>
-<h3 id="2泛读">2、泛读</h3>
-<pre><code> 1）2周一本书包括-读书笔记
-</code></pre>]]></description>
-</item></channel>
+&lt;/code&gt;&lt;/pre&gt;
+&lt;blockquote&gt;
+&lt;p&gt;阅读方面&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;1技术&#34;&gt;1、技术&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt; 1）算法和数据结构(2周-1章)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;2泛读&#34;&gt;2、泛读&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt; 1）2周一本书包括-读书笔记
+&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    
+  </channel>
 </rss>

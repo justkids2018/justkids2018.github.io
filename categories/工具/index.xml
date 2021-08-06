@@ -1,18 +1,23 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>工具 - 分类 - JustKids</title>
-        <link>https://justkids.top/categories/%E5%B7%A5%E5%85%B7/</link>
-        <description>工具 - 分类 - JustKids</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>justkids2018101@gmail.com (justkids)</managingEditor>
-            <webMaster>justkids2018101@gmail.com (justkids)</webMaster><lastBuildDate>Thu, 15 Jul 2021 08:19:16 &#43;0800</lastBuildDate><atom:link href="https://justkids.top/categories/%E5%B7%A5%E5%85%B7/" rel="self" type="application/rss+xml" /><item>
-    <title>Brewhome_install</title>
-    <link>https://justkids.top/brewhome_install/</link>
-    <pubDate>Thu, 15 Jul 2021 08:19:16 &#43;0800</pubDate>
-    <author>作者</author>
-    <guid>https://justkids.top/brewhome_install/</guid>
-    <description><![CDATA[<h3 id="homebrew-无法安装的问题">homebrew 无法安装的问题</h3>
-<blockquote>
-<p>1、需要翻墙，不然反应很慢</p>
-</blockquote>]]></description>
-</item></channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>工具 on JustKids</title>
+    <link>https://justkids.top/categories/%E5%B7%A5%E5%85%B7/</link>
+    <description>Recent content in 工具 on JustKids</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 15 Jul 2021 08:19:16 +0800</lastBuildDate><atom:link href="https://justkids.top/categories/%E5%B7%A5%E5%85%B7/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Brewhome_install</title>
+      <link>https://justkids.top/posts/tool/brewhome_install/</link>
+      <pubDate>Thu, 15 Jul 2021 08:19:16 +0800</pubDate>
+      
+      <guid>https://justkids.top/posts/tool/brewhome_install/</guid>
+      <description>&lt;h3 id=&#34;homebrew-无法安装的问题&#34;&gt;homebrew 无法安装的问题&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;1、需要翻墙，不然反应很慢&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+  </channel>
 </rss>

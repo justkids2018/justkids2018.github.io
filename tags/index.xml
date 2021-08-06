@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on JustKids</title>
+    <link>https://justkids.top/tags/</link>
+    <description>Recent content in Tags on JustKids</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 05 Aug 2021 22:01:39 +0800</lastBuildDate><atom:link href="https://justkids.top/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Flag</title>
+      <link>https://justkids.top/tags/flag/</link>
+      <pubDate>Thu, 05 Aug 2021 22:01:39 +0800</pubDate>
+      
+      <guid>https://justkids.top/tags/flag/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>工具</title>
+      <link>https://justkids.top/tags/%E5%B7%A5%E5%85%B7/</link>
+      <pubDate>Thu, 15 Jul 2021 09:09:07 +0800</pubDate>
+      
+      <guid>https://justkids.top/tags/%E5%B7%A5%E5%85%B7/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
