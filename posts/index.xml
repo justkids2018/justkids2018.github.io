@@ -4,13 +4,63 @@
         <link>https://justkids.top/posts/</link>
         <description>所有文章 | JustKids</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>justkids2018101@gmail.com (justkids)</managingEditor>
-            <webMaster>justkids2018101@gmail.com (justkids)</webMaster><lastBuildDate>Thu, 15 Jul 2021 09:09:07 &#43;0800</lastBuildDate><atom:link href="https://justkids.top/posts/" rel="self" type="application/rss+xml" /><item>
-    <title>Hugo_github Page 配置域名</title>
-    <link>https://justkids.top/hug_%E7%9B%AE%E5%BD%95%E8%AE%BE%E7%BD%AE/</link>
+            <webMaster>justkids2018101@gmail.com (justkids)</webMaster><lastBuildDate>Thu, 05 Aug 2021 22:01:39 &#43;0800</lastBuildDate><atom:link href="https://justkids.top/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>2021的下半年计划</title>
+    <link>https://justkids.top/plan_2021_year/</link>
+    <pubDate>Thu, 05 Aug 2021 22:01:39 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://justkids.top/plan_2021_year/</guid>
+    <description><![CDATA[<h3 id="2021-的下半年flag">2021 的下半年Flag</h3>
+<blockquote>
+<p>周计划</p>
+</blockquote>
+<h3 id="每日">每日：</h3>
+<pre><code>  1、leetcode 两日一题（最低限度）
+  2、单词5个
+</code></pre>
+<blockquote>
+<p>阅读方面</p>
+</blockquote>
+<h3 id="1技术">1、技术</h3>
+<pre><code> 1）算法和数据结构(2周-1章)
+</code></pre>
+<h3 id="2泛读">2、泛读</h3>
+<pre><code> 1）2周一本书包括-读书笔记
+</code></pre>]]></description>
+</item><item>
+    <title>Hugo 基础配置</title>
+    <link>https://justkids.top/hug_tool/</link>
     <pubDate>Thu, 15 Jul 2021 09:09:07 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://justkids.top/hug_%E7%9B%AE%E5%BD%95%E8%AE%BE%E7%BD%AE/</guid>
-    <description><![CDATA[<p>域名</p>]]></description>
+    <guid>https://justkids.top/hug_tool/</guid>
+    <description><![CDATA[<h3 id="hugo-命令">hugo 命令：</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">* hugo new  test.md
+* hugo server --theme=hyde --buildDrafts
+* hugo server --buildDrafts
+</code></pre></td></tr></table>
+</div>
+</div><h3 id="github-page-自定义域名">github page 自定义域名</h3>
+<p>创建文件CNAME，目录（~/blog项目/static/CNAME）
+内容：域名地址</p>
+<blockquote>
+<p>eg： justkids.top</p>
+</blockquote>
+<h3 id="hugo-更新记录">hugo 更新记录</h3>
+<ul>
+<li>V1.0.0  2021.6   创建博客  主题 LoveIt</li>
+<li>V1.1.0  2021.8.05  更新主题为tack</li>
+</ul>
+<h3 id="hugo-借鉴资料">hugo 借鉴资料</h3>
+<p><a href="https://io-oi.me/tech/deploy-hugo-to-github-pages-via-github-actions/" target="_blank" rel="noopener noreffer">github action 部署</a></p>
+<p><a href="https://docs.stack.jimmycai.com/zh/" target="_blank" rel="noopener noreffer">Hugo 主题 Stack文档</a></p>
+<p><a href="https://yinhe.co/archives/20210401_hugo_theme_stack.html" target="_blank" rel="noopener noreffer">Hugo 主题 个人</a></p>]]></description>
 </item><item>
     <title>Brewhome_install</title>
     <link>https://justkids.top/brewhome_install/</link>
@@ -21,12 +71,5 @@
 <blockquote>
 <p>1、需要翻墙，不然反应很慢</p>
 </blockquote>]]></description>
-</item><item>
-    <title>我的第一篇文章</title>
-    <link>https://justkids.top/first_post/</link>
-    <pubDate>Wed, 04 Mar 2020 15:58:26 &#43;0800</pubDate>
-    <author>作者</author>
-    <guid>https://justkids.top/first_post/</guid>
-    <description><![CDATA[ ]]></description>
 </item></channel>
 </rss>
