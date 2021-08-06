@@ -44,7 +44,4 @@ license: ""
 ### hugo 借鉴资料
 [github action 部署](https://io-oi.me/tech/deploy-hugo-to-github-pages-via-github-actions/)
 
-[Hugo 主题 Stack文档](https://docs.stack.jimmycai.com/zh/)
-
-[Hugo 主题 个人](https://yinhe.co/archives/20210401_hugo_theme_stack.html)
 <!--more-->
