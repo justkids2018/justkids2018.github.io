@@ -19,8 +19,10 @@
 &lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;configyaml配置文件&#34;&gt;config.yaml配置文件&lt;/h3&gt;
 &lt;pre&gt;&lt;code&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;hugo-借鉴资料&#34;&gt;hugo 借鉴资料&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;https://docs.stack.jimmycai.com/zh/&#34;&gt;Hugo 主题 Stack文档&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://yinhe.co/archives/20210401_hugo_theme_stack.html&#34;&gt;Hugo 主题 个人&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://docs.stack.jimmycai.com/zh/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Hugo 主题 Stack文档&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://yinhe.co/archives/20210401_hugo_theme_stack.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Hugo 主题 个人&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -70,7 +72,8 @@
 &lt;li&gt;V1.1.0  2021.8.05  更新主题为tack&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;hugo-借鉴资料&#34;&gt;hugo 借鉴资料&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;https://io-oi.me/tech/deploy-hugo-to-github-pages-via-github-actions/&#34;&gt;github action 部署&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://io-oi.me/tech/deploy-hugo-to-github-pages-via-github-actions/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;github action 部署&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
