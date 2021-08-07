@@ -6,7 +6,41 @@
     <description>Recent content in 工具 on JustKids</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 15 Jul 2021 09:09:07 +0800</lastBuildDate><atom:link href="https://justkids.top/tags/%E5%B7%A5%E5%85%B7/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 07 Aug 2021 07:13:20 +0800</lastBuildDate><atom:link href="https://justkids.top/tags/%E5%B7%A5%E5%85%B7/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Markdown_使用指南</title>
+      <link>https://justkids.top/posts/tool/markdown_tool/</link>
+      <pubDate>Sat, 07 Aug 2021 07:13:20 +0800</pubDate>
+      
+      <guid>https://justkids.top/posts/tool/markdown_tool/</guid>
+      <description>&lt;h4 id=&#34;markdown-指南&#34;&gt;Markdown 指南&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;markdown 语法&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Markdown &lt;a class=&#34;link&#34; href=&#34;https://www.markdown.xyz/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;官方指南&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Hugo_stack 主题配置</title>
+      <link>https://justkids.top/posts/hugo/hugo_stack/</link>
+      <pubDate>Fri, 06 Aug 2021 22:06:16 +0800</pubDate>
+      
+      <guid>https://justkids.top/posts/hugo/hugo_stack/</guid>
+      <description>&lt;h3 id=&#34;主题stack下载&#34;&gt;主题stack下载&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;git clone https://github.com/CaiJimmy/hugo-theme-stack/ themes/hugo-theme-stack
+
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;configyaml配置文件&#34;&gt;config.yaml配置文件&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;hugo-借鉴资料&#34;&gt;hugo 借鉴资料&lt;/h3&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://docs.stack.jimmycai.com/zh/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Hugo 主题 Stack文档&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://yinhe.co/archives/20210401_hugo_theme_stack.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Hugo 主题 个人&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Hugo 基础配置</title>
       <link>https://justkids.top/posts/hugo/hug_tool/</link>
@@ -34,7 +68,7 @@
     </item>
     
     <item>
-      <title>Brewhome_install</title>
+      <title>Mac homebrew install 问题</title>
       <link>https://justkids.top/posts/tool/brewhome_install/</link>
       <pubDate>Thu, 15 Jul 2021 08:19:16 +0800</pubDate>
       
