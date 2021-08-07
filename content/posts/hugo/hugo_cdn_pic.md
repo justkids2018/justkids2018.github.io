@@ -9,7 +9,7 @@ authorLink: ""
 description: ""
 
 tags: [搭建文件CDN]
-categories: [hugo]
+categories: [工具]
 
 hiddenFromHomePage: false
 hiddenFromSearch: false
