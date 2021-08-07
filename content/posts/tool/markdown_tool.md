@@ -1,15 +1,15 @@
 ---
-title: "Mac homebrew install 问题"
+title: "Markdown_使用指南"
 subtitle: ""
-date: 2021-07-15T08:19:16+08:00
-lastmod: 2021-07-15T08:19:16+08:00
+date: 2021-08-07T07:13:20+08:00
+lastmod: 2021-08-07T07:13:20+08:00
 draft: true
 author: ""
 authorLink: ""
 description: ""
 
 tags: [工具]
-categories: [工具]
+categories: [markdown]
 
 hiddenFromHomePage: false
 hiddenFromSearch: false
@@ -24,7 +24,13 @@ math:
 lightgallery: false
 license: ""
 ---
-### homebrew 无法安装的问题
->1、需要翻墙，不然反应很慢
+#### Markdown 指南
+> markdown 语法
+
+
+
+
+
+>Markdown [官方指南](https://www.markdown.xyz/)
 
 <!--more-->

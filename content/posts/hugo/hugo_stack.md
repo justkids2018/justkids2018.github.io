@@ -8,8 +8,8 @@ author: ""
 authorLink: ""
 description: ""
 
-tags: []
-categories: []
+tags: [工具]
+categories: [hugo]
 
 hiddenFromHomePage: false
 hiddenFromSearch: false
