@@ -6,52 +6,7 @@
     <description>Recent content in hugo on JustKids</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 07 Aug 2021 08:45:57 +0800</lastBuildDate><atom:link href="https://justkids.top/categories/hugo/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Github &#43; jsDelivr CDN  托管（文件、图片）</title>
-      <link>https://justkids.top/posts/hugo/hugo_cdn_pic/</link>
-      <pubDate>Sat, 07 Aug 2021 08:45:57 +0800</pubDate>
-      
-      <guid>https://justkids.top/posts/hugo/hugo_cdn_pic/</guid>
-      <description>&lt;h3 id=&#34;github-创建仓库&#34;&gt;github 创建仓库&lt;/h3&gt;
-&lt;pre&gt;&lt;code&gt;公共仓库 项目名称cdn
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;本地下载仓库操作&#34;&gt;本地下载仓库操作&lt;/h3&gt;
-&lt;pre&gt;&lt;code&gt;git clone 项目仓库地址
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/justkids2018/cdn@1.0.1/tool/hugo-cdn-img.png&#34; alt=&#34;截图&#34;  /&gt;&lt;/p&gt;
-&lt;h3 id=&#34;上次文件或者图片&#34;&gt;上次文件或者图片&lt;/h3&gt;
-&lt;pre&gt;&lt;code&gt;git add .
-git commit -m &amp;quot;first file&amp;quot;
-git push origin feature(定义的分支)
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;github 发布release 版本 &lt;strong&gt;（可进行版本控制，方便迭代）&lt;/strong&gt;&lt;/p&gt;
-&lt;h3 id=&#34;通过jsdelivr--引用资源&#34;&gt;通过JsDelivr  引用资源&lt;/h3&gt;
-&lt;blockquote&gt;
-&lt;p&gt;jsDelivr &lt;a class=&#34;link&#34; href=&#34;https://www.jsdelivr.com/?docs=gh&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;开源的CDN简介&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;JsDeliver 引用参数说明&lt;/strong&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;引用方式：
-https://cdn.jsdelivr.net/gh/你的用户名/你的仓库名@发布的版本号/文件路径
-
-// 使用特定版本
-https://cdn.jsdelivr.net/gh/justkids2018/cdn@1.1.10/test.js   
-
-// 使用版本范围而不是特定版本
-https://cdn.jsdelivr.net/gh/justkids2018/cdn@1.0/test.js   
-
-// 增加 &amp;quot;.min&amp;quot; to any JS/CSS file to get a minified version
-//if one doesn&#39;t exist, we&#39;ll generate it for you
-
-https://cdn.jsdelivr.net/gh/justkids2018/cdn@1.0/test.
-min.js   
- 
-// 完全省略该版本以获取最新版本
-https://cdn.jsdelivr.net/gh/justkids2018/cdn/test.js
-
- // 在末尾添加 / 以获取资源目录列表
-https://cdn.jsdelivr.net/gh/justkids2018/cdn/
-&lt;/code&gt;&lt;/pre&gt;</description>
-    </item>
-    
+    <lastBuildDate>Fri, 06 Aug 2021 22:06:16 +0800</lastBuildDate><atom:link href="https://justkids.top/categories/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo_stack 主题配置</title>
       <link>https://justkids.top/posts/hugo/hugo_stack/</link>
