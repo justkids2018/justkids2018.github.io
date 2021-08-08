@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>markdown on JustKids</title>
-    <link>https://justkids.top/categories/markdown/</link>
+    <link>https://justkids.top/tags/markdown/</link>
     <description>Recent content in markdown on JustKids</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 07 Aug 2021 07:13:20 +0800</lastBuildDate><atom:link href="https://justkids.top/categories/markdown/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 07 Aug 2021 07:13:20 +0800</lastBuildDate><atom:link href="https://justkids.top/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Markdown_使用指南</title>
       <link>https://justkids.top/posts/tool/markdown_tool/</link>

@@ -39,7 +39,7 @@ brew  install picgo --cask
      2）另一方式：就是增加版本号 （需要每次都发布reales版本）
        https://cdn.jsdelivr.net/gh/justkids2018/cdn@version/
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://blog.csdn.net/shuimqs/article/details/109179005&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;参考解答&lt;/a&gt;&lt;/p&gt;
+    &gt;参考方案&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;通过jsdelivr--引用资源&#34;&gt;通过JsDelivr  引用资源&lt;/h3&gt;
 &lt;blockquote&gt;
 &lt;p&gt;jsDelivr &lt;a class=&#34;link&#34; href=&#34;https://www.jsdelivr.com/?docs=gh&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -67,6 +67,22 @@ https://cdn.jsdelivr.net/gh/justkids2018/cdn/test.js
  // 在末尾添加 / 以获取资源目录列表
 https://cdn.jsdelivr.net/gh/justkids2018/cdn/
 &lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    
+    <item>
+      <title>Markdown_使用指南</title>
+      <link>https://justkids.top/posts/tool/markdown_tool/</link>
+      <pubDate>Sat, 07 Aug 2021 07:13:20 +0800</pubDate>
+      
+      <guid>https://justkids.top/posts/tool/markdown_tool/</guid>
+      <description>&lt;h4 id=&#34;markdown-指南&#34;&gt;Markdown 指南&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;markdown 语法&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Markdown &lt;a class=&#34;link&#34; href=&#34;https://www.markdown.xyz/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;官方指南&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</description>
     </item>
     
     <item>
