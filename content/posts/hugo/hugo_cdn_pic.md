@@ -1,5 +1,5 @@
 ---
-title: "Github + jsDelivr CDN  托管（文件、图片）"
+title: "Github + jsDelivr+picGO CDN  托管（文件、图片）"
 subtitle: ""
 date: 2021-08-07T08:45:57+08:00
 lastmod: 2021-08-07T08:45:57+08:00
@@ -41,6 +41,30 @@ git commit -m "first file"
 git push origin feature(定义的分支)
 ```
 github 发布release 版本 **（可进行版本控制，方便迭代）**
+
+### 增加picGO 的使用方式
+[下载picgo软件](https://github.com/Molunerfinn/PicGo)
+```
+mac os:
+brew  install picgo --cask
+```
+2、github上设置tocken设置参数
+
+![](https://cdn.jsdelivr.net/gh/justkids2018/cdn@main/tool/bbb.PNG)
+
+3、设置 picgo的具体参数配置：[借鉴文章](https://www.jianshu.com/p/9d91355e8418)
+
+4、 **上传图片 踩到的坑** 
+```
+1、github 最新创建分支默认是main 分支，不再是master 分支
+2、picgo 配置自定义域名后缀不加上分支，无法打开上传图片链接（耗费我大半天）郁闷
+     1）https://cdn.jsdelivr.net/gh/justkids2018/cdn@分支/
+     2）另一方式：就是增加版本号 （需要每次都发布reales版本）
+       https://cdn.jsdelivr.net/gh/justkids2018/cdn@version/
+```
+
+[参考解答](https://blog.csdn.net/shuimqs/article/details/109179005)
+
 ### 通过JsDelivr  引用资源
 
 > jsDelivr [开源的CDN简介](https://www.jsdelivr.com/?docs=gh)
