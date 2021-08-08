@@ -94,6 +94,7 @@ params:
 
     widgets:
         enabled:
+            - categories
             - search
             - archives
             - tag-cloud
@@ -104,6 +105,8 @@ params:
         tagCloud:
             limit: 1000
 
+        categoriesCloud:
+            limit: 20
     opengraph:
         twitter:
             # Your Twitter username
@@ -154,12 +157,6 @@ menu:
           weight: -80
           pre: tag
 
-        - identifier: search
-          name: 搜索
-          url: /tags
-          weight: -70
-          pre: search
-
 related:
     includeNewer: true
     threshold: 60
@@ -171,10 +168,10 @@ related:
         - name: categories
           weight: 200
 
-markup:
-    tableOfContents:
-        endLevel: 4
-        ordered: true
-        startLevel: 2
-    highlight:
-        noClasses: false
+# markup:
+#     tableOfContents:
+#         endLevel: 4
+#         ordered: true
+#         startLevel: 2
+#     highlight:
+#         noClasses: false

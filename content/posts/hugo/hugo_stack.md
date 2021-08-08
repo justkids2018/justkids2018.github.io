@@ -4,25 +4,15 @@ subtitle: ""
 date: 2021-08-06T22:06:16+08:00
 lastmod: 2021-08-06T22:06:16+08:00
 draft: true
+image: 
 author: ""
 authorLink: ""
-description: ""
+description: "主题配置"
 
 tags: [工具]
 categories: [hugo]
 
-hiddenFromHomePage: false
-hiddenFromSearch: false
 
-featuredImage: ""
-featuredImagePreview: ""
-
-toc:
-  enable: true
-math:
-  enable: false
-lightgallery: false
-license: ""
 ---
 ### 主题stack下载
 ```

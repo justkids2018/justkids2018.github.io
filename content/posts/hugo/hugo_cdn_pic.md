@@ -63,7 +63,7 @@ brew  install picgo --cask
        https://cdn.jsdelivr.net/gh/justkids2018/cdn@version/
 ```
 
-[参考解答](https://blog.csdn.net/shuimqs/article/details/109179005)
+[参考方案](https://blog.csdn.net/shuimqs/article/details/109179005)
 
 ### 通过JsDelivr  引用资源
 
