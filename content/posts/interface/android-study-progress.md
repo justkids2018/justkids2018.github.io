@@ -1,5 +1,5 @@
 ---
-title: "2021的下半年计划"
+title: "面试"
 subtitle: ""
 date: 2021-08-05T22:01:39+08:00
 lastmod: 2021-08-05T22:01:39+08:00
@@ -8,8 +8,8 @@ author: ""
 authorLink: ""
 description: ""
 
-tags: [计划]
-categories: [2021下半年Flag]
+tags: [面试]
+categories: [android-java面试]
 
 hiddenFromHomePage: false
 hiddenFromSearch: false
@@ -25,4 +25,7 @@ lightgallery: false
 license: ""
 ---
 
-<!--more-->
+### 视频学习进度
+>1、题目：大厂资深面试 
+- 8月25日：学习进度 3-2
+
