@@ -6,7 +6,28 @@
         <description>Recent content on JustKids</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Sat, 07 Aug 2021 08:45:57 +0800</lastBuildDate><atom:link href="https://justkids.top/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 08 Aug 2021 22:06:16 +0800</lastBuildDate><atom:link href="https://justkids.top/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>关于</title>
+        <link>https://justkids.top/posts/page/about/</link>
+        <pubDate>Sun, 08 Aug 2021 22:06:16 +0800</pubDate>
+        
+        <guid>https://justkids.top/posts/page/about/</guid>
+        <description>&lt;blockquote&gt;
+&lt;p&gt;在开始和重新开始的路上不断前行&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        </item>
+        <item>
+        <title>Algo_one</title>
+        <link>https://justkids.top/posts/computer/algo_one/</link>
+        <pubDate>Sun, 08 Aug 2021 21:31:15 +0800</pubDate>
+        
+        <guid>https://justkids.top/posts/computer/algo_one/</guid>
+        <description>&lt;h3 id=&#34;算法第一节课&#34;&gt;算法第一节课&lt;/h3&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV1Jt411P77c/?p=4&amp;amp;spm_id_from=pageDriver&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;普林斯顿 算法&lt;/a&gt; 学习到P3&lt;/p&gt;</description>
+        </item>
+        <item>
         <title>Github &#43; jsDelivr&#43;picGO CDN  托管（文件、图片）</title>
         <link>https://justkids.top/posts/hugo/hugo_cdn_pic/</link>
         <pubDate>Sat, 07 Aug 2021 08:45:57 +0800</pubDate>
@@ -105,24 +126,42 @@ https://cdn.jsdelivr.net/gh/justkids2018/cdn/
         <pubDate>Thu, 05 Aug 2021 22:01:39 +0800</pubDate>
         
         <guid>https://justkids.top/posts/plan/plan_2021_year/</guid>
-        <description>&lt;h3 id=&#34;2021-的下半年flag&#34;&gt;2021 的下半年Flag&lt;/h3&gt;
+        <description></description>
+        </item>
+        <item>
+        <title>面试</title>
+        <link>https://justkids.top/posts/interface/android-java/</link>
+        <pubDate>Thu, 05 Aug 2021 22:01:39 +0800</pubDate>
+        
+        <guid>https://justkids.top/posts/interface/android-java/</guid>
+        <description>&lt;h3 id=&#34;java-面试&#34;&gt;java 面试&lt;/h3&gt;
+&lt;h4 id=&#34;问题char-是两个字节如何存utf-8字符&#34;&gt;问题：char 是两个字节，如何存UTF-8字符&lt;/h4&gt;
+&lt;p&gt;1、char 是什么   （unicode）&lt;br&gt;
+2、UTF-8 是什么&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Unicode 字符集 不是编码，作用类似于ASCII码
+Unicode 通用字符集占两个字节，例如“中”
+字符集「ASCII码，Unicode」
+char 存储的是（utf-16）  打印出来 字节序标识
+java String 的length 不是字符数
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;** 需要重新学习基础 字节码，utf-8 utf-16  **&lt;/p&gt;
+&lt;h4 id=&#34;---学习进度3-2&#34;&gt;&amp;mdash;学习进度3-2&lt;/h4&gt;
+&lt;h3 id=&#34;java-string-可以有多长&#34;&gt;java String 可以有多长&lt;/h3&gt;
+</description>
+        </item>
+        <item>
+        <title>面试</title>
+        <link>https://justkids.top/posts/interface/android-study-progress/</link>
+        <pubDate>Thu, 05 Aug 2021 22:01:39 +0800</pubDate>
+        
+        <guid>https://justkids.top/posts/interface/android-study-progress/</guid>
+        <description>&lt;h3 id=&#34;视频学习进度&#34;&gt;视频学习进度&lt;/h3&gt;
 &lt;blockquote&gt;
-&lt;p&gt;周计划&lt;/p&gt;
+&lt;p&gt;1、题目：大厂资深面试&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h4 id=&#34;每日&#34;&gt;每日：&lt;/h4&gt;
-&lt;pre&gt;&lt;code&gt;  1、leetcode 两日一题（最低限度）
-  2、单词5个
-&lt;/code&gt;&lt;/pre&gt;
-&lt;blockquote&gt;
-&lt;p&gt;阅读方面&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h4 id=&#34;1技术&#34;&gt;1、技术&lt;/h4&gt;
-&lt;pre&gt;&lt;code&gt; 1）算法和数据结构(2周-1章)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h4 id=&#34;2泛读&#34;&gt;2、泛读&lt;/h4&gt;
-&lt;pre&gt;&lt;code&gt; 主要阅读：心理学、哲学、工具性书籍为主
- 1）2周一本书包括-读书笔记
-&lt;/code&gt;&lt;/pre&gt;</description>
+&lt;ul&gt;
+&lt;li&gt;8月25日：学习进度 3-2&lt;/li&gt;
+&lt;/ul&gt;
+</description>
         </item>
         <item>
         <title>Hugo 基础配置</title>
