@@ -8,8 +8,8 @@ author: ""
 authorLink: ""
 description: ""
 
-tags: [计划]
-categories: [2021下半年Flag]
+tags: [2021计划]
+categories: [计划]
 
 hiddenFromHomePage: false
 hiddenFromSearch: false
