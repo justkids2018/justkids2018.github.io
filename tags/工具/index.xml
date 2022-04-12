@@ -14,11 +14,9 @@
       
       <guid>https://justkids.top/posts/hugo/hugo_stack/</guid>
       <description>&lt;h3 id=&#34;主题stack下载&#34;&gt;主题stack下载&lt;/h3&gt;
-&lt;pre&gt;&lt;code&gt;git clone https://github.com/CaiJimmy/hugo-theme-stack/ themes/hugo-theme-stack
-
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git clone https://github.com/CaiJimmy/hugo-theme-stack/ themes/hugo-theme-stack
 &lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;configyaml配置文件&#34;&gt;config.yaml配置文件&lt;/h3&gt;
-&lt;pre&gt;&lt;code&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;hugo-借鉴资料&#34;&gt;hugo 借鉴资料&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;hugo-借鉴资料&#34;&gt;hugo 借鉴资料&lt;/h3&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://docs.stack.jimmycai.com/zh/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Hugo 主题 Stack文档&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://yinhe.co/archives/20210401_hugo_theme_stack.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -32,7 +30,7 @@
       
       <guid>https://justkids.top/posts/hugo/hug_tool/</guid>
       <description>&lt;h3 id=&#34;hugo-命令&#34;&gt;hugo 命令：&lt;/h3&gt;
-&lt;pre&gt;&lt;code&gt;* hugo new  test.md
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;* hugo new  test.md
 * hugo server --theme=hyde --buildDrafts
 * hugo server --buildDrafts
 &lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;github-page-自定义域名&#34;&gt;github page 自定义域名&lt;/h3&gt;
