@@ -9,7 +9,7 @@ authorLink: ""
 description: ""
 
 tags: [工具]
-categories:[android]
+categories: [android]
 
 hiddenFromHomePage: false
 hiddenFromSearch: false
