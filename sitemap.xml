@@ -2,11 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://justkids.top/categories/android/</loc>
+    <lastmod>2022-04-12T23:27:14+08:00</lastmod>
+  </url><url>
+    <loc>https://justkids.top/categories/github/</loc>
+    <lastmod>2022-04-12T23:27:14+08:00</lastmod>
+  </url><url>
+    <loc>https://justkids.top/posts/github/github_action/</loc>
+    <lastmod>2022-04-12T23:27:14+08:00</lastmod>
+  </url><url>
+    <loc>https://justkids.top/posts/github/github_action_apk_%E8%87%AA%E5%8A%A8%E5%8C%96%E6%89%93%E5%8C%85/</loc>
+    <lastmod>2022-04-12T23:27:14+08:00</lastmod>
+  </url><url>
     <loc>https://justkids.top/</loc>
-    <lastmod>2021-08-08T22:06:16+08:00</lastmod>
+    <lastmod>2022-04-12T23:27:14+08:00</lastmod>
   </url><url>
     <loc>https://justkids.top/posts/</loc>
-    <lastmod>2021-08-08T22:06:16+08:00</lastmod>
+    <lastmod>2022-04-12T23:27:14+08:00</lastmod>
+  </url><url>
+    <loc>https://justkids.top/tags/</loc>
+    <lastmod>2022-04-12T23:27:14+08:00</lastmod>
+  </url><url>
+    <loc>https://justkids.top/tags/%E5%B7%A5%E5%85%B7/</loc>
+    <lastmod>2022-04-12T23:27:14+08:00</lastmod>
   </url><url>
     <loc>https://justkids.top/posts/page/about/</loc>
     <lastmod>2021-08-08T22:06:16+08:00</lastmod>
@@ -15,9 +33,6 @@
     <lastmod>2021-08-08T21:31:15+08:00</lastmod>
   </url><url>
     <loc>https://justkids.top/posts/hugo/hugo_cdn_pic/</loc>
-    <lastmod>2021-08-07T08:45:57+08:00</lastmod>
-  </url><url>
-    <loc>https://justkids.top/tags/</loc>
     <lastmod>2021-08-07T08:45:57+08:00</lastmod>
   </url><url>
     <loc>https://justkids.top/categories/%E5%B7%A5%E5%85%B7/</loc>
@@ -63,9 +78,6 @@
     <lastmod>2021-08-06T22:06:16+08:00</lastmod>
   </url><url>
     <loc>https://justkids.top/posts/hugo/hugo_stack/</loc>
-    <lastmod>2021-08-06T22:06:16+08:00</lastmod>
-  </url><url>
-    <loc>https://justkids.top/tags/%E5%B7%A5%E5%85%B7/</loc>
     <lastmod>2021-08-06T22:06:16+08:00</lastmod>
   </url><url>
     <loc>https://justkids.top/posts/plan/plan_2021_year/</loc>
