@@ -8,7 +8,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout master
+      - name: Checkout 
         uses: actions/checkout@v2
         # with:
         #   submodules: true  # Fetch Hugo themes (true OR recursive)
