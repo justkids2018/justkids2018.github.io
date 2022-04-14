@@ -6,7 +6,31 @@
     <description>Recent content in Posts on JustKids</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 12 Apr 2022 23:27:14 +0800</lastBuildDate><atom:link href="https://justkids.top/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 14 Apr 2022 15:31:34 +0800</lastBuildDate><atom:link href="https://justkids.top/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>理解futter 多线程-1</title>
+      <link>https://justkids.top/posts/flutter/thread/flutter_widget_thread/</link>
+      <pubDate>Thu, 14 Apr 2022 15:31:34 +0800</pubDate>
+      
+      <guid>https://justkids.top/posts/flutter/thread/flutter_widget_thread/</guid>
+      <description>&lt;h3 id=&#34;hugo-参考资料&#34;&gt;hugo 参考资料&lt;/h3&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.jianshu.com/p/aaa6a8b1d6b0&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Flutter Engine线程管理与Dart Isolate机制&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.jianshu.com/p/54da18ed1a9e&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;深入理解Flutter多线程&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Flutter widiget渲染-1</title>
+      <link>https://justkids.top/posts/flutter/draw/flutter_widget_draw/</link>
+      <pubDate>Thu, 14 Apr 2022 15:23:42 +0800</pubDate>
+      
+      <guid>https://justkids.top/posts/flutter/draw/flutter_widget_draw/</guid>
+      <description>&lt;h3 id=&#34;hugo-借鉴资料&#34;&gt;hugo 借鉴资料&lt;/h3&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://io-oi.me/tech/deploy-hugo-to-github-pages-via-github-actions/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;flutter widget 渲染&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>github action android 自动部署</title>
       <link>https://justkids.top/posts/github/github_action_apk_%E8%87%AA%E5%8A%A8%E5%8C%96%E6%89%93%E5%8C%85/</link>
@@ -158,7 +182,35 @@ https://cdn.jsdelivr.net/gh/justkids2018/cdn/
     </item>
     
     <item>
-      <title>c 服务器部署在线和本地</title>
+      <title>Markdown_使用指南</title>
+      <link>https://justkids.top/posts/tool/markdown_tool/</link>
+      <pubDate>Sat, 07 Aug 2021 07:13:20 +0800</pubDate>
+      
+      <guid>https://justkids.top/posts/tool/markdown_tool/</guid>
+      <description>&lt;h4 id=&#34;markdown-指南&#34;&gt;Markdown 指南&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;markdown 语法&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Markdown &lt;a class=&#34;link&#34; href=&#34;https://www.markdown.xyz/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;官方指南&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>小程序前后台搭建</title>
+      <link>https://justkids.top/posts/page/wx_program/%E5%B0%8F%E7%A8%8B%E5%BA%8F_%E9%83%A8%E7%BD%B2/</link>
+      <pubDate>Sat, 07 Aug 2021 07:13:20 +0800</pubDate>
+      
+      <guid>https://justkids.top/posts/page/wx_program/%E5%B0%8F%E7%A8%8B%E5%BA%8F_%E9%83%A8%E7%BD%B2/</guid>
+      <description>&lt;h3 id=&#34;借鉴项目&#34;&gt;借鉴项目&lt;/h3&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/iamdarcy/hioshop-server&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;海风小店&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;遇到的问题&#34;&gt;遇到的问题：&lt;/h3&gt;</description>
+    </item>
+    
+    <item>
+      <title>服务器部署在线和本地</title>
       <link>https://justkids.top/posts/tool/service_tool_%E9%83%A8%E7%BD%B2/</link>
       <pubDate>Sat, 07 Aug 2021 07:13:20 +0800</pubDate>
       
@@ -190,34 +242,6 @@ sudo xattr -r -d com.apple.quarantine /Applications/Navicat\ Premium.app/
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.cnblogs.com/ljj-Andrew-519/p/9638784.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;借鉴文档&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Markdown_使用指南</title>
-      <link>https://justkids.top/posts/tool/markdown_tool/</link>
-      <pubDate>Sat, 07 Aug 2021 07:13:20 +0800</pubDate>
-      
-      <guid>https://justkids.top/posts/tool/markdown_tool/</guid>
-      <description>&lt;h4 id=&#34;markdown-指南&#34;&gt;Markdown 指南&lt;/h4&gt;
-&lt;blockquote&gt;
-&lt;p&gt;markdown 语法&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Markdown &lt;a class=&#34;link&#34; href=&#34;https://www.markdown.xyz/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;官方指南&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;</description>
-    </item>
-    
-    <item>
-      <title>小程序前后台搭建</title>
-      <link>https://justkids.top/posts/page/wx_program/%E5%B0%8F%E7%A8%8B%E5%BA%8F_%E9%83%A8%E7%BD%B2/</link>
-      <pubDate>Sat, 07 Aug 2021 07:13:20 +0800</pubDate>
-      
-      <guid>https://justkids.top/posts/page/wx_program/%E5%B0%8F%E7%A8%8B%E5%BA%8F_%E9%83%A8%E7%BD%B2/</guid>
-      <description>&lt;h3 id=&#34;借鉴项目&#34;&gt;借鉴项目&lt;/h3&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/iamdarcy/hioshop-server&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;海风小店&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;遇到的问题&#34;&gt;遇到的问题：&lt;/h3&gt;</description>
     </item>
     
     <item>
@@ -280,6 +304,16 @@ sudo xattr -r -d com.apple.quarantine /Applications/Navicat\ Premium.app/
     </item>
     
     <item>
+      <title></title>
+      <link>https://justkids.top/posts/interface/android-study-progress/</link>
+      <pubDate>Thu, 05 Aug 2021 22:01:39 +0800</pubDate>
+      
+      <guid>https://justkids.top/posts/interface/android-study-progress/</guid>
+      <description>视频学习进度  1、题目：大厂资深面试
+  8月25日：学习进度 3-2  </description>
+    </item>
+    
+    <item>
       <title>2021的下半年计划</title>
       <link>https://justkids.top/posts/plan/plan_2021_year/</link>
       <pubDate>Thu, 05 Aug 2021 22:01:39 +0800</pubDate>
@@ -289,7 +323,7 @@ sudo xattr -r -d com.apple.quarantine /Applications/Navicat\ Premium.app/
     </item>
     
     <item>
-      <title>面试</title>
+      <title>java -基础</title>
       <link>https://justkids.top/posts/interface/android-java/</link>
       <pubDate>Thu, 05 Aug 2021 22:01:39 +0800</pubDate>
       
@@ -298,16 +332,6 @@ sudo xattr -r -d com.apple.quarantine /Applications/Navicat\ Premium.app/
 2、UTF-8 是什么
 Unicode 字符集 不是编码，作用类似于ASCII码 Unicode 通用字符集占两个字节，例如“中” 字符集「ASCII码，Unicode」 char 存储的是（utf-16） 打印出来 字节序标识 java String 的length 不是字符数 ** 需要重新学习基础 字节码，utf-8 utf-16 **
 &amp;mdash;学习进度3-2 java String 可以有多长 </description>
-    </item>
-    
-    <item>
-      <title>面试</title>
-      <link>https://justkids.top/posts/interface/android-study-progress/</link>
-      <pubDate>Thu, 05 Aug 2021 22:01:39 +0800</pubDate>
-      
-      <guid>https://justkids.top/posts/interface/android-study-progress/</guid>
-      <description>视频学习进度  1、题目：大厂资深面试
-  8月25日：学习进度 3-2  </description>
     </item>
     
     <item>
