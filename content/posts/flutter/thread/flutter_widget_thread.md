@@ -31,4 +31,6 @@ license: ""
 [Flutter Engine线程管理与Dart Isolate机制](https://www.jianshu.com/p/aaa6a8b1d6b0)
 
 [深入理解Flutter多线程](https://www.jianshu.com/p/54da18ed1a9e)
+
+[Flutter线程](https://blog.csdn.net/qq_18133317/article/details/107599402)
 <!--more-->
