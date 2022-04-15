@@ -26,7 +26,7 @@ license: ""
 ---
 
 
-## github 自动打包
+## Github Action 
 
 ### github 自动打包配置
 
@@ -40,6 +40,10 @@ license: ""
 
 3.[Github Action flutter 插件发布](https://www.bilibili.com/read/cv9190554/)
 
-4.[Github android 自动打包分发](https://cloud.tencent.com/developer/article/1662742)
+4.[Github android 烹茶室](https://blog.csdn.net/songtianlun/article/details/107614375)
+
+5.[Github android 薛瑄](https://blog.csdn.net/xx326664162/article/details/103921480)
+
+
 
 <!--more-->
