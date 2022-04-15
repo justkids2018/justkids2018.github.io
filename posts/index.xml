@@ -39,7 +39,7 @@
       <pubDate>Tue, 12 Apr 2022 23:27:14 +0800</pubDate>
       
       <guid>https://justkids.top/posts/github/github_action_apk_%E8%87%AA%E5%8A%A8%E5%8C%96%E6%89%93%E5%8C%85/</guid>
-      <description>&lt;h2 id=&#34;github-自动打包&#34;&gt;github 自动打包&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;github-action&#34;&gt;Github Action&lt;/h2&gt;
 &lt;h3 id=&#34;github-自动打包配置&#34;&gt;github 自动打包配置&lt;/h3&gt;
 &lt;h3 id=&#34;参考资料&#34;&gt;参考资料&lt;/h3&gt;
 &lt;p&gt;1.&lt;a class=&#34;link&#34; href=&#34;https://blog.csdn.net/xiangang12202/article/details/122594984?spm=1001.2101.3001.6650.3&amp;amp;utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-3.pc_relevant_default&amp;amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-3.pc_relevant_default&amp;amp;utm_relevant_index=6&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -48,8 +48,10 @@
     &gt;GitHub Action android打包2&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;3.&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/read/cv9190554/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Github Action flutter 插件发布&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;4.&lt;a class=&#34;link&#34; href=&#34;https://cloud.tencent.com/developer/article/1662742&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Github android 自动打包分发&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;4.&lt;a class=&#34;link&#34; href=&#34;https://blog.csdn.net/songtianlun/article/details/107614375&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Github android 烹茶室&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;5.&lt;a class=&#34;link&#34; href=&#34;https://blog.csdn.net/xx326664162/article/details/103921480&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Github android 薛瑄&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -200,18 +202,6 @@ https://cdn.jsdelivr.net/gh/justkids2018/cdn/
     </item>
     
     <item>
-      <title>小程序前后台搭建</title>
-      <link>https://justkids.top/posts/page/wx_program/%E5%B0%8F%E7%A8%8B%E5%BA%8F_%E9%83%A8%E7%BD%B2/</link>
-      <pubDate>Sat, 07 Aug 2021 07:13:20 +0800</pubDate>
-      
-      <guid>https://justkids.top/posts/page/wx_program/%E5%B0%8F%E7%A8%8B%E5%BA%8F_%E9%83%A8%E7%BD%B2/</guid>
-      <description>&lt;h3 id=&#34;借鉴项目&#34;&gt;借鉴项目&lt;/h3&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/iamdarcy/hioshop-server&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;海风小店&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;遇到的问题&#34;&gt;遇到的问题：&lt;/h3&gt;</description>
-    </item>
-    
-    <item>
       <title>服务器部署在线和本地</title>
       <link>https://justkids.top/posts/tool/service_tool_%E9%83%A8%E7%BD%B2/</link>
       <pubDate>Sat, 07 Aug 2021 07:13:20 +0800</pubDate>
@@ -287,6 +277,18 @@ sudo xattr -r -d com.apple.quarantine /Applications/Navicat\ Premium.app/
 &lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;借鉴项目&#34;&gt;借鉴项目&lt;/h3&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/watch?v=rfNZiG-M9_0&amp;amp;list=RDCMUCQRAO6rXB32dd9K69JftGDQ&amp;amp;index=27&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;老威&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>小程序前后台搭建</title>
+      <link>https://justkids.top/posts/page/wx_program/%E5%B0%8F%E7%A8%8B%E5%BA%8F_%E9%83%A8%E7%BD%B2/</link>
+      <pubDate>Sat, 07 Aug 2021 07:13:20 +0800</pubDate>
+      
+      <guid>https://justkids.top/posts/page/wx_program/%E5%B0%8F%E7%A8%8B%E5%BA%8F_%E9%83%A8%E7%BD%B2/</guid>
+      <description>&lt;h3 id=&#34;借鉴项目&#34;&gt;借鉴项目&lt;/h3&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/iamdarcy/hioshop-server&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;海风小店&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;遇到的问题&#34;&gt;遇到的问题：&lt;/h3&gt;</description>
     </item>
     
     <item>
