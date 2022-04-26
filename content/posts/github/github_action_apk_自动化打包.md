@@ -44,6 +44,6 @@ license: ""
 
 5.[Github android 薛瑄](https://blog.csdn.net/xx326664162/article/details/103921480)
 
-
+6.[gralde 配置细节](https://blog.csdn.net/xiangang12202/article/details/122594984?spm=1001.2101.3001.6650.3&utm_medium=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~Rate-3.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~Rate-3.pc_relevant_default&utm_relevant_index=6)
 
 <!--more-->
