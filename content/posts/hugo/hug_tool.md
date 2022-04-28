@@ -3,7 +3,7 @@ title: "Hugo 基础配置"
 subtitle: ""
 date: 2021-07-15T09:09:07+08:00
 lastmod: 2021-07-15T09:09:07+08:00
-draft: true
+draft: false
 author: ""
 authorLink: ""
 description: ""
