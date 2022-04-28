@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>部署 on JustKids</title><link>https://justkids.top/tags/%E9%83%A8%E7%BD%B2/</link><description>Recent content in 部署 on JustKids</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 07 Aug 2021 07:13:20 +0800</lastBuildDate><atom:link href="https://justkids.top/tags/%E9%83%A8%E7%BD%B2/index.xml" rel="self" type="application/rss+xml"/><item><title>服务器部署在线和本地</title><link>https://justkids.top/posts/tool/service_tool_%E9%83%A8%E7%BD%B2/</link><pubDate>Sat, 07 Aug 2021 07:13:20 +0800</pubDate><guid>https://justkids.top/posts/tool/service_tool_%E9%83%A8%E7%BD%B2/</guid><description>&lt;h3 id="heading">&lt;/h3>
+&lt;h3 id="本地工具部署-指南">本地工具部署 指南&lt;/h3>
+&lt;blockquote>
+&lt;p>安装my sql&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;a class="link" href="https://www.jianshu.com/p/199492627ccc/" target="_blank" rel="noopener"
+>借鉴安装教程&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>登录mysql&lt;/p>
+&lt;/blockquote>
+&lt;pre tabindex="0">&lt;code>mysql -uroot -p
+·展示mysql的端口
+show global variables like &amp;#39;port&amp;#39;;
+&lt;/code>&lt;/pre>&lt;blockquote>
+&lt;p>可视化Navicat 安装&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;a class="link" href="https://www.jianshu.com/p/d6340569559e" target="_blank" rel="noopener"
+>借鉴Navicat文档&lt;/a>&lt;/p>
+&lt;pre tabindex="0">&lt;code>**出现提示app 已经损坏，移除垃圾站，使用一下命令可解决 ：
+sudo xattr -r -d com.apple.quarantine /Applications/Navicat\ Premium.app/
+&lt;/code>&lt;/pre>&lt;blockquote>
+&lt;p>Mysql navicat 连接&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;a class="link" href="https://www.cnblogs.com/ljj-Andrew-519/p/9638784.html" target="_blank" rel="noopener"
+>借鉴文档&lt;/a>&lt;/p></description></item></channel></rss>
