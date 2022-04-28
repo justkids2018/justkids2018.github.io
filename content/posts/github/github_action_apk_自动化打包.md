@@ -41,5 +41,6 @@ license: ""
 3.[Github Action flutter 插件发布](https://www.bilibili.com/read/cv9190554/)
 
 4.[Github android 自动打包分发](https://cloud.tencent.com/developer/article/1662742)
+5、[github  action 自动部署基本命令](https://ghostwritten.blog.csdn.net/article/details/120178280?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1.pc_relevant_default&utm_relevant  _index=2)
 
 <!--more-->
