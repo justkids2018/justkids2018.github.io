@@ -23,7 +23,54 @@ c# - MsBuild。
 &lt;p>&lt;a class="link" href="https://blog.csdn.net/qq_38401950/article/details/122260853?spm=1001.2101.3001.6661.1&amp;amp;utm_medium=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1.pc_relevant_default&amp;amp;depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1.pc_relevant_default&amp;amp;utm_relevant_index=1" target="_blank" rel="noopener"
 >flutter widget 渲染&lt;/a>&lt;/p></description></item><item><title>关于</title><link>https://justkids.top/posts/page/about/</link><pubDate>Sun, 08 Aug 2021 22:06:16 +0800</pubDate><guid>https://justkids.top/posts/page/about/</guid><description>&lt;blockquote>
 &lt;p>在开始和重新开始的路上不断前行&lt;/p>
-&lt;/blockquote></description></item><item><title>服务器部署在线和本地</title><link>https://justkids.top/posts/tool/service_tool_%E9%83%A8%E7%BD%B2/</link><pubDate>Sat, 07 Aug 2021 07:13:20 +0800</pubDate><guid>https://justkids.top/posts/tool/service_tool_%E9%83%A8%E7%BD%B2/</guid><description>&lt;h3 id="heading">&lt;/h3>
+&lt;/blockquote></description></item><item><title>Github + jsDelivr+picGO CDN 托管（文件、图片）</title><link>https://justkids.top/posts/hugo/hugo_cdn_pic/</link><pubDate>Sat, 07 Aug 2021 08:45:57 +0800</pubDate><guid>https://justkids.top/posts/hugo/hugo_cdn_pic/</guid><description>&lt;h3 id="github-创建仓库">github 创建仓库&lt;/h3>
+&lt;pre tabindex="0">&lt;code>公共仓库 项目名称cdn
+&lt;/code>&lt;/pre>&lt;h3 id="本地下载仓库操作">本地下载仓库操作&lt;/h3>
+&lt;pre tabindex="0">&lt;code>git clone 项目仓库地址
+&lt;/code>&lt;/pre>&lt;p>&lt;img src="https://cdn.jsdelivr.net/gh/justkids2018/cdn@1.0.1/tool/hugo-cdn-img.png" alt="截图" />&lt;/p>
+&lt;h3 id="上次文件或者图片">上次文件或者图片&lt;/h3>
+&lt;pre tabindex="0">&lt;code>git add .
+git commit -m &amp;#34;first file&amp;#34;
+git push origin feature(定义的分支)
+&lt;/code>&lt;/pre>&lt;p>github 发布release 版本 &lt;strong>（可进行版本控制，方便迭代）&lt;/strong>&lt;/p>
+&lt;h3 id="增加picgo-的使用方式">增加picGO 的使用方式&lt;/h3>
+&lt;p>&lt;a class="link" href="https://github.com/Molunerfinn/PicGo" target="_blank" rel="noopener"
+>下载picgo软件&lt;/a>&lt;/p>
+&lt;pre tabindex="0">&lt;code>mac os:
+brew install picgo --cask
+&lt;/code>&lt;/pre>&lt;p>2、github上设置tocken设置参数&lt;/p>
+&lt;p>&lt;img src="https://cdn.jsdelivr.net/gh/justkids2018/cdn@main/tool/bbb.PNG" alt="" />&lt;/p>
+&lt;p>3、设置 picgo的具体参数配置：&lt;a class="link" href="https://www.jianshu.com/p/9d91355e8418" target="_blank" rel="noopener"
+>借鉴文章&lt;/a>&lt;/p>
+&lt;p>4、 &lt;strong>上传图片 踩到的坑&lt;/strong>&lt;/p>
+&lt;pre tabindex="0">&lt;code>1、github 最新创建分支默认是main 分支，不再是master 分支
+2、picgo 配置自定义域名后缀不加上分支，无法打开上传图片链接（耗费我大半天）郁闷
+1）https://cdn.jsdelivr.net/gh/justkids2018/cdn@分支/
+2）另一方式：就是增加版本号 （需要每次都发布reales版本）
+https://cdn.jsdelivr.net/gh/justkids2018/cdn@version/
+&lt;/code>&lt;/pre>&lt;p>&lt;a class="link" href="https://blog.csdn.net/shuimqs/article/details/109179005" target="_blank" rel="noopener"
+>参考方案&lt;/a>&lt;/p>
+&lt;h3 id="通过jsdelivr--引用资源">通过JsDelivr 引用资源&lt;/h3>
+&lt;blockquote>
+&lt;p>jsDelivr &lt;a class="link" href="https://www.jsdelivr.com/?docs=gh" target="_blank" rel="noopener"
+>开源的CDN简介&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;strong>JsDeliver 引用参数说明&lt;/strong>&lt;/p>
+&lt;pre tabindex="0">&lt;code>引用方式：
+https://cdn.jsdelivr.net/gh/你的用户名/你的仓库名@发布的版本号/文件路径
+// 使用特定版本
+https://cdn.jsdelivr.net/gh/justkids2018/cdn@1.1.10/test.js
+// 使用版本范围而不是特定版本
+https://cdn.jsdelivr.net/gh/justkids2018/cdn@1.0/test.js
+// 增加 &amp;#34;.min&amp;#34; to any JS/CSS file to get a minified version
+//if one doesn&amp;#39;t exist, we&amp;#39;ll generate it for you
+https://cdn.jsdelivr.net/gh/justkids2018/cdn@1.0/test.
+min.js
+// 完全省略该版本以获取最新版本
+https://cdn.jsdelivr.net/gh/justkids2018/cdn/test.js
+// 在末尾添加 / 以获取资源目录列表
+https://cdn.jsdelivr.net/gh/justkids2018/cdn/
+&lt;/code>&lt;/pre></description></item><item><title>服务器部署在线和本地</title><link>https://justkids.top/posts/tool/service_tool_%E9%83%A8%E7%BD%B2/</link><pubDate>Sat, 07 Aug 2021 07:13:20 +0800</pubDate><guid>https://justkids.top/posts/tool/service_tool_%E9%83%A8%E7%BD%B2/</guid><description>&lt;h3 id="heading">&lt;/h3>
 &lt;h3 id="本地工具部署-指南">本地工具部署 指南&lt;/h3>
 &lt;blockquote>
 &lt;p>安装my sql&lt;/p>
