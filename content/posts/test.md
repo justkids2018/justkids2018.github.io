@@ -1,15 +1,15 @@
 ---
-title: ""
+title: "Test"
 subtitle: ""
-date: 2021-08-05T22:01:39+08:00
-lastmod: 2021-08-05T22:01:39+08:00
-draft: false
+date: 2022-04-28T07:07:14+08:00
+lastmod: 2022-04-28T07:07:14+08:00
+draft: true
 author: ""
 authorLink: ""
 description: ""
 
 tags: []
-categories: [android-java]
+categories: []
 
 hiddenFromHomePage: false
 hiddenFromSearch: false
@@ -25,7 +25,4 @@ lightgallery: false
 license: ""
 ---
 
-### 视频学习进度
->1、题目：大厂资深面试 
-- 8月25日：学习进度 3-2
-
+<!--more-->

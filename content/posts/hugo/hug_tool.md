@@ -43,5 +43,6 @@ license: ""
 
 ### hugo 借鉴资料
 [github action 部署](https://io-oi.me/tech/deploy-hugo-to-github-pages-via-github-actions/)
+[hugo 基础命令](https://blog.csdn.net/kjh2007abc/article/details/88609165)
 
 <!--more-->
