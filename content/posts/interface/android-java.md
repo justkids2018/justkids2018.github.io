@@ -1,5 +1,5 @@
 ---
-title: "面试"
+title: "java -基础"
 subtitle: ""
 date: 2021-08-05T22:01:39+08:00
 lastmod: 2021-08-05T22:01:39+08:00
@@ -8,8 +8,8 @@ author: ""
 authorLink: ""
 description: ""
 
-tags: [面试]
-categories: [android-java面试]
+tags: []
+categories: [android-java]
 
 hiddenFromHomePage: false
 hiddenFromSearch: false
