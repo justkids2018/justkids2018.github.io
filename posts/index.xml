@@ -6,7 +6,69 @@
     <description>Recent content in Posts on JustKids</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 14 Apr 2022 15:31:34 +0800</lastBuildDate><atom:link href="https://justkids.top/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 28 Apr 2022 07:08:06 +0800</lastBuildDate><atom:link href="https://justkids.top/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gradel_01_基本概念</title>
+      <link>https://justkids.top/posts/pro/gradle/2022_4_gradle_02/</link>
+      <pubDate>Thu, 28 Apr 2022 07:08:06 +0800</pubDate>
+      
+      <guid>https://justkids.top/posts/pro/gradle/2022_4_gradle_02/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gradel_01_什么是构建工具</title>
+      <link>https://justkids.top/posts/pro/gradle/2022_4_gradle_01/</link>
+      <pubDate>Thu, 28 Apr 2022 07:08:06 +0800</pubDate>
+      
+      <guid>https://justkids.top/posts/pro/gradle/2022_4_gradle_01/</guid>
+      <description>&lt;h3 id=&#34;1什么是构建工具&#34;&gt;1、什么是构建工具&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;构建工具是从源代码自动创建可执行应用程序的程序（例如，.apk对于 Android 应用程序）。构建将代码编译、链接和打包成可用或可执行的形式。
+基本上，构建自动化是编写脚本或自动化软件开发人员在日常活动中执行的各种任务的行为
+如：
+下载依赖项。
+将源代码编译成二进制代码。
+打包该二进制代码。
+运行测试。
+部署到生产系统。
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;2为什么要使用构建工具&#34;&gt;2、为什么要使用构建工具&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;在小型项目中，开发人员通常会手动调用构建过程。这对于较大的项目是不切实际的，因为很难跟踪需要构建的内容、构建过程中的顺序和依赖关系。使用自动化工具可以使构建过程更加一致。
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;3各种构建工具&#34;&gt;3、各种构建工具&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;对于 java - Ant、Maven、Gradle。
+对于 .NET 框架 - NAnt
+c# - MsBuild。
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;参考资料&#34;&gt;参考资料&lt;/h3&gt;
+&lt;p&gt;1、 &lt;a class=&#34;link&#34; href=&#34;https://stackoverflow.com/questions/7249871/what-is-a-build-tool&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;what art build tool&lt;/a&gt;
+2、&lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/Build_automation&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;/a&gt;
+3、&lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/List_of_build_automation_software&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Test</title>
+      <link>https://justkids.top/posts/test/</link>
+      <pubDate>Thu, 28 Apr 2022 07:07:14 +0800</pubDate>
+      
+      <guid>https://justkids.top/posts/test/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>“eyeGO_社会眼的起点&#34;</title>
+      <link>https://justkids.top/posts/thinking/eye_think_one/</link>
+      <pubDate>Sat, 23 Apr 2022 17:12:53 +0800</pubDate>
+      
+      <guid>https://justkids.top/posts/thinking/eye_think_one/</guid>
+      <description>&lt;h3 id=&#34;想法的开始&#34;&gt;想法的开始&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;2020年疫情开始后，微博上出现了很多不同的声音，本身多元的观点很正常，慢慢不同立场开始变的极端，甚至谩骂，诋毁。
+尤其我认为是常识的观点，遭到很多人的质疑，而很多还是大学生。也对微博上的一些大V的转变感到疑惑。偶然想起之前的纪录片，关于从童年到中年的10几个主人公的生活经历。
+是否也可以抓取公共信息，通过大数据来分析他们的生活经历以及观念的改变。取名为：《01人生》
+-2022.4.23 周六下午
+&lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;</description>
+    </item>
+    
     <item>
       <title>理解futter 多线程-1</title>
       <link>https://justkids.top/posts/flutter/thread/flutter_widget_thread/</link>
@@ -48,7 +110,11 @@
     &gt;GitHub Action android打包2&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;3.&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/read/cv9190554/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Github Action flutter 插件发布&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;4.&lt;a class=&#34;link&#34; href=&#34;https://blog.csdn.net/songtianlun/article/details/107614375&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;p&gt;4.&lt;a class=&#34;link&#34; href=&#34;https://cloud.tencent.com/developer/article/1662742&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Github android 自动打包分发&lt;/a&gt;
+5、[github  action 自动部署基本命令](&lt;a class=&#34;link&#34; href=&#34;https://ghostwritten.blog.csdn.net/article/details/120178280?spm=1001.2101.3001.6650.1&amp;amp;utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1.pc_relevant_default&amp;amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1.pc_relevant_default&amp;amp;utm_relevant&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://ghostwritten.blog.csdn.net/article/details/120178280?spm=1001.2101.3001.6650.1&amp;utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1.pc_relevant_default&amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1.pc_relevant_default&amp;utm_relevant&lt;/a&gt;  _index=2)
+4.&lt;a class=&#34;link&#34; href=&#34;https://blog.csdn.net/songtianlun/article/details/107614375&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Github android 烹茶室&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;5.&lt;a class=&#34;link&#34; href=&#34;https://blog.csdn.net/xx326664162/article/details/103921480&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Github android 薛瑄&lt;/a&gt;&lt;/p&gt;
@@ -307,16 +373,6 @@ sudo xattr -r -d com.apple.quarantine /Applications/Navicat\ Premium.app/
     &gt;Hugo 主题 Stack文档&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://yinhe.co/archives/20210401_hugo_theme_stack.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Hugo 主题 个人&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://justkids.top/posts/interface/android-study-progress/</link>
-      <pubDate>Thu, 05 Aug 2021 22:01:39 +0800</pubDate>
-      
-      <guid>https://justkids.top/posts/interface/android-study-progress/</guid>
-      <description>视频学习进度  1、题目：大厂资深面试
-  8月25日：学习进度 3-2  </description>
     </item>
     
     <item>

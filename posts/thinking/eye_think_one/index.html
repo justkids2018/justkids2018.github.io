@@ -2,35 +2,17 @@
 <html lang="en-us">
     <head><meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'>
-<link rel="stylesheet" href="/prism.css"><meta name='description' content='Github Action github 自动打包配置 参考资料 1.GitHub Action android打包
-2.GitHub Action android打包2
-3.Github Action flutter 插件发布
-4.Github android 自动打包分发 5、[github action 自动部署基本命令](https://ghostwritten.blog.csdn.net/article/details/120178280?spm=1001.2101.3001.6650.1&amp;utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1.pc_relevant_default&amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1.pc_relevant_default&amp;utm_relevant _index=2) 4.Github android 烹茶室
-5.Github android 薛瑄
-6.gralde 配置细节
-'><title>github action android 自动部署</title>
+<link rel="stylesheet" href="/prism.css"><meta name='description' content='想法的开始 2020年疫情开始后，微博上出现了很多不同的声音，本身多元的观点很正常，慢慢不同立场开始变的极端，甚至谩骂，诋毁。 尤其我认为是常识的观点，遭到很多人的质疑，而很多还是大学生。也对微博上的一些大V的转变感到疑惑。偶然想起之前的纪录片，关于从童年到中年的10几个主人公的生活经历。 是否也可以抓取公共信息，通过大数据来分析他们的生活经历以及观念的改变。取名为：《01人生》 -2022.4.23 周六下午 '><title>“eyeGO_社会眼的起点&#34;</title>
 
-<link rel='canonical' href='https://justkids.top/posts/github/github_action_apk_%E8%87%AA%E5%8A%A8%E5%8C%96%E6%89%93%E5%8C%85/'>
+<link rel='canonical' href='https://justkids.top/posts/thinking/eye_think_one/'>
 
-<link rel="stylesheet" href="/scss/style.min.css"><meta property='og:title' content='github action android 自动部署'>
-<meta property='og:description' content='Github Action github 自动打包配置 参考资料 1.GitHub Action android打包
-2.GitHub Action android打包2
-3.Github Action flutter 插件发布
-4.Github android 自动打包分发 5、[github action 自动部署基本命令](https://ghostwritten.blog.csdn.net/article/details/120178280?spm=1001.2101.3001.6650.1&amp;utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1.pc_relevant_default&amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1.pc_relevant_default&amp;utm_relevant _index=2) 4.Github android 烹茶室
-5.Github android 薛瑄
-6.gralde 配置细节
-'>
-<meta property='og:url' content='https://justkids.top/posts/github/github_action_apk_%E8%87%AA%E5%8A%A8%E5%8C%96%E6%89%93%E5%8C%85/'>
+<link rel="stylesheet" href="/scss/style.min.css"><meta property='og:title' content='“eyeGO_社会眼的起点&#34;'>
+<meta property='og:description' content='想法的开始 2020年疫情开始后，微博上出现了很多不同的声音，本身多元的观点很正常，慢慢不同立场开始变的极端，甚至谩骂，诋毁。 尤其我认为是常识的观点，遭到很多人的质疑，而很多还是大学生。也对微博上的一些大V的转变感到疑惑。偶然想起之前的纪录片，关于从童年到中年的10几个主人公的生活经历。 是否也可以抓取公共信息，通过大数据来分析他们的生活经历以及观念的改变。取名为：《01人生》 -2022.4.23 周六下午 '>
+<meta property='og:url' content='https://justkids.top/posts/thinking/eye_think_one/'>
 <meta property='og:site_name' content='JustKids'>
-<meta property='og:type' content='article'><meta property='article:section' content='Posts' /><meta property='article:tag' content='工具' /><meta property='article:published_time' content='2022-04-12T23:27:14&#43;08:00'/><meta property='article:modified_time' content='2022-04-12T23:27:14&#43;08:00'/>
-<meta name="twitter:title" content="github action android 自动部署">
-<meta name="twitter:description" content="Github Action github 自动打包配置 参考资料 1.GitHub Action android打包
-2.GitHub Action android打包2
-3.Github Action flutter 插件发布
-4.Github android 自动打包分发 5、[github action 自动部署基本命令](https://ghostwritten.blog.csdn.net/article/details/120178280?spm=1001.2101.3001.6650.1&amp;utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1.pc_relevant_default&amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1.pc_relevant_default&amp;utm_relevant _index=2) 4.Github android 烹茶室
-5.Github android 薛瑄
-6.gralde 配置细节
-"><style>
+<meta property='og:type' content='article'><meta property='article:section' content='Posts' /><meta property='article:published_time' content='2022-04-23T17:12:53&#43;08:00'/><meta property='article:modified_time' content='2022-04-23T17:12:53&#43;08:00'/>
+<meta name="twitter:title" content="“eyeGO_社会眼的起点&#34;">
+<meta name="twitter:description" content="想法的开始 2020年疫情开始后，微博上出现了很多不同的声音，本身多元的观点很正常，慢慢不同立场开始变的极端，甚至谩骂，诋毁。 尤其我认为是常识的观点，遭到很多人的质疑，而很多还是大学生。也对微博上的一些大V的转变感到疑惑。偶然想起之前的纪录片，关于从童年到中年的10几个主人公的生活经历。 是否也可以抓取公共信息，通过大数据来分析他们的生活经历以及观念的改变。取名为：《01人生》 -2022.4.23 周六下午 "><style>
     :root {
         --article-font-family: "Noto Serif SC", var(--base-font-family);
     }
@@ -98,17 +80,9 @@
 
     <div class="article-details">
     
-    <header class="article-category">
-        
-            <a href="/categories/android/" >
-                android
-            </a>
-        
-    </header>
-    
 
     <h2 class="article-title">
-        <a href="/posts/github/github_action_apk_%E8%87%AA%E5%8A%A8%E5%8C%96%E6%89%93%E5%8C%85/">github action android 自动部署</a>
+        <a href="/posts/thinking/eye_think_one/">“eyeGO_社会眼的起点&#34;</a>
     </h2>
 
     
@@ -126,7 +100,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">2022-04-12</time>
+                <time class="article-time--published">2022-04-23</time>
             </div>
         
 
@@ -151,36 +125,17 @@
 </header>
 
     <section class="article-content">
-    <h2 id="github-action">Github Action</h2>
-<h3 id="github-自动打包配置">github 自动打包配置</h3>
-<h3 id="参考资料">参考资料</h3>
-<p>1.<a class="link" href="https://blog.csdn.net/xiangang12202/article/details/122594984?spm=1001.2101.3001.6650.3&amp;utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-3.pc_relevant_default&amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-3.pc_relevant_default&amp;utm_relevant_index=6"  target="_blank" rel="noopener"
-    >GitHub Action android打包</a></p>
-<p>2.<a class="link" href="https://blog.csdn.net/ZZL23333/article/details/115798615"  target="_blank" rel="noopener"
-    >GitHub Action android打包2</a></p>
-<p>3.<a class="link" href="https://www.bilibili.com/read/cv9190554/"  target="_blank" rel="noopener"
-    >Github Action flutter 插件发布</a></p>
-<p>4.<a class="link" href="https://cloud.tencent.com/developer/article/1662742"  target="_blank" rel="noopener"
-    >Github android 自动打包分发</a>
-5、[github  action 自动部署基本命令](<a class="link" href="https://ghostwritten.blog.csdn.net/article/details/120178280?spm=1001.2101.3001.6650.1&amp;utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1.pc_relevant_default&amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1.pc_relevant_default&amp;utm_relevant"  target="_blank" rel="noopener"
-    >https://ghostwritten.blog.csdn.net/article/details/120178280?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1.pc_relevant_default&utm_relevant</a>  _index=2)
-4.<a class="link" href="https://blog.csdn.net/songtianlun/article/details/107614375"  target="_blank" rel="noopener"
-    >Github android 烹茶室</a></p>
-<p>5.<a class="link" href="https://blog.csdn.net/xx326664162/article/details/103921480"  target="_blank" rel="noopener"
-    >Github android 薛瑄</a></p>
-<p>6.<a class="link" href="https://blog.csdn.net/xiangang12202/article/details/122594984?spm=1001.2101.3001.6650.3&amp;utm_medium=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~Rate-3.pc_relevant_default&amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~Rate-3.pc_relevant_default&amp;utm_relevant_index=6"  target="_blank" rel="noopener"
-    >gralde 配置细节</a></p>
+    <h3 id="想法的开始">想法的开始</h3>
+<pre tabindex="0"><code>2020年疫情开始后，微博上出现了很多不同的声音，本身多元的观点很正常，慢慢不同立场开始变的极端，甚至谩骂，诋毁。
+尤其我认为是常识的观点，遭到很多人的质疑，而很多还是大学生。也对微博上的一些大V的转变感到疑惑。偶然想起之前的纪录片，关于从童年到中年的10几个主人公的生活经历。
+是否也可以抓取公共信息，通过大数据来分析他们的生活经历以及观念的改变。取名为：《01人生》
+-2022.4.23 周六下午
+</code></pre><hr>
 </section>
 
 
     <footer class="article-footer">
     
-    <section class="article-tags">
-        
-            <a href="/tags/%E5%B7%A5%E5%85%B7/">工具</a>
-        
-    </section>
-
 
     
     <section class="article-copyright">
@@ -225,37 +180,6 @@
 
     <aside class="related-contents--wrapper">
     
-    
-        <h2 class="section-title">相关文章</h2>
-        <div class="related-contents">
-            <div class="flex article-list--tile">
-                
-                    
-<article class="">
-    <a href="/posts/pro/gradle/2022_4_gradle_01/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">Gradel_01_什么是构建工具</h2>
-        </div>
-    </a>
-</article>
-                
-                    
-<article class="">
-    <a href="/posts/pro/gradle/2022_4_gradle_02/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">Gradel_01_基本概念</h2>
-        </div>
-    </a>
-</article>
-                
-            </div>
-        </div>
     
 </aside>
 
@@ -402,10 +326,9 @@
                 <div class="widget--toc">
                     <nav id="TableOfContents">
   <ul>
-    <li><a href="#github-action">Github Action</a>
+    <li>
       <ul>
-        <li><a href="#github-自动打包配置">github 自动打包配置</a></li>
-        <li><a href="#参考资料">参考资料</a></li>
+        <li><a href="#想法的开始">想法的开始</a></li>
       </ul>
     </li>
   </ul>
