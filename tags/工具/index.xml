@@ -5,4 +5,23 @@
 &lt;p>&lt;a class="link" href="https://docs.stack.jimmycai.com/zh/" target="_blank" rel="noopener"
 >Hugo 主题 Stack文档&lt;/a>&lt;/p>
 &lt;p>&lt;a class="link" href="https://yinhe.co/archives/20210401_hugo_theme_stack.html" target="_blank" rel="noopener"
->Hugo 主题 个人&lt;/a>&lt;/p></description></item></channel></rss>
+>Hugo 主题 个人&lt;/a>&lt;/p></description></item><item><title>Hugo 基础配置</title><link>https://justkids.top/posts/hugo/hug_tool/</link><pubDate>Thu, 15 Jul 2021 09:09:07 +0800</pubDate><guid>https://justkids.top/posts/hugo/hug_tool/</guid><description>&lt;h3 id="hugo-命令">hugo 命令：&lt;/h3>
+&lt;pre tabindex="0">&lt;code>* hugo new test.md
+* hugo server --theme=hyde --buildDrafts
+* hugo server --buildDrafts
+&lt;/code>&lt;/pre>&lt;h3 id="github-page-自定义域名">github page 自定义域名&lt;/h3>
+&lt;p>创建文件CNAME，目录（~/blog项目/static/CNAME）
+内容：域名地址&lt;/p>
+&lt;blockquote>
+&lt;p>eg： justkids.top&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="hugo-更新记录">hugo 更新记录&lt;/h3>
+&lt;ul>
+&lt;li>V1.0.0 2021.6 创建博客 主题 LoveIt&lt;/li>
+&lt;li>V1.1.0 2021.8.05 更新主题为tack&lt;/li>
+&lt;/ul>
+&lt;h3 id="hugo-借鉴资料">hugo 借鉴资料&lt;/h3>
+&lt;p>&lt;a class="link" href="https://io-oi.me/tech/deploy-hugo-to-github-pages-via-github-actions/" target="_blank" rel="noopener"
+>github action 部署&lt;/a>
+&lt;a class="link" href="https://blog.csdn.net/kjh2007abc/article/details/88609165" target="_blank" rel="noopener"
+>hugo 基础命令&lt;/a>&lt;/p></description></item></channel></rss>
