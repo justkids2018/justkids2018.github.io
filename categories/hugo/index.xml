@@ -46,7 +46,9 @@
 &lt;/ul&gt;
 &lt;h3 id=&#34;hugo-借鉴资料&#34;&gt;hugo 借鉴资料&lt;/h3&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://io-oi.me/tech/deploy-hugo-to-github-pages-via-github-actions/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;github action 部署&lt;/a&gt;&lt;/p&gt;</description>
+    &gt;github action 部署&lt;/a&gt;
+&lt;a class=&#34;link&#34; href=&#34;https://blog.csdn.net/kjh2007abc/article/details/88609165&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;hugo 基础命令&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>
