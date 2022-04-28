@@ -3,7 +3,7 @@ title: "Github + jsDelivr+picGO CDN  托管（文件、图片）"
 subtitle: ""
 date: 2021-08-07T08:45:57+08:00
 lastmod: 2021-08-07T08:45:57+08:00
-draft: true
+draft: false
 author: ""
 authorLink: ""
 description: ""
