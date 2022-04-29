@@ -28,7 +28,7 @@ jobs:
           # hugo server -e production
       - name: Deploy Hugo to page
         uses: peaceiris/actions-gh-pages@v3
-        with:
+        env:
          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
          github_token: ${{ secrets.GITHUB_TOKEN }}
          PUBLISH_BRANCH: gh-pages
