@@ -79,8 +79,8 @@ params:
             emoji:
                 - https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo
             requiredMeta:
-                - name
-                - email
+                - name   阿东
+                - email  justkids2018101@gmail.com
                 - url
             placeholder:
             locale:
@@ -152,10 +152,21 @@ menu:
           pre: archives
 
         - identifier: tags
-          name: 标签
-          url: /tags
+          name: 时间
+          url: /blog
           weight: -80
-          pre: tag
+          pre: sun
+
+        - identifier: blog
+          name: 阅读
+          url: /book/
+          weight: -70
+          pre: book
+        # - identifier: about
+        #   name: 关于
+        #   url: /about/
+        #   weight: -10
+        #   pre: user
 
 related:
     includeNewer: true

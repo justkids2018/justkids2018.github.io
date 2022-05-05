@@ -441,12 +441,12 @@ hugo
     # {{< version 0.2.0 changed >}} {{< link "https://katex.org/" KaTeX >}} 数学公式
     [params.page.math]
       enable = true
-      # 默认块定界符是 $$ ... $$ 和 \\[ ... \\]
-      blockLeftDelimiter = ""
-      blockRightDelimiter = ""
-      # 默认行内定界符是 $ ... $ 和 \\( ... \\)
+      # 默认行内定界符是 $ ... $ 和 \( ... \)
       inlineLeftDelimiter = ""
       inlineRightDelimiter = ""
+      # 默认块定界符是 $$ ... $$, \[ ... \],  \begin{equation} ... \end{equation} 和一些其它的函数
+      blockLeftDelimiter = ""
+      blockRightDelimiter = ""
       # KaTeX 插件 copy_tex
       copyTex = true
       # KaTeX 插件 mhchem
@@ -840,6 +840,7 @@ $code-font-family: Fira Mono, Source Code Pro, Menlo, Consolas, Monaco, monospac
 |:---- |:----:|:----:|:----:|:----:|
 | 英语 | `en` | `en` | :(far fa-check-square fa-fw): | :(far fa-check-square fa-fw): |
 | 简体中文 | `zh-cn` | `zh-CN` | :(far fa-check-square fa-fw): | :(far fa-check-square fa-fw): |
+| 繁體中文 | `zh-tw` | `zh-TW` | :(far fa-square fa-fw): | :(far fa-check-square fa-fw): |
 | 法语 | `fr` | `fr` | :(far fa-square fa-fw): | :(far fa-check-square fa-fw): |
 | 波兰语 | `pl` | `pl` | :(far fa-square fa-fw): | :(far fa-square fa-fw): |
 | 巴西葡萄牙语 | `pt-br` | `pt-BR` | :(far fa-square fa-fw): | :(far fa-check-square fa-fw): |
@@ -1037,6 +1038,6 @@ defaultContentLanguage = "zh-cn"
 
 {{< admonition tip "关于 algolia 的使用技巧" >}}
 你需要上传 `index.json` 到 algolia 来激活搜索功能. 你可以使用浏览器来上传 `index.json` 文件但是一个自动化的脚本可能效果更好.
-[Algolia Atomic](https://github.com/chrisdmacrae/atomic-algolia) 是一个不错的选择.
+官方提供的 [Algolia CLI](https://github.com/algolia/algolia-cli) 是一个不错的选择.
 为了兼容 Hugo 的多语言模式, 你需要上传不同语言的 `index.json` 文件到对应的 algolia index, 例如 `zh-cn/index.json` 或 `fr/index.json`...
 {{< /admonition >}}

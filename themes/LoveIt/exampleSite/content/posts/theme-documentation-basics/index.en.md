@@ -432,12 +432,12 @@ Please open the code block below to view the complete sample configuration :(far
     # {{< version 0.2.0 changed >}} {{< link "https://katex.org/" KaTeX >}} mathematical formulas
     [params.page.math]
       enable = true
-      # default block delimiter is $$ ... $$ and \\[ ... \\]
-      blockLeftDelimiter = ""
-      blockRightDelimiter = ""
-      # default inline delimiter is $ ... $ and \\( ... \\)
+      # default inline delimiter is $ ... $ and \( ... \)
       inlineLeftDelimiter = ""
       inlineRightDelimiter = ""
+      # default block delimiter is $$ ... $$, \[ ... \], \begin{equation} ... \end{equation} and some other functions
+      blockLeftDelimiter = ""
+      blockRightDelimiter = ""
       # KaTeX extension copy_tex
       copyTex = true
       # KaTeX extension mhchem
@@ -836,6 +836,7 @@ In `assets/css/_custom.scss`, you can add some css style code to customize the s
 |:-------------------- |:---------:|:---------------------:|:-----------------------------:|:-----------------------------:|
 | English              | `en`      | `en`                  | :(far fa-check-square fa-fw): | :(far fa-check-square fa-fw): |
 | Simplified Chinese   | `zh-cn`   | `zh-CN`               | :(far fa-check-square fa-fw): | :(far fa-check-square fa-fw): |
+| Traditional Chinese  | `zh-tw`   | `zh-TW`               | :(far fa-square fa-fw):       | :(far fa-check-square fa-fw): |
 | French               | `fr`      | `fr`                  | :(far fa-square fa-fw):       | :(far fa-check-square fa-fw): |
 | Polish               | `pl`      | `pl`                  | :(far fa-square fa-fw):       | :(far fa-square fa-fw):       |
 | Brazilian Portuguese | `pt-br`   | `pt-BR`               | :(far fa-square fa-fw):       | :(far fa-check-square fa-fw): |
@@ -1035,7 +1036,7 @@ The following is a comparison of two search engines:
 {{< admonition tip "Tips about algolia" >}}
 You need to upload `index.json` files to algolia to activate searching.
 You could upload the `index.json` files by browsers but a CLI tool may be better.
-[Algolia Atomic](https://github.com/chrisdmacrae/atomic-algolia) is a good choice.
+The official [Algolia CLI](https://github.com/algolia/algolia-cli) is a good choice.
 To be compatible with Hugo multilingual mode,
 you need to upload different `index.json` for each language to the different index of algolia, such as `zh-cn/index.json` or `fr/index.json`...
 {{< /admonition >}}

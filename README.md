@@ -19,4 +19,4 @@ categories : ["笔记", "阅读笔记","基础知识","时间管理","随笔","�
 
 * hugo new  test.md
 * hugo server --theme=hyde --buildDrafts
-* 
+* hugo server  --buildDrafts
