@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>hugo on JustKids</title><link>https://justkids.top/categories/hugo/</link><description>Recent content in hugo on JustKids</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 06 Aug 2021 22:06:16 +0800</lastBuildDate><atom:link href="https://justkids.top/categories/hugo/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo_stack 主题配置</title><link>https://justkids.top/posts/pro/hugo/hugo_stack/</link><pubDate>Fri, 06 Aug 2021 22:06:16 +0800</pubDate><guid>https://justkids.top/posts/pro/hugo/hugo_stack/</guid><description>&lt;h3 id="主题stack下载">主题stack下载&lt;/h3>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>hugo on JustKids</title><link>https://justkids.top/categories/hugo/</link><description>Recent content in hugo on JustKids</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 06 Aug 2021 22:06:16 +0800</lastBuildDate><atom:link href="https://justkids.top/categories/hugo/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo_stack 主题配置</title><link>https://justkids.top/p/hugo_stack-%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/</link><pubDate>Fri, 06 Aug 2021 22:06:16 +0800</pubDate><guid>https://justkids.top/p/hugo_stack-%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/</guid><description>&lt;h3 id="主题stack下载">主题stack下载&lt;/h3>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
@@ -18,7 +18,7 @@
 &lt;p>&lt;a class="link" href="https://docs.stack.jimmycai.com/zh/" target="_blank" rel="noopener"
 >Hugo 主题 Stack文档&lt;/a>&lt;/p>
 &lt;p>&lt;a class="link" href="https://yinhe.co/archives/20210401_hugo_theme_stack.html" target="_blank" rel="noopener"
->Hugo 主题 个人&lt;/a>&lt;/p></description></item><item><title>Hugo 基础配置</title><link>https://justkids.top/posts/pro/hugo/hug_tool/</link><pubDate>Thu, 15 Jul 2021 09:09:07 +0800</pubDate><guid>https://justkids.top/posts/pro/hugo/hug_tool/</guid><description>&lt;h3 id="hugo-命令">hugo 命令：&lt;/h3>
+>Hugo 主题 个人&lt;/a>&lt;/p></description></item><item><title>Hugo 基础配置</title><link>https://justkids.top/p/hugo-%E5%9F%BA%E7%A1%80%E9%85%8D%E7%BD%AE/</link><pubDate>Thu, 15 Jul 2021 09:09:07 +0800</pubDate><guid>https://justkids.top/p/hugo-%E5%9F%BA%E7%A1%80%E9%85%8D%E7%BD%AE/</guid><description>&lt;h3 id="hugo-命令">hugo 命令：&lt;/h3>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
