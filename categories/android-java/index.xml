@@ -1,4 +1,23 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>android-java - 分类 - JustKids</title><link>https://justkids.top/categories/android-java/</link><description>android-java - 分类 - JustKids</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>justkids2018101@gmail.com (justkids)</managingEditor><webMaster>justkids2018101@gmail.com (justkids)</webMaster><lastBuildDate>Thu, 05 Aug 2021 22:01:39 +0800</lastBuildDate><atom:link href="https://justkids.top/categories/android-java/" rel="self" type="application/rss+xml"/><item><title>java -基础</title><link>https://justkids.top/android-java/</link><pubDate>Thu, 05 Aug 2021 22:01:39 +0800</pubDate><author>作者</author><guid>https://justkids.top/android-java/</guid><description>java 面试 问题：char 是两个字节，如何存UTF-8字符 1、char 是什么 （unicode）
-2、UTF-8 是什么
-1Unicode 字符集 不是编码，作用类似于ASCII码 2Unicode 通用字符集占两个字节，例如“中” 3字符集「ASCII码，Unicode」 4char 存储的是（utf-16） 打印出来 字节序标识 5java String 的length 不是字符数 ** 需要重新学习基础 字节码，utf-8 utf-16 **
-&amp;mdash;学习进度3-2 java String 可以有多长</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>android-java on JustKids</title><link>https://justkids.top/categories/android-java/</link><description>Recent content in android-java on JustKids</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 05 Aug 2021 22:01:39 +0800</lastBuildDate><atom:link href="https://justkids.top/categories/android-java/index.xml" rel="self" type="application/rss+xml"/><item><title>java -基础</title><link>https://justkids.top/posts/interview/android-java/</link><pubDate>Thu, 05 Aug 2021 22:01:39 +0800</pubDate><guid>https://justkids.top/posts/interview/android-java/</guid><description>&lt;h3 id="java-面试">java 面试&lt;/h3>
+&lt;h4 id="问题char-是两个字节如何存utf-8字符">问题：char 是两个字节，如何存UTF-8字符&lt;/h4>
+&lt;p>1、char 是什么 （unicode）&lt;br>
+2、UTF-8 是什么&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">Unicode 字符集 不是编码，作用类似于ASCII码
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Unicode 通用字符集占两个字节，例如“中”
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">字符集「ASCII码，Unicode」
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">char 存储的是（utf-16） 打印出来 字节序标识
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">java String 的length 不是字符数
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>** 需要重新学习基础 字节码，utf-8 utf-16 **&lt;/p>
+&lt;h4 id="---学习进度3-2">&amp;mdash;学习进度3-2&lt;/h4>
+&lt;h3 id="java-string-可以有多长">java String 可以有多长&lt;/h3></description></item></channel></rss>

@@ -1,132 +1,351 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>所有文章 - JustKids</title><link>https://justkids.top/posts/</link><description>所有文章 | JustKids</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>justkids2018101@gmail.com (justkids)</managingEditor><webMaster>justkids2018101@gmail.com (justkids)</webMaster><lastBuildDate>Thu, 28 Apr 2022 07:08:06 +0800</lastBuildDate><atom:link href="https://justkids.top/posts/" rel="self" type="application/rss+xml"/><item><title>学习Gradel_01_什么是构建工具</title><link>https://justkids.top/2022_4_gradle_01/</link><pubDate>Thu, 28 Apr 2022 07:08:06 +0800</pubDate><author>作者</author><guid>https://justkids.top/2022_4_gradle_01/</guid><description><![CDATA[<h3 id="什么是构建工具">什么是构建工具</h3>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln">1</span><span class="cl">构建工具是从源代码自动创建可执行应用程序的程序（例如，.apk对于 Android 应用程序）。构建将代码编译、链接和打包成可用或可执行的形式。
-</span></span><span class="line"><span class="ln">2</span><span class="cl">基本上，构建自动化是编写脚本或自动化软件开发人员在日常活动中执行的各种任务的行为
-</span></span><span class="line"><span class="ln">3</span><span class="cl">如：
-</span></span><span class="line"><span class="ln">4</span><span class="cl">下载依赖项。
-</span></span><span class="line"><span class="ln">5</span><span class="cl">将源代码编译成二进制代码。
-</span></span><span class="line"><span class="ln">6</span><span class="cl">打包该二进制代码。
-</span></span><span class="line"><span class="ln">7</span><span class="cl">运行测试。
-</span></span><span class="line"><span class="ln">8</span><span class="cl">部署到生产系统。
-</span></span></code></pre></div><h3 id="为什么要使用构建工具">为什么要使用构建工具</h3>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln">1</span><span class="cl">在小型项目中，开发人员通常会手动调用构建过程。这对于较大的项目是不切实际的，因为很难跟踪需要构建的内容、构建过程中的顺序和依赖关系。使用自动化工具可以使构建过程更加一致。
-</span></span></code></pre></div><h3 id="各种构建工具">各种构建工具</h3>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln">1</span><span class="cl">对于 java - Ant、Maven、Gradle。
-</span></span><span class="line"><span class="ln">2</span><span class="cl">对于 .NET 框架 - NAnt
-</span></span><span class="line"><span class="ln">3</span><span class="cl">c# - MsBuild。
-</span></span></code></pre></div><h3 id="参考资料">参考资料</h3>
-<p>1、 <a href="https://stackoverflow.com/questions/7249871/what-is-a-build-tool" target="_blank" rel="noopener noreffer">what art build tool</a>
-
-2、<a href="https://en.wikipedia.org/wiki/Build_automation" target="_blank" rel="noopener noreffer"></a>
-
-3、<a href="https://en.wikipedia.org/wiki/List_of_build_automation_software" target="_blank" rel="noopener noreffer"></a>
-</p>]]></description></item><item><title>学习Gradel_02_基本概念</title><link>https://justkids.top/2022_4_gradle_02/</link><pubDate>Thu, 28 Apr 2022 07:08:06 +0800</pubDate><author>作者</author><guid>https://justkids.top/2022_4_gradle_02/</guid><description></description></item><item><title>Flutter widiget渲染-1</title><link>https://justkids.top/flutter_widget_draw/</link><pubDate>Thu, 14 Apr 2022 15:23:42 +0800</pubDate><author>作者</author><guid>https://justkids.top/flutter_widget_draw/</guid><description><![CDATA[<h3 id="hugo-参考资料">hugo 参考资料</h3>
-<p><a href="https://blog.csdn.net/qq_38401950/article/details/122260853?spm=1001.2101.3001.6661.1&amp;utm_medium=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1.pc_relevant_default&amp;depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1.pc_relevant_default&amp;utm_relevant_index=1" target="_blank" rel="noopener noreffer">flutter widget 渲染</a>
-</p>]]></description></item><item><title>Github + jsDelivr+picGO CDN 托管（文件、图片）</title><link>https://justkids.top/hugo_cdn_pic/</link><pubDate>Sat, 07 Aug 2021 08:45:57 +0800</pubDate><author>作者</author><guid>https://justkids.top/hugo_cdn_pic/</guid><description><![CDATA[<h3 id="github-创建仓库">github 创建仓库</h3>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln">1</span><span class="cl">公共仓库 项目名称cdn
-</span></span></code></pre></div><h3 id="本地下载仓库操作">本地下载仓库操作</h3>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln">1</span><span class="cl">git clone 项目仓库地址
-</span></span></code></pre></div><p></p>
-<h3 id="上次文件或者图片">上次文件或者图片</h3>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln">1</span><span class="cl">git add .
-</span></span><span class="line"><span class="ln">2</span><span class="cl">git commit -m &#34;first file&#34;
-</span></span><span class="line"><span class="ln">3</span><span class="cl">git push origin feature(定义的分支)
-</span></span></code></pre></div><p>github 发布release 版本 <strong>（可进行版本控制，方便迭代）</strong></p>
-<h3 id="增加picgo-的使用方式">增加picGO 的使用方式</h3>
-<p><a href="https://github.com/Molunerfinn/PicGo" target="_blank" rel="noopener noreffer">下载picgo软件</a>
-</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln">1</span><span class="cl">mac os:
-</span></span><span class="line"><span class="ln">2</span><span class="cl">brew  install picgo --cask
-</span></span></code></pre></div><p>2、github上设置tocken设置参数</p>
-<p></p>
-<p>3、设置 picgo的具体参数配置：<a href="https://www.jianshu.com/p/9d91355e8418" target="_blank" rel="noopener noreffer">借鉴文章</a>
-</p>
-<p>4、 <strong>上传图片 踩到的坑</strong></p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln">1</span><span class="cl">1、github 最新创建分支默认是main 分支，不再是master 分支
-</span></span><span class="line"><span class="ln">2</span><span class="cl">2、picgo 配置自定义域名后缀不加上分支，无法打开上传图片链接（耗费我大半天）郁闷
-</span></span><span class="line"><span class="ln">3</span><span class="cl">     1）https://cdn.jsdelivr.net/gh/justkids2018/cdn@分支/
-</span></span><span class="line"><span class="ln">4</span><span class="cl">     2）另一方式：就是增加版本号 （需要每次都发布reales版本）
-</span></span><span class="line"><span class="ln">5</span><span class="cl">       https://cdn.jsdelivr.net/gh/justkids2018/cdn@version/
-</span></span></code></pre></div><p><a href="https://blog.csdn.net/shuimqs/article/details/109179005" target="_blank" rel="noopener noreffer">参考方案</a>
-</p>
-<h3 id="通过jsdelivr--引用资源">通过JsDelivr  引用资源</h3>
-<blockquote>
-<p>jsDelivr <a href="https://www.jsdelivr.com/?docs=gh" target="_blank" rel="noopener noreffer">开源的CDN简介</a>
-</p>
-</blockquote>
-<p><strong>JsDeliver 引用参数说明</strong></p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln"> 1</span><span class="cl">引用方式：
-</span></span><span class="line"><span class="ln"> 2</span><span class="cl">https://cdn.jsdelivr.net/gh/你的用户名/你的仓库名@发布的版本号/文件路径
-</span></span><span class="line"><span class="ln"> 3</span><span class="cl">
-</span></span><span class="line"><span class="ln"> 4</span><span class="cl">// 使用特定版本
-</span></span><span class="line"><span class="ln"> 5</span><span class="cl">https://cdn.jsdelivr.net/gh/justkids2018/cdn@1.1.10/test.js   
-</span></span><span class="line"><span class="ln"> 6</span><span class="cl">
-</span></span><span class="line"><span class="ln"> 7</span><span class="cl">// 使用版本范围而不是特定版本
-</span></span><span class="line"><span class="ln"> 8</span><span class="cl">https://cdn.jsdelivr.net/gh/justkids2018/cdn@1.0/test.js   
-</span></span><span class="line"><span class="ln"> 9</span><span class="cl">
-</span></span><span class="line"><span class="ln">10</span><span class="cl">// 增加 &#34;.min&#34; to any JS/CSS file to get a minified version
-</span></span><span class="line"><span class="ln">11</span><span class="cl">//if one doesn&#39;t exist, we&#39;ll generate it for you
-</span></span><span class="line"><span class="ln">12</span><span class="cl">
-</span></span><span class="line"><span class="ln">13</span><span class="cl">https://cdn.jsdelivr.net/gh/justkids2018/cdn@1.0/test.
-</span></span><span class="line"><span class="ln">14</span><span class="cl">min.js   
-</span></span><span class="line"><span class="ln">15</span><span class="cl"> 
-</span></span><span class="line"><span class="ln">16</span><span class="cl">// 完全省略该版本以获取最新版本
-</span></span><span class="line"><span class="ln">17</span><span class="cl">https://cdn.jsdelivr.net/gh/justkids2018/cdn/test.js
-</span></span><span class="line"><span class="ln">18</span><span class="cl">
-</span></span><span class="line"><span class="ln">19</span><span class="cl"> // 在末尾添加 / 以获取资源目录列表
-</span></span><span class="line"><span class="ln">20</span><span class="cl">https://cdn.jsdelivr.net/gh/justkids2018/cdn/
-</span></span></code></pre></div>]]></description></item><item><title>服务器部署在线和本地</title><link>https://justkids.top/service_tool_%E9%83%A8%E7%BD%B2/</link><pubDate>Sat, 07 Aug 2021 07:13:20 +0800</pubDate><author>作者</author><guid>https://justkids.top/service_tool_%E9%83%A8%E7%BD%B2/</guid><description><![CDATA[<h3 id="heading"></h3>
-<h3 id="本地工具部署-指南">本地工具部署 指南</h3>
-<blockquote>
-<p>安装my sql</p>
-</blockquote>
-<p><a href="https://www.jianshu.com/p/199492627ccc/" target="_blank" rel="noopener noreffer">借鉴安装教程</a>
-</p>
-<blockquote>
-<p>登录mysql</p>
-</blockquote>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln">1</span><span class="cl">mysql -uroot -p
-</span></span><span class="line"><span class="ln">2</span><span class="cl">
-</span></span><span class="line"><span class="ln">3</span><span class="cl">·展示mysql的端口
-</span></span><span class="line"><span class="ln">4</span><span class="cl">
-</span></span><span class="line"><span class="ln">5</span><span class="cl">show global variables like &#39;port&#39;;
-</span></span></code></pre></div><blockquote>
-<p>可视化Navicat 安装</p>
-</blockquote>
-<p><a href="https://www.jianshu.com/p/d6340569559e" target="_blank" rel="noopener noreffer">借鉴Navicat文档</a>
-</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln">1</span><span class="cl">**出现提示app 已经损坏，移除垃圾站，使用一下命令可解决 ：
-</span></span><span class="line"><span class="ln">2</span><span class="cl">sudo xattr -r -d com.apple.quarantine /Applications/Navicat\ Premium.app/
-</span></span></code></pre></div><blockquote>
-<p>Mysql navicat 连接</p>
-</blockquote>
-<p><a href="https://www.cnblogs.com/ljj-Andrew-519/p/9638784.html" target="_blank" rel="noopener noreffer">借鉴文档</a>
-</p>]]></description></item><item><title>Hugo_stack 主题配置</title><link>https://justkids.top/hugo_stack/</link><pubDate>Fri, 06 Aug 2021 22:06:16 +0800</pubDate><author>作者</author><guid>https://justkids.top/hugo_stack/</guid><description><![CDATA[<h3 id="主题stack下载">主题stack下载</h3>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln">1</span><span class="cl">git clone https://github.com/CaiJimmy/hugo-theme-stack/ themes/hugo-theme-stack
-</span></span></code></pre></div><h3 id="configyaml配置文件">config.yaml配置文件</h3>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"></code></pre></div><h3 id="hugo-借鉴资料">hugo 借鉴资料</h3>
-<p><a href="https://docs.stack.jimmycai.com/zh/" target="_blank" rel="noopener noreffer">Hugo 主题 Stack文档</a>
-</p>
-<p><a href="https://yinhe.co/archives/20210401_hugo_theme_stack.html" target="_blank" rel="noopener noreffer">Hugo 主题 个人</a>
-</p>]]></description></item><item><title>2021的下半年计划</title><link>https://justkids.top/plan_2021_year/</link><pubDate>Thu, 05 Aug 2021 22:01:39 +0800</pubDate><author>作者</author><guid>https://justkids.top/plan_2021_year/</guid><description></description></item><item><title>java -基础</title><link>https://justkids.top/android-java/</link><pubDate>Thu, 05 Aug 2021 22:01:39 +0800</pubDate><author>作者</author><guid>https://justkids.top/android-java/</guid><description>java 面试 问题：char 是两个字节，如何存UTF-8字符 1、char 是什么 （unicode）
-2、UTF-8 是什么
-1Unicode 字符集 不是编码，作用类似于ASCII码 2Unicode 通用字符集占两个字节，例如“中” 3字符集「ASCII码，Unicode」 4char 存储的是（utf-16） 打印出来 字节序标识 5java String 的length 不是字符数 ** 需要重新学习基础 字节码，utf-8 utf-16 **
-&amp;mdash;学习进度3-2 java String 可以有多长</description></item><item><title>Hugo 基础配置</title><link>https://justkids.top/hug_tool/</link><pubDate>Thu, 15 Jul 2021 09:09:07 +0800</pubDate><author>作者</author><guid>https://justkids.top/hug_tool/</guid><description><![CDATA[<h3 id="hugo-命令">hugo 命令：</h3>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln">1</span><span class="cl">* hugo new  test.md
-</span></span><span class="line"><span class="ln">2</span><span class="cl">* hugo server --theme=hyde --buildDrafts
-</span></span><span class="line"><span class="ln">3</span><span class="cl">* hugo server --buildDrafts
-</span></span></code></pre></div><h3 id="github-page-自定义域名">github page 自定义域名</h3>
-<p>创建文件CNAME，目录（~/blog项目/static/CNAME）
-内容：域名地址</p>
-<blockquote>
-<p>eg： justkids.top</p>
-</blockquote>
-<h3 id="hugo-更新记录">hugo 更新记录</h3>
-<ul>
-<li>V1.0.0  2021.6   创建博客  主题 LoveIt</li>
-<li>V1.1.0  2021.8.05  更新主题为tack</li>
-</ul>
-<h3 id="hugo-借鉴资料">hugo 借鉴资料</h3>
-<p><a href="https://io-oi.me/tech/deploy-hugo-to-github-pages-via-github-actions/" target="_blank" rel="noopener noreffer">github action 部署</a>
-
-<a href="https://blog.csdn.net/kjh2007abc/article/details/88609165" target="_blank" rel="noopener noreffer">hugo 基础命令</a>
-</p>]]></description></item><item><title>2022的Q2计划</title><link>https://justkids.top/plan_2022_year/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>justkids</author><guid>https://justkids.top/plan_2022_year/</guid><description></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on JustKids</title><link>https://justkids.top/posts/</link><description>Recent content in Posts on JustKids</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 28 Apr 2022 07:08:06 +0800</lastBuildDate><atom:link href="https://justkids.top/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>学习Gradel_01_什么是构建工具</title><link>https://justkids.top/posts/pro/gradle/2022_4_gradle_01/</link><pubDate>Thu, 28 Apr 2022 07:08:06 +0800</pubDate><guid>https://justkids.top/posts/pro/gradle/2022_4_gradle_01/</guid><description>&lt;h3 id="什么是构建工具">什么是构建工具&lt;/h3>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;span class="lnt">7
+&lt;/span>&lt;span class="lnt">8
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">构建工具是从源代码自动创建可执行应用程序的程序（例如，.apk对于 Android 应用程序）。构建将代码编译、链接和打包成可用或可执行的形式。
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">基本上，构建自动化是编写脚本或自动化软件开发人员在日常活动中执行的各种任务的行为
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">如：
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">下载依赖项。
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">将源代码编译成二进制代码。
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">打包该二进制代码。
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">运行测试。
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">部署到生产系统。
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="为什么要使用构建工具">为什么要使用构建工具&lt;/h3>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">在小型项目中，开发人员通常会手动调用构建过程。这对于较大的项目是不切实际的，因为很难跟踪需要构建的内容、构建过程中的顺序和依赖关系。使用自动化工具可以使构建过程更加一致。
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="各种构建工具">各种构建工具&lt;/h3>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">对于 java - Ant、Maven、Gradle。
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">对于 .NET 框架 - NAnt
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">c# - MsBuild。
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="参考资料">参考资料&lt;/h3>
+&lt;p>1、 &lt;a class="link" href="https://stackoverflow.com/questions/7249871/what-is-a-build-tool" target="_blank" rel="noopener"
+>what art build tool&lt;/a>
+2、&lt;a class="link" href="https://en.wikipedia.org/wiki/Build_automation" target="_blank" rel="noopener"
+>&lt;/a>
+3、&lt;a class="link" href="https://en.wikipedia.org/wiki/List_of_build_automation_software" target="_blank" rel="noopener"
+>&lt;/a>&lt;/p></description></item><item><title>学习Gradel_02_基本概念</title><link>https://justkids.top/posts/pro/gradle/2022_4_gradle_02/</link><pubDate>Thu, 28 Apr 2022 07:08:06 +0800</pubDate><guid>https://justkids.top/posts/pro/gradle/2022_4_gradle_02/</guid><description/></item><item><title>《偏见》起点</title><link>https://justkids.top/posts/thinking/prejudice_think_one/</link><pubDate>Sat, 23 Apr 2022 17:12:53 +0800</pubDate><guid>https://justkids.top/posts/thinking/prejudice_think_one/</guid><description>&lt;h3 id="想法的开始">想法的开始&lt;/h3>
+&lt;p>2020年疫情开始后，微博上出现了很多不同的声音，本身多元的观点很正常，慢慢不同立场开始变的极端，甚至谩骂，诋毁。
+尤其我认为是常识的观点，遭到很多人的质疑，而很多还是大学生。也对微博上的一些大V的转变感到疑惑。偶然想起之前的纪录片，关于从童年到中年的10几个主人公的生活经历。
+是否也可以抓取公共信息，通过大数据来分析他们的生活经历以及观念的改变。取名为：《01人生》
+&lt;!-- raw HTML omitted -->-2022.4.23 周六下午&lt;/p>
+&lt;hr></description></item><item><title>Flutter widiget渲染-1</title><link>https://justkids.top/posts/pro/flutter/draw/flutter_widget_draw/</link><pubDate>Thu, 14 Apr 2022 15:23:42 +0800</pubDate><guid>https://justkids.top/posts/pro/flutter/draw/flutter_widget_draw/</guid><description>&lt;h3 id="hugo-参考资料">hugo 参考资料&lt;/h3>
+&lt;p>&lt;a class="link" href="https://blog.csdn.net/qq_38401950/article/details/122260853?spm=1001.2101.3001.6661.1&amp;amp;utm_medium=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1.pc_relevant_default&amp;amp;depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1.pc_relevant_default&amp;amp;utm_relevant_index=1" target="_blank" rel="noopener"
+>flutter widget 渲染&lt;/a>&lt;/p></description></item><item><title>Github + jsDelivr+picGO CDN 托管（文件、图片）</title><link>https://justkids.top/posts/pro/hugo/hugo_cdn_pic/</link><pubDate>Sat, 07 Aug 2021 08:45:57 +0800</pubDate><guid>https://justkids.top/posts/pro/hugo/hugo_cdn_pic/</guid><description>&lt;h3 id="github-创建仓库">github 创建仓库&lt;/h3>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">公共仓库 项目名称cdn
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="本地下载仓库操作">本地下载仓库操作&lt;/h3>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">git clone 项目仓库地址
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>&lt;img src="https://cdn.jsdelivr.net/gh/justkids2018/cdn@1.0.1/tool/hugo-cdn-img.png"
+loading="lazy"
+alt="截图"
+>&lt;/p>
+&lt;h3 id="上次文件或者图片">上次文件或者图片&lt;/h3>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">git add .
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">git commit -m &amp;#34;first file&amp;#34;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">git push origin feature(定义的分支)
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>github 发布release 版本 &lt;strong>（可进行版本控制，方便迭代）&lt;/strong>&lt;/p>
+&lt;h3 id="增加picgo-的使用方式">增加picGO 的使用方式&lt;/h3>
+&lt;p>&lt;a class="link" href="https://github.com/Molunerfinn/PicGo" target="_blank" rel="noopener"
+>下载picgo软件&lt;/a>&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">mac os:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">brew install picgo --cask
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>2、github上设置tocken设置参数&lt;/p>
+&lt;p>&lt;img src="https://cdn.jsdelivr.net/gh/justkids2018/cdn@main/tool/bbb.PNG"
+loading="lazy"
+>&lt;/p>
+&lt;p>3、设置 picgo的具体参数配置：&lt;a class="link" href="https://www.jianshu.com/p/9d91355e8418" target="_blank" rel="noopener"
+>借鉴文章&lt;/a>&lt;/p>
+&lt;p>4、 &lt;strong>上传图片 踩到的坑&lt;/strong>&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">1、github 最新创建分支默认是main 分支，不再是master 分支
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">2、picgo 配置自定义域名后缀不加上分支，无法打开上传图片链接（耗费我大半天）郁闷
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> 1）https://cdn.jsdelivr.net/gh/justkids2018/cdn@分支/
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> 2）另一方式：就是增加版本号 （需要每次都发布reales版本）
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> https://cdn.jsdelivr.net/gh/justkids2018/cdn@version/
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>&lt;a class="link" href="https://blog.csdn.net/shuimqs/article/details/109179005" target="_blank" rel="noopener"
+>参考方案&lt;/a>&lt;/p>
+&lt;h3 id="通过jsdelivr--引用资源">通过JsDelivr 引用资源&lt;/h3>
+&lt;blockquote>
+&lt;p>jsDelivr &lt;a class="link" href="https://www.jsdelivr.com/?docs=gh" target="_blank" rel="noopener"
+>开源的CDN简介&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;strong>JsDeliver 引用参数说明&lt;/strong>&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;span class="lnt">17
+&lt;/span>&lt;span class="lnt">18
+&lt;/span>&lt;span class="lnt">19
+&lt;/span>&lt;span class="lnt">20
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">引用方式：
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">https://cdn.jsdelivr.net/gh/你的用户名/你的仓库名@发布的版本号/文件路径
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">// 使用特定版本
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">https://cdn.jsdelivr.net/gh/justkids2018/cdn@1.1.10/test.js
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">// 使用版本范围而不是特定版本
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">https://cdn.jsdelivr.net/gh/justkids2018/cdn@1.0/test.js
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">// 增加 &amp;#34;.min&amp;#34; to any JS/CSS file to get a minified version
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">//if one doesn&amp;#39;t exist, we&amp;#39;ll generate it for you
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">https://cdn.jsdelivr.net/gh/justkids2018/cdn@1.0/test.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">min.js
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">// 完全省略该版本以获取最新版本
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">https://cdn.jsdelivr.net/gh/justkids2018/cdn/test.js
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> // 在末尾添加 / 以获取资源目录列表
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">https://cdn.jsdelivr.net/gh/justkids2018/cdn/
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item><item><title>服务器部署在线和本地</title><link>https://justkids.top/posts/tool/service_tool_%E9%83%A8%E7%BD%B2/</link><pubDate>Sat, 07 Aug 2021 07:13:20 +0800</pubDate><guid>https://justkids.top/posts/tool/service_tool_%E9%83%A8%E7%BD%B2/</guid><description>&lt;h3 id="heading">&lt;/h3>
+&lt;h3 id="本地工具部署-指南">本地工具部署 指南&lt;/h3>
+&lt;blockquote>
+&lt;p>安装my sql&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;a class="link" href="https://www.jianshu.com/p/199492627ccc/" target="_blank" rel="noopener"
+>借鉴安装教程&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>登录mysql&lt;/p>
+&lt;/blockquote>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">mysql -uroot -p
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">·展示mysql的端口
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">show global variables like &amp;#39;port&amp;#39;;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;blockquote>
+&lt;p>可视化Navicat 安装&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;a class="link" href="https://www.jianshu.com/p/d6340569559e" target="_blank" rel="noopener"
+>借鉴Navicat文档&lt;/a>&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">**出现提示app 已经损坏，移除垃圾站，使用一下命令可解决 ：
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">sudo xattr -r -d com.apple.quarantine /Applications/Navicat\ Premium.app/
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;blockquote>
+&lt;p>Mysql navicat 连接&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;a class="link" href="https://www.cnblogs.com/ljj-Andrew-519/p/9638784.html" target="_blank" rel="noopener"
+>借鉴文档&lt;/a>&lt;/p></description></item><item><title>Hugo_stack 主题配置</title><link>https://justkids.top/posts/pro/hugo/hugo_stack/</link><pubDate>Fri, 06 Aug 2021 22:06:16 +0800</pubDate><guid>https://justkids.top/posts/pro/hugo/hugo_stack/</guid><description>&lt;h3 id="主题stack下载">主题stack下载&lt;/h3>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">git clone https://github.com/CaiJimmy/hugo-theme-stack/ themes/hugo-theme-stack
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="configyaml配置文件">config.yaml配置文件&lt;/h3>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="hugo-借鉴资料">hugo 借鉴资料&lt;/h3>
+&lt;p>&lt;a class="link" href="https://docs.stack.jimmycai.com/zh/" target="_blank" rel="noopener"
+>Hugo 主题 Stack文档&lt;/a>&lt;/p>
+&lt;p>&lt;a class="link" href="https://yinhe.co/archives/20210401_hugo_theme_stack.html" target="_blank" rel="noopener"
+>Hugo 主题 个人&lt;/a>&lt;/p></description></item><item><title>2021的下半年计划</title><link>https://justkids.top/posts/plan/plan_2021_year/</link><pubDate>Thu, 05 Aug 2021 22:01:39 +0800</pubDate><guid>https://justkids.top/posts/plan/plan_2021_year/</guid><description/></item><item><title>java -基础</title><link>https://justkids.top/posts/interview/android-java/</link><pubDate>Thu, 05 Aug 2021 22:01:39 +0800</pubDate><guid>https://justkids.top/posts/interview/android-java/</guid><description>&lt;h3 id="java-面试">java 面试&lt;/h3>
+&lt;h4 id="问题char-是两个字节如何存utf-8字符">问题：char 是两个字节，如何存UTF-8字符&lt;/h4>
+&lt;p>1、char 是什么 （unicode）&lt;br>
+2、UTF-8 是什么&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">Unicode 字符集 不是编码，作用类似于ASCII码
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Unicode 通用字符集占两个字节，例如“中”
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">字符集「ASCII码，Unicode」
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">char 存储的是（utf-16） 打印出来 字节序标识
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">java String 的length 不是字符数
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>** 需要重新学习基础 字节码，utf-8 utf-16 **&lt;/p>
+&lt;h4 id="---学习进度3-2">&amp;mdash;学习进度3-2&lt;/h4>
+&lt;h3 id="java-string-可以有多长">java String 可以有多长&lt;/h3></description></item><item><title>Hugo 基础配置</title><link>https://justkids.top/posts/pro/hugo/hug_tool/</link><pubDate>Thu, 15 Jul 2021 09:09:07 +0800</pubDate><guid>https://justkids.top/posts/pro/hugo/hug_tool/</guid><description>&lt;h3 id="hugo-命令">hugo 命令：&lt;/h3>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">* hugo new test.md
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">* hugo server --theme=hyde --buildDrafts
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">* hugo server --buildDrafts
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="github-page-自定义域名">github page 自定义域名&lt;/h3>
+&lt;p>创建文件CNAME，目录（~/blog项目/static/CNAME）
+内容：域名地址&lt;/p>
+&lt;blockquote>
+&lt;p>eg： justkids.top&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="hugo-更新记录">hugo 更新记录&lt;/h3>
+&lt;ul>
+&lt;li>V1.0.0 2021.6 创建博客 主题 LoveIt&lt;/li>
+&lt;li>V1.1.0 2021.8.05 更新主题为tack&lt;/li>
+&lt;/ul>
+&lt;h3 id="hugo-借鉴资料">hugo 借鉴资料&lt;/h3>
+&lt;p>&lt;a class="link" href="https://io-oi.me/tech/deploy-hugo-to-github-pages-via-github-actions/" target="_blank" rel="noopener"
+>github action 部署&lt;/a>
+&lt;a class="link" href="https://blog.csdn.net/kjh2007abc/article/details/88609165" target="_blank" rel="noopener"
+>hugo 基础命令&lt;/a>&lt;/p></description></item><item><title>2022的Q2计划</title><link>https://justkids.top/posts/plan/plan_2022_year/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://justkids.top/posts/plan/plan_2022_year/</guid><description>&lt;h4 id="1雅思学习">1、雅思学习&lt;/h4>
+&lt;blockquote>
+&lt;p>4月雅思单词&lt;/p>
+&lt;/blockquote>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl"> 1、6:30-8:30 每日精听
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> 2、9:00-10:00 单词
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> 3、10:30-11:40 精听/单词
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;blockquote>
+&lt;p>5月雅思单词&lt;/p>
+&lt;/blockquote>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl"> 待定
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;blockquote>
+&lt;p>6月雅思单词&lt;/p>
+&lt;/blockquote>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl"> 待定
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="2专业储备">2、专业储备&lt;/h3>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">1、计算机基础知识巩固
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">2、算法开始练习
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">3、flutter 编译启动原理
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item></channel></rss>
