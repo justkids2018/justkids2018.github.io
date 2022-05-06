@@ -6,11 +6,10 @@ aliases:
   - about-us
   - about-hugo
   - contact
-
-# menu:
-#     main: 
-#         weight: -60
-#         pre: user
+menu:
+    main: 
+        weight: -60
+        pre: user
 ---
 
 > 在开始和重新开始的路上不断前行

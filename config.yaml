@@ -99,8 +99,8 @@ params:
 
         # Waline client configuration see: https://waline.js.org/en/reference/client.html
         waline:
-            serverURL:
-            lang:
+            serverURL: https://justkids.top
+            lang: zh_CN
             visitor:
             avatar:
             emoji:
@@ -192,20 +192,50 @@ params:
 ### See https://docs.stack.jimmycai.com/configuration/custom-menu.html
 ### To remove about, archive and search page menu item, remove `menu` field from their FrontMatter
 menu:
-    main: []
+    
+    main:
+        - identifier: home
+          name: 首页
+          url: /
+          weight: -100
+          pre: home
 
-    social:
-        - identifier: github
-          name: GitHub
-          url: https://github.com/CaiJimmy/hugo-theme-stack
-          params:
-              icon: brand-github
+        - identifier: archive
+          name: 归档
+          url: /archives
+          weight: -90
+          pre: archives
 
-        - identifier: twitter
-          name: Twitter
-          url: https://twitter.com
-          params:
-              icon: brand-twitter
+        - identifier: tags
+          name: 时间
+          url: /post/blog
+          weight: -80
+          pre: sun
+
+        - identifier: blog
+          name: 阅读
+          url: /post/book
+          weight: -70
+          pre: book
+
+        # - identifier: user
+        #   name: 关于
+        #   url: /about
+        #   weight: -10
+        #   pre: user
+
+    # social:
+    #     - identifier: github
+    #       name: GitHub
+    #       url: https://github.com/CaiJimmy/hugo-theme-stack
+    #       params:
+    #           icon: brand-github
+
+    #     - identifier: twitter
+    #       name: Twitter
+    #       url: https://twitter.com
+    #       params:
+    #           icon: brand-twitter
 
 related:
     includeNewer: true
