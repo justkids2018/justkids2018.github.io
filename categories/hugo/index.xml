@@ -1,27 +1,27 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>hugo on JustKids</title><link>https://justkids.top/categories/hugo/</link><description>Recent content in hugo on JustKids</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 06 Aug 2021 22:06:16 +0800</lastBuildDate><atom:link href="https://justkids.top/categories/hugo/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo_stack 主题配置</title><link>https://justkids.top/posts/hugo/hugo_stack/</link><pubDate>Fri, 06 Aug 2021 22:06:16 +0800</pubDate><guid>https://justkids.top/posts/hugo/hugo_stack/</guid><description>&lt;h3 id="主题stack下载">主题stack下载&lt;/h3>
-&lt;pre tabindex="0">&lt;code>git clone https://github.com/CaiJimmy/hugo-theme-stack/ themes/hugo-theme-stack
-&lt;/code>&lt;/pre>&lt;h3 id="configyaml配置文件">config.yaml配置文件&lt;/h3>
-&lt;pre tabindex="0">&lt;code>&lt;/code>&lt;/pre>&lt;h3 id="hugo-借鉴资料">hugo 借鉴资料&lt;/h3>
-&lt;p>&lt;a class="link" href="https://docs.stack.jimmycai.com/zh/" target="_blank" rel="noopener"
->Hugo 主题 Stack文档&lt;/a>&lt;/p>
-&lt;p>&lt;a class="link" href="https://yinhe.co/archives/20210401_hugo_theme_stack.html" target="_blank" rel="noopener"
->Hugo 主题 个人&lt;/a>&lt;/p></description></item><item><title>Hugo 基础配置</title><link>https://justkids.top/posts/hugo/hug_tool/</link><pubDate>Thu, 15 Jul 2021 09:09:07 +0800</pubDate><guid>https://justkids.top/posts/hugo/hug_tool/</guid><description>&lt;h3 id="hugo-命令">hugo 命令：&lt;/h3>
-&lt;pre tabindex="0">&lt;code>* hugo new test.md
-* hugo server --theme=hyde --buildDrafts
-* hugo server --buildDrafts
-&lt;/code>&lt;/pre>&lt;h3 id="github-page-自定义域名">github page 自定义域名&lt;/h3>
-&lt;p>创建文件CNAME，目录（~/blog项目/static/CNAME）
-内容：域名地址&lt;/p>
-&lt;blockquote>
-&lt;p>eg： justkids.top&lt;/p>
-&lt;/blockquote>
-&lt;h3 id="hugo-更新记录">hugo 更新记录&lt;/h3>
-&lt;ul>
-&lt;li>V1.0.0 2021.6 创建博客 主题 LoveIt&lt;/li>
-&lt;li>V1.1.0 2021.8.05 更新主题为tack&lt;/li>
-&lt;/ul>
-&lt;h3 id="hugo-借鉴资料">hugo 借鉴资料&lt;/h3>
-&lt;p>&lt;a class="link" href="https://io-oi.me/tech/deploy-hugo-to-github-pages-via-github-actions/" target="_blank" rel="noopener"
->github action 部署&lt;/a>
-&lt;a class="link" href="https://blog.csdn.net/kjh2007abc/article/details/88609165" target="_blank" rel="noopener"
->hugo 基础命令&lt;/a>&lt;/p></description></item></channel></rss>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>hugo - 分类 - JustKids</title><link>https://justkids.top/categories/hugo/</link><description>hugo - 分类 - JustKids</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>justkids2018101@gmail.com (justkids)</managingEditor><webMaster>justkids2018101@gmail.com (justkids)</webMaster><lastBuildDate>Fri, 06 Aug 2021 22:06:16 +0800</lastBuildDate><atom:link href="https://justkids.top/categories/hugo/" rel="self" type="application/rss+xml"/><item><title>Hugo_stack 主题配置</title><link>https://justkids.top/hugo_stack/</link><pubDate>Fri, 06 Aug 2021 22:06:16 +0800</pubDate><author>作者</author><guid>https://justkids.top/hugo_stack/</guid><description><![CDATA[<h3 id="主题stack下载">主题stack下载</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln">1</span><span class="cl">git clone https://github.com/CaiJimmy/hugo-theme-stack/ themes/hugo-theme-stack
+</span></span></code></pre></div><h3 id="configyaml配置文件">config.yaml配置文件</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"></code></pre></div><h3 id="hugo-借鉴资料">hugo 借鉴资料</h3>
+<p><a href="https://docs.stack.jimmycai.com/zh/" target="_blank" rel="noopener noreffer">Hugo 主题 Stack文档</a>
+</p>
+<p><a href="https://yinhe.co/archives/20210401_hugo_theme_stack.html" target="_blank" rel="noopener noreffer">Hugo 主题 个人</a>
+</p>]]></description></item><item><title>Hugo 基础配置</title><link>https://justkids.top/hug_tool/</link><pubDate>Thu, 15 Jul 2021 09:09:07 +0800</pubDate><author>作者</author><guid>https://justkids.top/hug_tool/</guid><description><![CDATA[<h3 id="hugo-命令">hugo 命令：</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln">1</span><span class="cl">* hugo new  test.md
+</span></span><span class="line"><span class="ln">2</span><span class="cl">* hugo server --theme=hyde --buildDrafts
+</span></span><span class="line"><span class="ln">3</span><span class="cl">* hugo server --buildDrafts
+</span></span></code></pre></div><h3 id="github-page-自定义域名">github page 自定义域名</h3>
+<p>创建文件CNAME，目录（~/blog项目/static/CNAME）
+内容：域名地址</p>
+<blockquote>
+<p>eg： justkids.top</p>
+</blockquote>
+<h3 id="hugo-更新记录">hugo 更新记录</h3>
+<ul>
+<li>V1.0.0  2021.6   创建博客  主题 LoveIt</li>
+<li>V1.1.0  2021.8.05  更新主题为tack</li>
+</ul>
+<h3 id="hugo-借鉴资料">hugo 借鉴资料</h3>
+<p><a href="https://io-oi.me/tech/deploy-hugo-to-github-pages-via-github-actions/" target="_blank" rel="noopener noreffer">github action 部署</a>
+
+<a href="https://blog.csdn.net/kjh2007abc/article/details/88609165" target="_blank" rel="noopener noreffer">hugo 基础命令</a>
+</p>]]></description></item></channel></rss>

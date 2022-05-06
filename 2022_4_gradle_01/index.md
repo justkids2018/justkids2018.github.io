@@ -1,0 +1,37 @@
+# 学习Gradel_01_什么是构建工具
+
+### 什么是构建工具
+
+```
+构建工具是从源代码自动创建可执行应用程序的程序（例如，.apk对于 Android 应用程序）。构建将代码编译、链接和打包成可用或可执行的形式。
+基本上，构建自动化是编写脚本或自动化软件开发人员在日常活动中执行的各种任务的行为
+如：
+下载依赖项。
+将源代码编译成二进制代码。
+打包该二进制代码。
+运行测试。
+部署到生产系统。
+
+```
+### 为什么要使用构建工具
+```
+在小型项目中，开发人员通常会手动调用构建过程。这对于较大的项目是不切实际的，因为很难跟踪需要构建的内容、构建过程中的顺序和依赖关系。使用自动化工具可以使构建过程更加一致。
+```
+### 各种构建工具
+
+```
+对于 java - Ant、Maven、Gradle。
+对于 .NET 框架 - NAnt
+c# - MsBuild。
+```
+
+
+
+
+
+### 参考资料
+1、 [what art build tool](https://stackoverflow.com/questions/7249871/what-is-a-build-tool)
+2、[](https://en.wikipedia.org/wiki/Build_automation)
+3、[](https://en.wikipedia.org/wiki/List_of_build_automation_software)
+<!--more-->
+

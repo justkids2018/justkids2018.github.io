@@ -1,48 +1,54 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>搭建文件CDN on JustKids</title><link>https://justkids.top/tags/%E6%90%AD%E5%BB%BA%E6%96%87%E4%BB%B6cdn/</link><description>Recent content in 搭建文件CDN on JustKids</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 07 Aug 2021 08:45:57 +0800</lastBuildDate><atom:link href="https://justkids.top/tags/%E6%90%AD%E5%BB%BA%E6%96%87%E4%BB%B6cdn/index.xml" rel="self" type="application/rss+xml"/><item><title>Github + jsDelivr+picGO CDN 托管（文件、图片）</title><link>https://justkids.top/posts/hugo/hugo_cdn_pic/</link><pubDate>Sat, 07 Aug 2021 08:45:57 +0800</pubDate><guid>https://justkids.top/posts/hugo/hugo_cdn_pic/</guid><description>&lt;h3 id="github-创建仓库">github 创建仓库&lt;/h3>
-&lt;pre tabindex="0">&lt;code>公共仓库 项目名称cdn
-&lt;/code>&lt;/pre>&lt;h3 id="本地下载仓库操作">本地下载仓库操作&lt;/h3>
-&lt;pre tabindex="0">&lt;code>git clone 项目仓库地址
-&lt;/code>&lt;/pre>&lt;p>&lt;img src="https://cdn.jsdelivr.net/gh/justkids2018/cdn@1.0.1/tool/hugo-cdn-img.png" alt="截图" />&lt;/p>
-&lt;h3 id="上次文件或者图片">上次文件或者图片&lt;/h3>
-&lt;pre tabindex="0">&lt;code>git add .
-git commit -m &amp;#34;first file&amp;#34;
-git push origin feature(定义的分支)
-&lt;/code>&lt;/pre>&lt;p>github 发布release 版本 &lt;strong>（可进行版本控制，方便迭代）&lt;/strong>&lt;/p>
-&lt;h3 id="增加picgo-的使用方式">增加picGO 的使用方式&lt;/h3>
-&lt;p>&lt;a class="link" href="https://github.com/Molunerfinn/PicGo" target="_blank" rel="noopener"
->下载picgo软件&lt;/a>&lt;/p>
-&lt;pre tabindex="0">&lt;code>mac os:
-brew install picgo --cask
-&lt;/code>&lt;/pre>&lt;p>2、github上设置tocken设置参数&lt;/p>
-&lt;p>&lt;img src="https://cdn.jsdelivr.net/gh/justkids2018/cdn@main/tool/bbb.PNG" alt="" />&lt;/p>
-&lt;p>3、设置 picgo的具体参数配置：&lt;a class="link" href="https://www.jianshu.com/p/9d91355e8418" target="_blank" rel="noopener"
->借鉴文章&lt;/a>&lt;/p>
-&lt;p>4、 &lt;strong>上传图片 踩到的坑&lt;/strong>&lt;/p>
-&lt;pre tabindex="0">&lt;code>1、github 最新创建分支默认是main 分支，不再是master 分支
-2、picgo 配置自定义域名后缀不加上分支，无法打开上传图片链接（耗费我大半天）郁闷
-1）https://cdn.jsdelivr.net/gh/justkids2018/cdn@分支/
-2）另一方式：就是增加版本号 （需要每次都发布reales版本）
-https://cdn.jsdelivr.net/gh/justkids2018/cdn@version/
-&lt;/code>&lt;/pre>&lt;p>&lt;a class="link" href="https://blog.csdn.net/shuimqs/article/details/109179005" target="_blank" rel="noopener"
->参考方案&lt;/a>&lt;/p>
-&lt;h3 id="通过jsdelivr--引用资源">通过JsDelivr 引用资源&lt;/h3>
-&lt;blockquote>
-&lt;p>jsDelivr &lt;a class="link" href="https://www.jsdelivr.com/?docs=gh" target="_blank" rel="noopener"
->开源的CDN简介&lt;/a>&lt;/p>
-&lt;/blockquote>
-&lt;p>&lt;strong>JsDeliver 引用参数说明&lt;/strong>&lt;/p>
-&lt;pre tabindex="0">&lt;code>引用方式：
-https://cdn.jsdelivr.net/gh/你的用户名/你的仓库名@发布的版本号/文件路径
-// 使用特定版本
-https://cdn.jsdelivr.net/gh/justkids2018/cdn@1.1.10/test.js
-// 使用版本范围而不是特定版本
-https://cdn.jsdelivr.net/gh/justkids2018/cdn@1.0/test.js
-// 增加 &amp;#34;.min&amp;#34; to any JS/CSS file to get a minified version
-//if one doesn&amp;#39;t exist, we&amp;#39;ll generate it for you
-https://cdn.jsdelivr.net/gh/justkids2018/cdn@1.0/test.
-min.js
-// 完全省略该版本以获取最新版本
-https://cdn.jsdelivr.net/gh/justkids2018/cdn/test.js
-// 在末尾添加 / 以获取资源目录列表
-https://cdn.jsdelivr.net/gh/justkids2018/cdn/
-&lt;/code>&lt;/pre></description></item></channel></rss>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>搭建文件CDN - 标签 - JustKids</title><link>https://justkids.top/tags/%E6%90%AD%E5%BB%BA%E6%96%87%E4%BB%B6cdn/</link><description>搭建文件CDN - 标签 - JustKids</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>justkids2018101@gmail.com (justkids)</managingEditor><webMaster>justkids2018101@gmail.com (justkids)</webMaster><lastBuildDate>Sat, 07 Aug 2021 08:45:57 +0800</lastBuildDate><atom:link href="https://justkids.top/tags/%E6%90%AD%E5%BB%BA%E6%96%87%E4%BB%B6cdn/" rel="self" type="application/rss+xml"/><item><title>Github + jsDelivr+picGO CDN 托管（文件、图片）</title><link>https://justkids.top/hugo_cdn_pic/</link><pubDate>Sat, 07 Aug 2021 08:45:57 +0800</pubDate><author>作者</author><guid>https://justkids.top/hugo_cdn_pic/</guid><description><![CDATA[<h3 id="github-创建仓库">github 创建仓库</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln">1</span><span class="cl">公共仓库 项目名称cdn
+</span></span></code></pre></div><h3 id="本地下载仓库操作">本地下载仓库操作</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln">1</span><span class="cl">git clone 项目仓库地址
+</span></span></code></pre></div><p></p>
+<h3 id="上次文件或者图片">上次文件或者图片</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln">1</span><span class="cl">git add .
+</span></span><span class="line"><span class="ln">2</span><span class="cl">git commit -m &#34;first file&#34;
+</span></span><span class="line"><span class="ln">3</span><span class="cl">git push origin feature(定义的分支)
+</span></span></code></pre></div><p>github 发布release 版本 <strong>（可进行版本控制，方便迭代）</strong></p>
+<h3 id="增加picgo-的使用方式">增加picGO 的使用方式</h3>
+<p><a href="https://github.com/Molunerfinn/PicGo" target="_blank" rel="noopener noreffer">下载picgo软件</a>
+</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln">1</span><span class="cl">mac os:
+</span></span><span class="line"><span class="ln">2</span><span class="cl">brew  install picgo --cask
+</span></span></code></pre></div><p>2、github上设置tocken设置参数</p>
+<p></p>
+<p>3、设置 picgo的具体参数配置：<a href="https://www.jianshu.com/p/9d91355e8418" target="_blank" rel="noopener noreffer">借鉴文章</a>
+</p>
+<p>4、 <strong>上传图片 踩到的坑</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln">1</span><span class="cl">1、github 最新创建分支默认是main 分支，不再是master 分支
+</span></span><span class="line"><span class="ln">2</span><span class="cl">2、picgo 配置自定义域名后缀不加上分支，无法打开上传图片链接（耗费我大半天）郁闷
+</span></span><span class="line"><span class="ln">3</span><span class="cl">     1）https://cdn.jsdelivr.net/gh/justkids2018/cdn@分支/
+</span></span><span class="line"><span class="ln">4</span><span class="cl">     2）另一方式：就是增加版本号 （需要每次都发布reales版本）
+</span></span><span class="line"><span class="ln">5</span><span class="cl">       https://cdn.jsdelivr.net/gh/justkids2018/cdn@version/
+</span></span></code></pre></div><p><a href="https://blog.csdn.net/shuimqs/article/details/109179005" target="_blank" rel="noopener noreffer">参考方案</a>
+</p>
+<h3 id="通过jsdelivr--引用资源">通过JsDelivr  引用资源</h3>
+<blockquote>
+<p>jsDelivr <a href="https://www.jsdelivr.com/?docs=gh" target="_blank" rel="noopener noreffer">开源的CDN简介</a>
+</p>
+</blockquote>
+<p><strong>JsDeliver 引用参数说明</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln"> 1</span><span class="cl">引用方式：
+</span></span><span class="line"><span class="ln"> 2</span><span class="cl">https://cdn.jsdelivr.net/gh/你的用户名/你的仓库名@发布的版本号/文件路径
+</span></span><span class="line"><span class="ln"> 3</span><span class="cl">
+</span></span><span class="line"><span class="ln"> 4</span><span class="cl">// 使用特定版本
+</span></span><span class="line"><span class="ln"> 5</span><span class="cl">https://cdn.jsdelivr.net/gh/justkids2018/cdn@1.1.10/test.js   
+</span></span><span class="line"><span class="ln"> 6</span><span class="cl">
+</span></span><span class="line"><span class="ln"> 7</span><span class="cl">// 使用版本范围而不是特定版本
+</span></span><span class="line"><span class="ln"> 8</span><span class="cl">https://cdn.jsdelivr.net/gh/justkids2018/cdn@1.0/test.js   
+</span></span><span class="line"><span class="ln"> 9</span><span class="cl">
+</span></span><span class="line"><span class="ln">10</span><span class="cl">// 增加 &#34;.min&#34; to any JS/CSS file to get a minified version
+</span></span><span class="line"><span class="ln">11</span><span class="cl">//if one doesn&#39;t exist, we&#39;ll generate it for you
+</span></span><span class="line"><span class="ln">12</span><span class="cl">
+</span></span><span class="line"><span class="ln">13</span><span class="cl">https://cdn.jsdelivr.net/gh/justkids2018/cdn@1.0/test.
+</span></span><span class="line"><span class="ln">14</span><span class="cl">min.js   
+</span></span><span class="line"><span class="ln">15</span><span class="cl"> 
+</span></span><span class="line"><span class="ln">16</span><span class="cl">// 完全省略该版本以获取最新版本
+</span></span><span class="line"><span class="ln">17</span><span class="cl">https://cdn.jsdelivr.net/gh/justkids2018/cdn/test.js
+</span></span><span class="line"><span class="ln">18</span><span class="cl">
+</span></span><span class="line"><span class="ln">19</span><span class="cl"> // 在末尾添加 / 以获取资源目录列表
+</span></span><span class="line"><span class="ln">20</span><span class="cl">https://cdn.jsdelivr.net/gh/justkids2018/cdn/
+</span></span></code></pre></div>]]></description></item></channel></rss>
