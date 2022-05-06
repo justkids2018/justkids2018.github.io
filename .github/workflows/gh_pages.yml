@@ -28,10 +28,10 @@ jobs:
           # hugo server -e production
       - name: Deploy Hugo to page
         uses: peaceiris/actions-gh-pages@v3
-        with:
+        env:
          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-         github_token: ${{ secrets.BLOG_TOKEN }}
-        #  github_token: ${{ secrets.upload_file }}
+         BLOG_TOKEN: ${{ secrets.BLOG_TOKEN }}
+         github_token: ${{ secrets.upload_file }}
          PUBLISH_BRANCH: gh-pages
          PUBLISH_DIR: ./public
          commit_message: ${{ github.event.head_commit.message }}
