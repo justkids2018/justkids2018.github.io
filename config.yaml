@@ -192,36 +192,36 @@ params:
 ### See https://docs.stack.jimmycai.com/configuration/custom-menu.html
 ### To remove about, archive and search page menu item, remove `menu` field from their FrontMatter
 menu:
-    
-    main:
-        - identifier: home
-          name: 首页
-          url: /
-          weight: -100
-          params:
-            icon: home
+      main: []
+    # main:
+    #     - identifier: home
+    #       name: 首页
+    #       url: /
+    #       weight: -100
+    #       params:
+    #         icon: home
             
 
-        - identifier: archive
-          name: 归档
-          url: /archives
-          weight: -90
-          params:
-            icon: archives
+    #     - identifier: archive
+    #       name: 归档
+    #       url: /archives
+    #       weight: -90
+    #       params:
+    #         icon: archives
 
-        - identifier: tags
-          name: 时间
-          url: /time
-          weight: -80
-          params:
-           icon: sun
+    #     - identifier: time
+    #       name: 时光
+    #       url: /time
+    #       weight: -80
+    #       params:
+    #        icon: sun
 
-        - identifier: blog
-          name: 阅读
-          url: /books
-          weight: -70
-          params:
-           icon: book
+    #     - identifier: blog
+    #       name: 我的阅读
+    #       url: /books
+    #       weight: -70
+    #       params:
+    #        icon: book
 
 
     # social:

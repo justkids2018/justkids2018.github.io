@@ -30,8 +30,8 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-         github_token: ${{ secrets.BLOG_TOKEN }}
-         upload_file: ${{secrets.upload_file}}
+        #  github_token: ${{ secrets.BLOG_TOKEN }}
+         github_token: ${{ secrets.upload_file }}
          PUBLISH_BRANCH: gh-pages
          PUBLISH_DIR: ./public
          commit_message: ${{ github.event.head_commit.message }}
