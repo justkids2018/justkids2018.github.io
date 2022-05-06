@@ -217,7 +217,7 @@ menu:
            icon: sun
 
         - identifier: blog
-          name: wode阅读1
+          name: wode阅读
           url: /books
           weight: -70
           params:
