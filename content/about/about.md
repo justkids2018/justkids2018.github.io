@@ -9,7 +9,8 @@ aliases:
 menu:
     main: 
         weight: -60
-        pre: user
+        params:
+         icon: user
 ---
 
 > 在开始和重新开始的路上不断前行

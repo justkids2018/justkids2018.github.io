@@ -198,31 +198,30 @@ menu:
           name: 首页
           url: /
           weight: -100
-          pre: home
+          params:
+            icon: home
 
         - identifier: archive
           name: 归档
           url: /archives
           weight: -90
-          pre: archives
+          params:
+            icon: archives
 
         - identifier: tags
           name: 时间
-          url: /post/blog
+          url: /post/time
           weight: -80
-          pre: sun
+          params:
+           icon: sun
 
         - identifier: blog
           name: 阅读
-          url: /post/book
+          url: /post/books
           weight: -70
-          pre: book
+          params:
+           icon: book
 
-        # - identifier: user
-        #   name: 关于
-        #   url: /about
-        #   weight: -10
-        #   pre: user
 
     # social:
     #     - identifier: github
