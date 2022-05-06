@@ -8,7 +8,7 @@ author: ""
 authorLink: ""
 description: ""
 
-tags: [技术笔记]
+tags: [技术书籍]
 categories: [阅读笔记]
 
 hiddenFromHomePage: false
