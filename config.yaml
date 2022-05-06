@@ -200,6 +200,7 @@ menu:
           weight: -100
           params:
             icon: home
+            
 
         - identifier: archive
           name: 归档
@@ -210,14 +211,14 @@ menu:
 
         - identifier: tags
           name: 时间
-          url: /post/time
+          url: /time
           weight: -80
           params:
            icon: sun
 
         - identifier: blog
           name: 阅读
-          url: /post/books
+          url: /books
           weight: -70
           params:
            icon: book
