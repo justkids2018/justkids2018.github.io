@@ -1,0 +1,35 @@
+name: GitHub Page Deploy
+
+on:
+  push:
+    branches:
+      - page 
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 
+        uses: actions/checkout@v2
+        # with:
+        #   submodules: true  # Fetch Hugo themes (true OR recursive)
+        #   fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+      
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
+          extended: true
+
+      - name: Build 
+        run:  
+          hugo --minify -E
+          # hugo server -e
+          # hugo -D 
+          # hugo server -e production
+      - name: Deploy Hugo to page
+        uses: peaceiris/actions-gh-pages@v3
+        env:
+         deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+         github_token: ${{ secrets.GITHUB_TOKEN }}
+         PUBLISH_BRANCH: gh-pages
+         PUBLISH_DIR: ./public
