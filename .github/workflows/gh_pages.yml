@@ -34,5 +34,6 @@ jobs:
          github_token: ${{ secrets.upload_file }}
          PUBLISH_BRANCH: gh-pages
          PUBLISH_DIR: ./public
+        with:
          commit_message: ${{ github.event.head_commit.message }}
         # github_token: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
