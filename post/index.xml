@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on JustKids</title><link>https://justkids.top/post/</link><description>Recent content in Posts on JustKids</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 05 May 2022 18:09:01 +0800</lastBuildDate><atom:link href="https://justkids.top/post/index.xml" rel="self" type="application/rss+xml"/><item><title>2022年5月周记一</title><link>https://justkids.top/p/2022%E5%B9%B45%E6%9C%88%E5%91%A8%E8%AE%B0%E4%B8%80/</link><pubDate>Thu, 05 May 2022 18:09:01 +0800</pubDate><guid>https://justkids.top/p/2022%E5%B9%B45%E6%9C%88%E5%91%A8%E8%AE%B0%E4%B8%80/</guid><description>&lt;h3 id="开始">开始&lt;/h3></description></item><item><title>学习Gradel_01_什么是构建工具</title><link>https://justkids.top/p/%E5%AD%A6%E4%B9%A0gradel_01_%E4%BB%80%E4%B9%88%E6%98%AF%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/</link><pubDate>Thu, 28 Apr 2022 07:08:06 +0800</pubDate><guid>https://justkids.top/p/%E5%AD%A6%E4%B9%A0gradel_01_%E4%BB%80%E4%B9%88%E6%98%AF%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/</guid><description>&lt;h3 id="什么是构建工具">什么是构建工具&lt;/h3>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on JustKids</title><link>https://justkids.top/post/</link><description>Recent content in Posts on JustKids</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 28 Apr 2022 07:08:06 +0800</lastBuildDate><atom:link href="https://justkids.top/post/index.xml" rel="self" type="application/rss+xml"/><item><title>学习Gradel_01_什么是构建工具</title><link>https://justkids.top/p/%E5%AD%A6%E4%B9%A0gradel_01_%E4%BB%80%E4%B9%88%E6%98%AF%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/</link><pubDate>Thu, 28 Apr 2022 07:08:06 +0800</pubDate><guid>https://justkids.top/p/%E5%AD%A6%E4%B9%A0gradel_01_%E4%BB%80%E4%B9%88%E6%98%AF%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/</guid><description>&lt;h3 id="什么是构建工具">什么是构建工具&lt;/h3>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
@@ -248,7 +248,7 @@ loading="lazy"
 &lt;p>&lt;a class="link" href="https://docs.stack.jimmycai.com/zh/" target="_blank" rel="noopener"
 >Hugo 主题 Stack文档&lt;/a>&lt;/p>
 &lt;p>&lt;a class="link" href="https://yinhe.co/archives/20210401_hugo_theme_stack.html" target="_blank" rel="noopener"
->Hugo 主题 个人&lt;/a>&lt;/p></description></item><item><title>2021的下半年计划</title><link>https://justkids.top/p/2021%E7%9A%84%E4%B8%8B%E5%8D%8A%E5%B9%B4%E8%AE%A1%E5%88%92/</link><pubDate>Thu, 05 Aug 2021 22:01:39 +0800</pubDate><guid>https://justkids.top/p/2021%E7%9A%84%E4%B8%8B%E5%8D%8A%E5%B9%B4%E8%AE%A1%E5%88%92/</guid><description/></item><item><title>java -基础</title><link>https://justkids.top/p/java-%E5%9F%BA%E7%A1%80/</link><pubDate>Thu, 05 Aug 2021 22:01:39 +0800</pubDate><guid>https://justkids.top/p/java-%E5%9F%BA%E7%A1%80/</guid><description>&lt;h3 id="java-面试">java 面试&lt;/h3>
+>Hugo 主题 个人&lt;/a>&lt;/p></description></item><item><title>java -基础</title><link>https://justkids.top/p/java-%E5%9F%BA%E7%A1%80/</link><pubDate>Thu, 05 Aug 2021 22:01:39 +0800</pubDate><guid>https://justkids.top/p/java-%E5%9F%BA%E7%A1%80/</guid><description>&lt;h3 id="java-面试">java 面试&lt;/h3>
 &lt;h4 id="问题char-是两个字节如何存utf-8字符">问题：char 是两个字节，如何存UTF-8字符&lt;/h4>
 &lt;p>1、char 是什么 （unicode）&lt;br>
 2、UTF-8 是什么&lt;/p>
@@ -298,55 +298,4 @@ loading="lazy"
 &lt;p>&lt;a class="link" href="https://io-oi.me/tech/deploy-hugo-to-github-pages-via-github-actions/" target="_blank" rel="noopener"
 >github action 部署&lt;/a>
 &lt;a class="link" href="https://blog.csdn.net/kjh2007abc/article/details/88609165" target="_blank" rel="noopener"
->hugo 基础命令&lt;/a>&lt;/p></description></item><item><title>2022的Q2计划</title><link>https://justkids.top/p/2022%E7%9A%84q2%E8%AE%A1%E5%88%92/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://justkids.top/p/2022%E7%9A%84q2%E8%AE%A1%E5%88%92/</guid><description>&lt;h4 id="1雅思学习">1、雅思学习&lt;/h4>
-&lt;blockquote>
-&lt;p>4月雅思单词&lt;/p>
-&lt;/blockquote>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;span class="lnt">3
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl"> 1、6:30-8:30 每日精听
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> 2、9:00-10:00 单词
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> 3、10:30-11:40 精听/单词
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;blockquote>
-&lt;p>5月雅思单词&lt;/p>
-&lt;/blockquote>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl"> 待定
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;blockquote>
-&lt;p>6月雅思单词&lt;/p>
-&lt;/blockquote>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl"> 待定
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;h3 id="2专业储备">2、专业储备&lt;/h3>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;span class="lnt">3
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">1、计算机基础知识巩固
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">2、算法开始练习
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">3、flutter 编译启动原理
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div></description></item></channel></rss>
+>hugo 基础命令&lt;/a>&lt;/p></description></item></channel></rss>
