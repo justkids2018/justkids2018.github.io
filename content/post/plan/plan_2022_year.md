@@ -3,7 +3,7 @@ title: "2022的Q2计划"
 subtitle: ""
 date: 2022-4-15-T22:01:39+08:00
 lastmod: 2022-04-15-T22:01:39+08:00
-draft: false
+draft: true
 author: "justkids"
 authorLink: ""
 description: ""
@@ -27,7 +27,7 @@ license: ""
 
 <!--more-->
 
-#### 1、雅思学习
+### 雅思学习
 
 > 4月雅思单词
 ```
@@ -43,7 +43,7 @@ license: ""
 ```
  待定
 ```
-### 2、专业储备
+### 专业储备
 
 ```
 1、计算机基础知识巩固
