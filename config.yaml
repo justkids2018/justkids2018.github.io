@@ -210,7 +210,7 @@ menu:
             icon: archives
 
         - identifier: time
-          name: 时光
+          name: 时光列车
           url: /time
           weight: -80
           params:
