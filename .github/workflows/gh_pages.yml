@@ -28,8 +28,14 @@ jobs:
           # hugo server -e production
       - name: Deploy Hugo to page
         uses: peaceiris/actions-gh-pages@v3
-        env:
+        with:
          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-         github_token: ${{ secrets.GITHUB_TOKEN }}
+         personal_token: ${{ secrets.upload_file }}
+         github_token: ${{ secrets.GITHUB_TOKEN }} ## 不是个人口令
          PUBLISH_BRANCH: gh-pages
          PUBLISH_DIR: ./public
+         public allow_empty_commit: true
+         commit_message: ${{ github.event.head_commit.message }}
+        # github_token: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
+
+        #对于 GitHub Actions 的新手：请注意，这GITHUB_TOKEN不是个人访问令牌。GitHub Actions 运行器会自动创建一个GITHUB_TOKEN密钥以在您的工作流程中进行身份验证。因此，您无需任何配置即可立即开始部​​署。

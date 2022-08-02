@@ -107,6 +107,14 @@
         {{- dict "Source" $source "Fingerprint" $fingerprint | dict "Scratch" .Scratch "Data" | partial "scratch/script.html" -}}
     {{- end -}}
     {{- $delimiters := slice (dict "left" "$$" "right" "$$" "display" true) (dict "left" "\\[" "right" "\\]" "display" true) -}}
+    {{- $delimiters = $delimiters | append (dict "left" "\\begin{equation}" "right" "\\end{equation}" "display" true) -}}
+    {{- $delimiters = $delimiters | append (dict "left" "\\begin{equation*}" "right" "\\end{equation*}" "display" true) -}}
+    {{- $delimiters = $delimiters | append (dict "left" "\\begin{align}" "right" "\\end{align}" "display" true) -}}
+    {{- $delimiters = $delimiters | append (dict "left" "\\begin{align*}" "right" "\\end{align*}" "display" true) -}}
+    {{- $delimiters = $delimiters | append (dict "left" "\\begin{alignat}" "right" "\\end{alignat}" "display" true) -}}
+    {{- $delimiters = $delimiters | append (dict "left" "\\begin{alignat*}" "right" "\\end{alignat*}" "display" true) -}}
+    {{- $delimiters = $delimiters | append (dict "left" "\\begin{gather}" "right" "\\end{gather}" "display" true) -}}
+    {{- $delimiters = $delimiters | append (dict "left" "\\begin{CD}" "right" "\\end{CD}" "display" true) -}}
     {{- if and $math.blockLeftDelimiter $math.blockRightDelimiter -}}
         {{- $delimiters = $delimiters | append (dict "left" $math.blockLeftDelimiter "right" $math.blockRightDelimiter "display" true) -}}
     {{- end -}}
@@ -189,8 +197,7 @@
 {{- $config | jsonify | printf "window.config=%s;" | dict "Content" | dict "Scratch" .Scratch "Data" | partial "scratch/script.html" -}}
 
 {{- /* Theme script */ -}}
-{{- dict "Source" "js/theme.min.js" "Fingerprint" $fingerprint | dict "Scratch" .Scratch "Data" | partial "scratch/script.html" -}}
-{{- $_ := (resources.Get "js/theme.min.js.map").RelPermalink -}}
+{{- dict "Source" "js/theme.js" "Minify" true "Fingerprint" $fingerprint | dict "Scratch" .Scratch "Data" | partial "scratch/script.html" -}}
 
 {{- with (.Scratch.Get "this").scriptArr -}}
     {{- delimit . "\n" | dict "Content" | dict "Scratch" $.Scratch "Data" | partial "scratch/script.html" -}}
