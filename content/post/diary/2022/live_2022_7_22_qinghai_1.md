@@ -33,7 +33,8 @@ license: ""
 >环湖路线图:
 
 <!-- ![青海湖环游](https://mmbiz.qpic.cn/mmbiz_png/JlEzsWtnYoMib1UiamI1p4AGicic4DPpqoXwE71YQAyH2AvGzv78nbymF9DYciaZ03mW6zDHPwv8N5TwPnOVrM5tYEQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1) -->
-![环青海湖](https://cdn.jsdelivr.net/gh/justkids2018/cdn@main/tool/WechatIMG2170.jpeg)
+![环青海湖](https://cdn.staticaly.com/gh/justkids2018/cdn@main/tool/20220803150327.jpeg)
+
 
 
 </BR>

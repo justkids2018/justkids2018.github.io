@@ -28,7 +28,8 @@ license: ""
 
 ## 亲子环青海湖骑行
 
-![亲子环游](https://cdn.jsdelivr.net/gh/justkids2018/cdn@main/tool/IMG_9685.jpeg)
+![亲子环湖](https://cdn.staticaly.com/gh/justkids2018/cdn@main/tool/20220803145133.jpeg)
+
 
 闺女7岁，侄女9岁(出发前2天才学会骑），各位根据具体情况自行安排，不过建议至少要提前锻炼1周，环湖路上车多，没有骑行道(仅19公里)，小朋友很难走直线，骑着就出白线外，需要家长时刻提醒。
 ### D1 北京-西宁火车站-藏文化博物馆
@@ -81,7 +82,7 @@ $\color{red}{塔尔寺注意事项:}$
 
 ### D3 西海镇-湖东种羊场-江西沟(60KM)--(环湖开始)
 
-![](https://cdn.jsdelivr.net/gh/justkids2018/cdn@main/tool/IMG_0390.JPG)
+![出发](https://cdn.staticaly.com/gh/justkids2018/cdn@main/tool/20220803144917.jpeg)
 #### 行程:
  $\color{red}{环湖Day1:}$
 
@@ -114,6 +115,7 @@ $\color{red}{塔尔寺注意事项:}$
 旺湖酒店，亲子房250左右一间。接待很多团队，需提前预定。因小朋友生病，造成我们晚了一天才到酒店，预定的时间也没有改，造成差点没房住的尴尬(切记，要核实预定酒店的日期)。最后协商住进了一楼的临时房间，里面很冷，没有地暖。提供了电热毯，算是插曲吧。旁边有个西海酒店看着还行，可以看看网上评价，出酒店就是桥，早上可以沿着河边走到湖边看日出，最好是6点15之前出去看日出，不然就晚了。我们实在太累，错过了日出，有点后悔。
 
 ###  D5 黑马河-茶卡-鸟岛(57KM)(风景最漂亮，一路下坡)
+![途中](https://cdn.staticaly.com/gh/justkids2018/cdn@main/tool/20220803145852.JPG)
 
 #### 行程:
 
@@ -168,8 +170,9 @@ $\color{red}{一定一定要考虑核酸报告}$
 
 在西宁不要打出租到机场，出租司机一听到机场，就不打表，直接要价150元，西宁本地同学帮忙还价到120元，同学建议打滴滴，不到90元。
 
-青海湖留念:
-![合影](https://cdn.jsdelivr.net/gh/justkids2018/cdn@main/tool/IMG_9979.jpeg)
+青海湖:
+![合影留念](https://cdn.staticaly.com/gh/justkids2018/cdn@main/tool/20220803145353.jpeg)
+
 
 ### 行程总结
 
