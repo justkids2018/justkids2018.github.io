@@ -92,5 +92,11 @@ https://cdn.jsdelivr.net/gh/justkids2018/cdn/test.js
  // 在末尾添加 / 以获取资源目录列表
 https://cdn.jsdelivr.net/gh/justkids2018/cdn/
 ```
-
+#### 2022年8月更新：
+```
+ jsdelivr 与2021年12月 国内无法访问，
+ 图库更新至 https://statically.io/
+ 域名替换成使用:
+ https://cdn.staticaly.com/gh/
+```
 <!--more-->
