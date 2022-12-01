@@ -9,8 +9,8 @@ author: ""
 authorLink: ""
 description: ""
 
-tags: [游记]
-categories: [随笔]
+tags: [随笔]
+categories: [游记]
 
 hiddenFromHomePage: true
 hiddenFromSearch: false

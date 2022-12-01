@@ -8,15 +8,15 @@ author: ""
 authorLink: ""
 description: ""
 
-tags: [游记]
-categories: [随笔]
+tags: [随笔]
+categories: [游记]
 
 hiddenFromHomePage: false
 hiddenFromSearch: false
 
 
-featuredImage: "https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01e669572bfe806ac725381234430c.jpg%402o.jpg&refer=http%3A%2F%2Fimg.zcool.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1672453800&t=6a575038b21669f906c1cbefb6b7c9f2"
-featuredImagePreview: "https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01e669572bfe806ac725381234430c.jpg%402o.jpg&refer=http%3A%2F%2Fimg.zcool.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1672453800&t=6a575038b21669f906c1cbefb6b7c9f2"
+featuredImage: ""
+featuredImagePreview: ""
 
 toc:
   enable: true

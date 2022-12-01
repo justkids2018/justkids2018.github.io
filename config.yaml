@@ -159,7 +159,7 @@ params:
               params:
                   limit: 20
         page:
-            - type: toc
+            - type: 
 
     opengraph:
         twitter:
