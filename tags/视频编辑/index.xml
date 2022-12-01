@@ -2,37 +2,37 @@
 &lt;h3 id="视频编辑注意的问题">视频编辑注意的问题：&lt;/h3>
 &lt;p>1、字体的侵权问题
 免费-&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;span class="lnt">3
-&lt;/span>&lt;span class="lnt">4
-&lt;/span>&lt;span class="lnt">5
-&lt;/span>&lt;span class="lnt">6
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">0
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">字体：
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> 1、思源黑体
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> 2、站酷 字体
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> 3、庞门
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> 4、濑户小姐
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> 5、
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>字体：
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> 1、思源黑体
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> 2、站酷 字体
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> 3、庞门
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> 4、濑户小姐
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> 5、
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;h3 id="视频录制工具">视频录制工具：&lt;/h3>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;span class="lnt">3
-&lt;/span>&lt;span class="lnt">4
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">0
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">录屏软件：ScreenFlow OBS
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">录音剪辑：Logic Pro X
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">视频剪辑：Final Cut Pro X
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">字幕编辑：ArcTime
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>录屏软件：ScreenFlow OBS
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>录音剪辑：Logic Pro X
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>视频剪辑：Final Cut Pro X
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>字幕编辑：ArcTime
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;p>字幕编辑：&lt;a class="link" href="http://arctime.cn/guide.html" target="_blank" rel="noopener"
@@ -43,7 +43,8 @@
 &lt;h3 id="bgm-音乐版权">bgm 音乐版权&lt;/h3>
 &lt;p>1、&lt;a class="link" href="https://www.epidemicsound.com/referra..." target="_blank" rel="noopener"
 >音乐库&lt;/a>
-2、vlog no copyright music&lt;/p>
+2、vlog no copyright music
+3、&lt;/p>
 &lt;h3 id="制作流程">制作流程&lt;/h3>
 &lt;p>1.脚本制作
 2.旁白制作

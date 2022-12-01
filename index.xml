@@ -121,7 +121,7 @@ alt="合影留念"
 &lt;strong>骑行最好关注一下天气情况，尽量找连续晴天的时间去&lt;/strong>&lt;/p>
 &lt;h4 id="关于费用">关于费用&lt;/h4>
 &lt;p>我们（3大2小）的费用，包括火车，飞机票总共：1.5W
-&lt;!-- raw HTML omitted -->
+&lt;/br>
 不想自己骑行的也可报户外亲子骑行团(很成熟，很多都是北京组团)。如新大陆户外骑行团（非常推荐）。组团不含来回机票:一大一小大概在6000左右，
 &lt;strong>酒店预定：&lt;/strong>
 因为疫情，很好定，价格也比往年旺季便宜最少一倍，
@@ -129,12 +129,13 @@ alt="合影留念"
 &lt;blockquote>
 &lt;p>环湖路线图:&lt;/p>
 &lt;/blockquote>
-&lt;!-- raw HTML omitted -->
+&lt;!-- ![青海湖环游](https://mmbiz.qpic.cn/mmbiz_png/JlEzsWtnYoMib1UiamI1p4AGicic4DPpqoXwE71YQAyH2AvGzv78nbymF9DYciaZ03mW6zDHPwv8N5TwPnOVrM5tYEQ/640?wx_fmt=png&amp;wxfrom=5&amp;wx_lazy=1&amp;wx_co=1) -->
 &lt;p>&lt;img src="https://cdn.staticaly.com/gh/justkids2018/cdn@main/tool/20220803150327.jpeg"
 loading="lazy"
 alt="环青海湖"
 >&lt;/p>
-&lt;!-- raw HTML omitted -->
+&lt;/BR>
+>交通路线:
 &lt;p>&lt;img src="https://pic1.zhimg.com/80/v2-f956ff0589cf356646c859b9ae4b48bc_1440w.jpg"
 loading="lazy"
 alt="路线规划"
@@ -151,100 +152,100 @@ loading="lazy"
 >环青海湖骑行攻略&lt;/a>&lt;/p>
 &lt;/blockquote>
 &lt;h4 id="常规环湖路线">常规环湖路线&lt;/h4>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;span class="lnt">3
-&lt;/span>&lt;span class="lnt">4
-&lt;/span>&lt;span class="lnt">5
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">0
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">D1 全国各地-西海镇集合
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">D2 西海镇-乘车25KM-青海湖大门-骑行75KM-江西沟
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">D3 江西沟-骑行55KM-黑马河 （下午自由活动，可自行前往茶卡盐湖）
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">D4 黑马河-骑行115KM-刚察
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">D5 刚察-骑行85KM-青海湖大门-乘车25KM-西海镇 解散
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>D1 全国各地-西海镇集合
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>D2 西海镇-乘车25KM-青海湖大门-骑行75KM-江西沟
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>D3 江西沟-骑行55KM-黑马河 （下午自由活动，可自行前往茶卡盐湖）
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>D4 黑马河-骑行115KM-刚察
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>D5 刚察-骑行85KM-青海湖大门-乘车25KM-西海镇 解散
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;h4 id="亲子环湖路线">亲子环湖路线:&lt;/h4>
 &lt;p>考虑再三，将刚察作为亲子环湖骑行的终点，因刚察之后坡起很多,而且路程长,风景也不如之前，体力也跟不上（只能期待小朋友再大一些，再骑全程）&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;span class="lnt">3
-&lt;/span>&lt;span class="lnt">4
-&lt;/span>&lt;span class="lnt">5
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">0
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">D1 西海镇-(湖东种羊场)-江西沟(65KM)
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">D2 江西沟-骑行55KM-黑马河（57KM）
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">D3 黑马河-石乃亥(42KM)-鸟岛(57KM)
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">D4 鸟岛-刚察(65KM) （终点）
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">D5 刚察-骑行85KM-青海湖大门-乘车25KM-西海镇 (亲子环湖-大巴回城)
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>D1 西海镇-(湖东种羊场)-江西沟(65KM)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>D2 江西沟-骑行55KM-黑马河（57KM）
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>D3 黑马河-石乃亥(42KM)-鸟岛(57KM)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>D4 鸟岛-刚察(65KM) （终点）
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>D5 刚察-骑行85KM-青海湖大门-乘车25KM-西海镇 (亲子环湖-大巴回城)
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;h4 id="物品清单">物品清单&lt;/h4>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;span class="lnt">3
-&lt;/span>&lt;span class="lnt">4
-&lt;/span>&lt;span class="lnt">5
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">0
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">1、衣物：冲锋衣、防晒衣、帽子、面巾、手套、雨鞋、运动鞋、秋衣裤、骑行裤、袜子、内衣
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">2、装备：水杯、眼镜、口罩、防晒霜(必须)、毛巾、洗簌用品，充电宝、雨伞
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">3、药品（小朋友的药为主）：消炎药,葡萄糖,*氧气瓶*（必备，血的教训）
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> 感冒药、发烧药、藏红花、晕车贴、创可贴、云南白药、膏药
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">4、画具：纸、油画棒、铅笔、勾线笔、油画笔、绘画本（途中写生）
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>1、衣物：冲锋衣、防晒衣、帽子、面巾、手套、雨鞋、运动鞋、秋衣裤、骑行裤、袜子、内衣
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>2、装备：水杯、眼镜、口罩、防晒霜(必须)、毛巾、洗簌用品，充电宝、雨伞
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>3、药品（小朋友的药为主）：消炎药,葡萄糖,*氧气瓶*（必备，血的教训）
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> 感冒药、发烧药、藏红花、晕车贴、创可贴、云南白药、膏药
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>4、画具：纸、油画棒、铅笔、勾线笔、油画笔、绘画本（途中写生）
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div></description></item><item><title>我的阅读</title><link>https://justkids.top/books/books/</link><pubDate>Fri, 06 May 2022 00:00:00 +0000</pubDate><guid>https://justkids.top/books/books/</guid><description/></item><item><title>2022年5月周记一</title><link>https://justkids.top/time/2022_5_one/</link><pubDate>Thu, 05 May 2022 18:09:01 +0800</pubDate><guid>https://justkids.top/time/2022_5_one/</guid><description>&lt;h3 id="开始">开始&lt;/h3></description></item><item><title>学习Gradel_01_什么是构建工具</title><link>https://justkids.top/p/%E5%AD%A6%E4%B9%A0gradel_01_%E4%BB%80%E4%B9%88%E6%98%AF%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/</link><pubDate>Thu, 28 Apr 2022 07:08:06 +0800</pubDate><guid>https://justkids.top/p/%E5%AD%A6%E4%B9%A0gradel_01_%E4%BB%80%E4%B9%88%E6%98%AF%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/</guid><description>&lt;h3 id="什么是构建工具">什么是构建工具&lt;/h3>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;span class="lnt">3
-&lt;/span>&lt;span class="lnt">4
-&lt;/span>&lt;span class="lnt">5
-&lt;/span>&lt;span class="lnt">6
-&lt;/span>&lt;span class="lnt">7
-&lt;/span>&lt;span class="lnt">8
+&lt;/div></description></item><item><title>我的阅读</title><link>https://justkids.top/books/books/</link><pubDate>Fri, 06 May 2022 00:00:00 +0000</pubDate><guid>https://justkids.top/books/books/</guid><description/></item><item><title>学习Gradel_01_什么是构建工具</title><link>https://justkids.top/p/%E5%AD%A6%E4%B9%A0gradel_01_%E4%BB%80%E4%B9%88%E6%98%AF%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/</link><pubDate>Thu, 28 Apr 2022 07:08:06 +0800</pubDate><guid>https://justkids.top/p/%E5%AD%A6%E4%B9%A0gradel_01_%E4%BB%80%E4%B9%88%E6%98%AF%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/</guid><description>&lt;h3 id="什么是构建工具">什么是构建工具&lt;/h3>
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">0
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">6
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">7
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">构建工具是从源代码自动创建可执行应用程序的程序（例如，.apk对于 Android 应用程序）。构建将代码编译、链接和打包成可用或可执行的形式。
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">基本上，构建自动化是编写脚本或自动化软件开发人员在日常活动中执行的各种任务的行为
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">如：
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">下载依赖项。
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">将源代码编译成二进制代码。
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">打包该二进制代码。
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">运行测试。
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">部署到生产系统。
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>构建工具是从源代码自动创建可执行应用程序的程序（例如，.apk对于 Android 应用程序）。构建将代码编译、链接和打包成可用或可执行的形式。
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>基本上，构建自动化是编写脚本或自动化软件开发人员在日常活动中执行的各种任务的行为
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>如：
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>下载依赖项。
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>将源代码编译成二进制代码。
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>打包该二进制代码。
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>运行测试。
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>部署到生产系统。
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;h3 id="为什么要使用构建工具">为什么要使用构建工具&lt;/h3>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">0
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">在小型项目中，开发人员通常会手动调用构建过程。这对于较大的项目是不切实际的，因为很难跟踪需要构建的内容、构建过程中的顺序和依赖关系。使用自动化工具可以使构建过程更加一致。
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>在小型项目中，开发人员通常会手动调用构建过程。这对于较大的项目是不切实际的，因为很难跟踪需要构建的内容、构建过程中的顺序和依赖关系。使用自动化工具可以使构建过程更加一致。
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;h3 id="各种构建工具">各种构建工具&lt;/h3>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;span class="lnt">3
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">0
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">对于 java - Ant、Maven、Gradle。
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">对于 .NET 框架 - NAnt
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">c# - MsBuild。
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>对于 java - Ant、Maven、Gradle。
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>对于 .NET 框架 - NAnt
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>c# - MsBuild。
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;h3 id="参考资料">参考资料&lt;/h3>
@@ -257,38 +258,38 @@ loading="lazy"
 &lt;p>2020年疫情开始后，微博上出现了很多不同的声音，本身多元的观点很正常，慢慢不同立场开始变的极端，甚至谩骂，诋毁。
 尤其我认为是常识的观点，遭到很多人的质疑，而很多还是大学生。也对微博上的一些大V的转变感到疑惑。偶然想起之前的纪录片，关于从童年到中年的10几个主人公的生活经历。
 是否也可以抓取公共信息，通过大数据来分析他们的生活经历以及观念的改变。取名为：《01人生》
-&lt;!-- raw HTML omitted -->-2022.4.23 周六下午&lt;/p>
+&lt;/BR>-2022.4.23 周六下午&lt;/p>
 &lt;hr></description></item><item><title>Flutter widiget渲染-1</title><link>https://justkids.top/p/flutter-widiget%E6%B8%B2%E6%9F%93-1/</link><pubDate>Thu, 14 Apr 2022 15:23:42 +0800</pubDate><guid>https://justkids.top/p/flutter-widiget%E6%B8%B2%E6%9F%93-1/</guid><description>&lt;h3 id="hugo-参考资料">hugo 参考资料&lt;/h3>
 &lt;p>&lt;a class="link" href="https://blog.csdn.net/qq_38401950/article/details/122260853?spm=1001.2101.3001.6661.1&amp;amp;utm_medium=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1.pc_relevant_default&amp;amp;depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1.pc_relevant_default&amp;amp;utm_relevant_index=1" target="_blank" rel="noopener"
->flutter widget 渲染&lt;/a>&lt;/p></description></item><item><title>关于</title><link>https://justkids.top/about/about/</link><pubDate>Sun, 08 Aug 2021 22:06:16 +0800</pubDate><guid>https://justkids.top/about/about/</guid><description>&lt;blockquote>
+>flutter widget 渲染&lt;/a>&lt;/p></description></item><item><title>时光列车</title><link>https://justkids.top/time/</link><pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate><guid>https://justkids.top/time/</guid><description/></item><item><title>我的阅读</title><link>https://justkids.top/read/</link><pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate><guid>https://justkids.top/read/</guid><description/></item><item><title>关于</title><link>https://justkids.top/about/about/</link><pubDate>Sun, 08 Aug 2021 22:06:16 +0800</pubDate><guid>https://justkids.top/about/about/</guid><description>&lt;blockquote>
 &lt;p>在开始和重新开始的路上不断前行&lt;/p>
 &lt;/blockquote>
 &lt;p>这个博客一直断断续续，2022年5月重新开始，纪录自己的生活和工作，不要求天天更新，要坚持1周更新一篇
-&lt;!-- raw HTML omitted -->&lt;!-- raw HTML omitted -->&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/br>&lt;/br>&lt;/p>
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">0
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl"> -- 每周进步一点点。
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span> -- 每周进步一点点。
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;p>gmail:@justkids2018101@gmail.com&lt;/p></description></item><item><title>Github + jsDelivr+picGO CDN 托管（文件、图片）</title><link>https://justkids.top/p/github--jsdelivr-picgo-cdn-%E6%89%98%E7%AE%A1%E6%96%87%E4%BB%B6%E5%9B%BE%E7%89%87/</link><pubDate>Sat, 07 Aug 2021 08:45:57 +0800</pubDate><guid>https://justkids.top/p/github--jsdelivr-picgo-cdn-%E6%89%98%E7%AE%A1%E6%96%87%E4%BB%B6%E5%9B%BE%E7%89%87/</guid><description>&lt;h3 id="github-创建仓库">github 创建仓库&lt;/h3>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">0
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">公共仓库 项目名称cdn
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>公共仓库 项目名称cdn
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;h3 id="本地下载仓库操作">本地下载仓库操作&lt;/h3>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">0
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">git clone 项目仓库地址
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>git clone 项目仓库地址
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;p>&lt;img src="https://cdn.jsdelivr.net/gh/justkids2018/cdn@1.0.1/tool/hugo-cdn-img.png"
@@ -296,30 +297,30 @@ loading="lazy"
 alt="截图"
 >&lt;/p>
 &lt;h3 id="上次文件或者图片">上次文件或者图片&lt;/h3>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;span class="lnt">3
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">0
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">git add .
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">git commit -m &amp;#34;first file&amp;#34;
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">git push origin feature(定义的分支)
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>git add .
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>git commit -m &amp;#34;first file&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>git push origin feature(定义的分支)
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;p>github 发布release 版本 &lt;strong>（可进行版本控制，方便迭代）&lt;/strong>&lt;/p>
 &lt;h3 id="增加picgo-的使用方式">增加picGO 的使用方式&lt;/h3>
 &lt;p>&lt;a class="link" href="https://github.com/Molunerfinn/PicGo" target="_blank" rel="noopener"
 >下载picgo软件&lt;/a>&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">0
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">mac os:
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">brew install picgo --cask
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>mac os:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>brew install picgo --cask
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;p>2、github上设置tocken设置参数&lt;/p>
@@ -329,20 +330,20 @@ loading="lazy"
 &lt;p>3、设置 picgo的具体参数配置：&lt;a class="link" href="https://www.jianshu.com/p/9d91355e8418" target="_blank" rel="noopener"
 >借鉴文章&lt;/a>&lt;/p>
 &lt;p>4、 &lt;strong>上传图片 踩到的坑&lt;/strong>&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;span class="lnt">3
-&lt;/span>&lt;span class="lnt">4
-&lt;/span>&lt;span class="lnt">5
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">0
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">1、github 最新创建分支默认是main 分支，不再是master 分支
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">2、picgo 配置自定义域名后缀不加上分支，无法打开上传图片链接（耗费我大半天）郁闷
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> 1）https://cdn.jsdelivr.net/gh/justkids2018/cdn@分支/
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> 2）另一方式：就是增加版本号 （需要每次都发布reales版本）
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> https://cdn.jsdelivr.net/gh/justkids2018/cdn@version/
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>1、github 最新创建分支默认是main 分支，不再是master 分支
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>2、picgo 配置自定义域名后缀不加上分支，无法打开上传图片链接（耗费我大半天）郁闷
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> 1）https://cdn.jsdelivr.net/gh/justkids2018/cdn@分支/
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> 2）另一方式：就是增加版本号 （需要每次都发布reales版本）
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> https://cdn.jsdelivr.net/gh/justkids2018/cdn@version/
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;p>&lt;a class="link" href="https://blog.csdn.net/shuimqs/article/details/109179005" target="_blank" rel="noopener"
@@ -353,65 +354,65 @@ loading="lazy"
 >开源的CDN简介&lt;/a>&lt;/p>
 &lt;/blockquote>
 &lt;p>&lt;strong>JsDeliver 引用参数说明&lt;/strong>&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
-&lt;/span>&lt;span class="lnt"> 2
-&lt;/span>&lt;span class="lnt"> 3
-&lt;/span>&lt;span class="lnt"> 4
-&lt;/span>&lt;span class="lnt"> 5
-&lt;/span>&lt;span class="lnt"> 6
-&lt;/span>&lt;span class="lnt"> 7
-&lt;/span>&lt;span class="lnt"> 8
-&lt;/span>&lt;span class="lnt"> 9
-&lt;/span>&lt;span class="lnt">10
-&lt;/span>&lt;span class="lnt">11
-&lt;/span>&lt;span class="lnt">12
-&lt;/span>&lt;span class="lnt">13
-&lt;/span>&lt;span class="lnt">14
-&lt;/span>&lt;span class="lnt">15
-&lt;/span>&lt;span class="lnt">16
-&lt;/span>&lt;span class="lnt">17
-&lt;/span>&lt;span class="lnt">18
-&lt;/span>&lt;span class="lnt">19
-&lt;/span>&lt;span class="lnt">20
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 0
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">引用方式：
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">https://cdn.jsdelivr.net/gh/你的用户名/你的仓库名@发布的版本号/文件路径
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">// 使用特定版本
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">https://cdn.jsdelivr.net/gh/justkids2018/cdn@1.1.10/test.js
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">// 使用版本范围而不是特定版本
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">https://cdn.jsdelivr.net/gh/justkids2018/cdn@1.0/test.js
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">// 增加 &amp;#34;.min&amp;#34; to any JS/CSS file to get a minified version
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">//if one doesn&amp;#39;t exist, we&amp;#39;ll generate it for you
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">https://cdn.jsdelivr.net/gh/justkids2018/cdn@1.0/test.
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">min.js
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">// 完全省略该版本以获取最新版本
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">https://cdn.jsdelivr.net/gh/justkids2018/cdn/test.js
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> // 在末尾添加 / 以获取资源目录列表
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">https://cdn.jsdelivr.net/gh/justkids2018/cdn/
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>引用方式：
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>https://cdn.jsdelivr.net/gh/你的用户名/你的仓库名@发布的版本号/文件路径
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>// 使用特定版本
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>https://cdn.jsdelivr.net/gh/justkids2018/cdn@1.1.10/test.js
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>// 使用版本范围而不是特定版本
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>https://cdn.jsdelivr.net/gh/justkids2018/cdn@1.0/test.js
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>// 增加 &amp;#34;.min&amp;#34; to any JS/CSS file to get a minified version
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>//if one doesn&amp;#39;t exist, we&amp;#39;ll generate it for you
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>https://cdn.jsdelivr.net/gh/justkids2018/cdn@1.0/test.
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>min.js
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>// 完全省略该版本以获取最新版本
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>https://cdn.jsdelivr.net/gh/justkids2018/cdn/test.js
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> // 在末尾添加 / 以获取资源目录列表
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>https://cdn.jsdelivr.net/gh/justkids2018/cdn/
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;h4 id="2022年8月更新">2022年8月更新：&lt;/h4>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;span class="lnt">3
-&lt;/span>&lt;span class="lnt">4
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">0
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl"> jsdelivr 与2021年12月 国内无法访问，
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> 图库更新至 https://statically.io/
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> 域名替换成使用:
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> https://cdn.staticaly.com/gh/
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span> jsdelivr 与2021年12月 国内无法访问，
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> 图库更新至 https://statically.io/
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> 域名替换成使用:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> https://cdn.staticaly.com/gh/
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div></description></item><item><title>2022-1-读书笔记《编程》</title><link>https://justkids.top/p/2022-1-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0%E7%BC%96%E7%A8%8B/</link><pubDate>Sat, 07 Aug 2021 07:13:20 +0800</pubDate><guid>https://justkids.top/p/2022-1-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0%E7%BC%96%E7%A8%8B/</guid><description>&lt;p>**《编程》&amp;ndash;隐匿在计算机软硬件背后的语言 **&lt;/p>
@@ -425,20 +426,20 @@ loading="lazy"
 &lt;blockquote>
 &lt;p>登录mysql&lt;/p>
 &lt;/blockquote>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;span class="lnt">3
-&lt;/span>&lt;span class="lnt">4
-&lt;/span>&lt;span class="lnt">5
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">0
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">mysql -uroot -p
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">·展示mysql的端口
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">show global variables like &amp;#39;port&amp;#39;;
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>mysql -uroot -p
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>·展示mysql的端口
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>show global variables like &amp;#39;port&amp;#39;;
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;blockquote>
@@ -446,14 +447,14 @@ loading="lazy"
 &lt;/blockquote>
 &lt;p>&lt;a class="link" href="https://www.jianshu.com/p/d6340569559e" target="_blank" rel="noopener"
 >借鉴Navicat文档&lt;/a>&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">0
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">**出现提示app 已经损坏，移除垃圾站，使用一下命令可解决 ：
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">sudo xattr -r -d com.apple.quarantine /Applications/Navicat\ Premium.app/
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>**出现提示app 已经损坏，移除垃圾站，使用一下命令可解决 ：
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo xattr -r -d com.apple.quarantine /Applications/Navicat\ Premium.app/
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;blockquote>
@@ -464,37 +465,37 @@ loading="lazy"
 &lt;h3 id="视频编辑注意的问题">视频编辑注意的问题：&lt;/h3>
 &lt;p>1、字体的侵权问题
 免费-&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;span class="lnt">3
-&lt;/span>&lt;span class="lnt">4
-&lt;/span>&lt;span class="lnt">5
-&lt;/span>&lt;span class="lnt">6
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">0
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">字体：
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> 1、思源黑体
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> 2、站酷 字体
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> 3、庞门
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> 4、濑户小姐
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> 5、
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>字体：
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> 1、思源黑体
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> 2、站酷 字体
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> 3、庞门
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> 4、濑户小姐
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> 5、
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;h3 id="视频录制工具">视频录制工具：&lt;/h3>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;span class="lnt">3
-&lt;/span>&lt;span class="lnt">4
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">0
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">录屏软件：ScreenFlow OBS
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">录音剪辑：Logic Pro X
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">视频剪辑：Final Cut Pro X
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">字幕编辑：ArcTime
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>录屏软件：ScreenFlow OBS
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>录音剪辑：Logic Pro X
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>视频剪辑：Final Cut Pro X
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>字幕编辑：ArcTime
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;p>字幕编辑：&lt;a class="link" href="http://arctime.cn/guide.html" target="_blank" rel="noopener"
@@ -505,7 +506,8 @@ loading="lazy"
 &lt;h3 id="bgm-音乐版权">bgm 音乐版权&lt;/h3>
 &lt;p>1、&lt;a class="link" href="https://www.epidemicsound.com/referra..." target="_blank" rel="noopener"
 >音乐库&lt;/a>
-2、vlog no copyright music&lt;/p>
+2、vlog no copyright music
+3、&lt;/p>
 &lt;h3 id="制作流程">制作流程&lt;/h3>
 &lt;p>1.脚本制作
 2.旁白制作
@@ -518,20 +520,20 @@ loading="lazy"
 &lt;h3 id="借鉴项目">借鉴项目&lt;/h3>
 &lt;p>&lt;a class="link" href="https://www.youtube.com/watch?v=rfNZiG-M9_0&amp;amp;list=RDCMUCQRAO6rXB32dd9K69JftGDQ&amp;amp;index=27" target="_blank" rel="noopener"
 >老威&lt;/a>&lt;/p></description></item><item><title>Hugo_stack 主题配置</title><link>https://justkids.top/p/hugo_stack-%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/</link><pubDate>Fri, 06 Aug 2021 22:06:16 +0800</pubDate><guid>https://justkids.top/p/hugo_stack-%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/</guid><description>&lt;h3 id="主题stack下载">主题stack下载&lt;/h3>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">0
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">git clone https://github.com/CaiJimmy/hugo-theme-stack/ themes/hugo-theme-stack
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>git clone https://github.com/CaiJimmy/hugo-theme-stack/ themes/hugo-theme-stack
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;h3 id="configyaml配置文件">config.yaml配置文件&lt;/h3>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code class="language-fallback" data-lang="fallback">&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;h3 id="hugo-借鉴资料">hugo 借鉴资料&lt;/h3>
 &lt;p>&lt;a class="link" href="https://docs.stack.jimmycai.com/zh/" target="_blank" rel="noopener"
@@ -541,35 +543,35 @@ loading="lazy"
 &lt;h4 id="问题char-是两个字节如何存utf-8字符">问题：char 是两个字节，如何存UTF-8字符&lt;/h4>
 &lt;p>1、char 是什么 （unicode）&lt;br>
 2、UTF-8 是什么&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;span class="lnt">3
-&lt;/span>&lt;span class="lnt">4
-&lt;/span>&lt;span class="lnt">5
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">0
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">Unicode 字符集 不是编码，作用类似于ASCII码
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Unicode 通用字符集占两个字节，例如“中”
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">字符集「ASCII码，Unicode」
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">char 存储的是（utf-16） 打印出来 字节序标识
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">java String 的length 不是字符数
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>Unicode 字符集 不是编码，作用类似于ASCII码
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Unicode 通用字符集占两个字节，例如“中”
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>字符集「ASCII码，Unicode」
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>char 存储的是（utf-16） 打印出来 字节序标识
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>java String 的length 不是字符数
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;p>** 需要重新学习基础 字节码，utf-8 utf-16 **&lt;/p>
 &lt;h4 id="---学习进度3-2">&amp;mdash;学习进度3-2&lt;/h4>
 &lt;h3 id="java-string-可以有多长">java String 可以有多长&lt;/h3></description></item><item><title>Hugo 基础配置</title><link>https://justkids.top/p/hugo-%E5%9F%BA%E7%A1%80%E9%85%8D%E7%BD%AE/</link><pubDate>Thu, 15 Jul 2021 09:09:07 +0800</pubDate><guid>https://justkids.top/p/hugo-%E5%9F%BA%E7%A1%80%E9%85%8D%E7%BD%AE/</guid><description>&lt;h3 id="hugo-命令">hugo 命令：&lt;/h3>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;span class="lnt">3
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">0
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">* hugo new test.md
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">* hugo server --theme=hyde --buildDrafts
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">* hugo server --buildDrafts
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>* hugo new test.md
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>* hugo server --theme=hyde --buildDrafts
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>* hugo server --buildDrafts
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;h3 id="github-page-自定义域名">github page 自定义域名&lt;/h3>
