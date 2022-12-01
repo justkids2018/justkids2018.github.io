@@ -46,22 +46,22 @@ params:
 
     footer:
         since: 2020
-        customText:
+        customText: 真实、独立、有趣
 
     dateFormat:
-        published: Jan 02, 2006
-        lastUpdated: Jan 02, 2006 15:04 MST
+        published: Jan 02, 2020
+        lastUpdated: Jan 02, 2026 15:04 MST
 
     sidebar:
         emoji: 🍥
         subtitle: 行之于途而应于心
         avatar:
             enabled: false
-            local: false
+            local: true
             src: img/avatar.png
 
     article:
-        math: false
+        math: true
         toc: true
         readingTime: true
         license:
@@ -151,27 +151,27 @@ params:
             - type: search
             - type: archives
               params:
-                  limit: 5
+                  limit: 1
             - type: categories
               params:
-                  limit: 10
+                  limit: 7
             - type: tag-cloud
               params:
-                  limit: 10
+                  limit: 20
         page:
             - type: toc
 
     opengraph:
         twitter:
             # Your Twitter username
-            site:
+            site: 
 
             # Available values: summary, summary_large_image
             card: summary_large_image
 
     defaultImage:
         opengraph:
-            enabled: false
+            enabled: true
             local: false
             src:
 

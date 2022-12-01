@@ -3,6 +3,7 @@ title: "亲子环青海湖骑行-环湖篇"
 subtitle: "梦想之旅"
 date: 2022-08-02T15:43:00+08:00
 lastmod: 2022-08-02T15:43:00+08:00
+image: "https://cdn.staticaly.com/gh/justkids2018/cdn@main/tool/20220803145353.jpeg"
 draft: false
 author: ""
 authorLink: ""
@@ -11,16 +12,16 @@ description: ""
 tags: [游记]
 categories: [随笔]
 
-hiddenFromHomePage: false
+hiddenFromHomePage: true
 hiddenFromSearch: false
 
-featuredImage: ""
+featuredImage: "https://cdn.staticaly.com/gh/justkids2018/cdn@main/tool/20220803145133.jpeg"
 featuredImagePreview: ""
 
 toc:
   enable: true
 math:
-  enable: false
+  enable: true
 lightgallery: false
 license: ""
 ---
