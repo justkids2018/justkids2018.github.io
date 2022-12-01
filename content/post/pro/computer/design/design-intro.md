@@ -1,9 +1,9 @@
 ---
-title: "设计模式-1"
+title: "设计模式-原则"
 subtitle: "设计模式原则和分类"
 date: 2022-12-01T11:05:44+08:00
 lastmod: 2022-12-01T11:05:44+08:00
-draft: true
+draft: false
 author: ""
 authorLink: ""
 description: ""
