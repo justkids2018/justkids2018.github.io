@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>DesignPattern on JustKids</title><link>https://justkids.top/tags/designpattern/</link><description>Recent content in DesignPattern on JustKids</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 01 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://justkids.top/tags/designpattern/index.xml" rel="self" type="application/rss+xml"/><item><title>设计模式-原则</title><link>https://justkids.top/p/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E5%8E%9F%E5%88%99/</link><pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate><guid>https://justkids.top/p/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E5%8E%9F%E5%88%99/</guid><description>&lt;h2 id="设计6大原则">设计6大原则&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>DesignPattern on JustKids</title><link>https://justkids.top/tags/designpattern/</link><description>Recent content in DesignPattern on JustKids</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 01 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://justkids.top/tags/designpattern/index.xml" rel="self" type="application/rss+xml"/><item><title>设计模式-1</title><link>https://justkids.top/p/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-1/</link><pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate><guid>https://justkids.top/p/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-1/</guid><description>&lt;h2 id="设计6大原则">设计6大原则&lt;/h2>
 &lt;h3 id="开闭原则open-close-principle">开闭原则(Open Close Principle)&lt;/h3>
 &lt;p>软件实体（模块、类、方法等）应该&lt;FONT COLOR=RED>&amp;ldquo;对扩展开放、对修改关闭&amp;rdquo;&lt;/FONT>.
 &lt;strong>最基础，最重要的原则&lt;/strong>&lt;/p>
@@ -15,16 +15,16 @@
 &lt;/ul>
 &lt;p>&lt;strong>常用模型:&lt;/strong> &lt;FONT COLOR="RED">红色标记&lt;/font>&lt;/p>
 &lt;h3 id="创建型模式">创建型模式&lt;/h3>
-&lt;p>共五种:
+&lt;p>共五种:&lt;/BR>
 工厂方法模式、抽象工厂模式、单例模式、&lt;FONT COLOR="RED">建造者模式、&lt;/FONT>原型模式。&lt;/p>
 &lt;h3 id="结构型模式">结构型模式&lt;/h3>
-&lt;p>共七种:
+&lt;p>共七种:&lt;/BR>
 外观模式、&lt;FONT COLOR="RED">适配器模式、装饰器模式、代理模式、桥接模式、组合模式、享元模式&lt;/FONT>&lt;/p>
 &lt;h3 id="行为型模式">行为型模式&lt;/h3>
-&lt;p>共十一种:
+&lt;p>共十一种&lt;/BR>
 模板方法模式、&lt;FONT COLOR="RED">策略模式、观察者模式、迭代子模式、责任链模式、命令模式&lt;/FONT>、备忘录模式、状态模式、访问者模式、中介者模式、解释器模式。&lt;/p>
 &lt;h2 id="参考资料">参考资料&lt;/h2>
 &lt;p>&lt;a class="link" href="http://www.jasongj.com/design_pattern/simple_factory/" target="_blank" rel="noopener"
->设计模式资料&lt;/a>
+>设计模式资料&lt;/a>&lt;/BR>
 &lt;a class="link" href="https://www.jianshu.com/p/b2c08a670299" target="_blank" rel="noopener"
 >常用结构性模型&lt;/a>&lt;/p></description></item></channel></rss>
