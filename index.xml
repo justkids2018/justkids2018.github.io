@@ -1,13 +1,71 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>JustKids</title><link>https://justkids.top/</link><description>Recent content on JustKids</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 01 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://justkids.top/index.xml" rel="self" type="application/rss+xml"/><item><title>设计模式-1</title><link>https://justkids.top/p/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-1/</link><pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate><guid>https://justkids.top/p/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-1/</guid><description>&lt;h2 id="设计6大原则">设计6大原则&lt;/h2>
-&lt;h3 id="开闭原则open-close-principle">开闭原则(Open Close Principle)&lt;/h3>
-&lt;p>软件实体（模块、类、方法等）应该&lt;FONT COLOR=RED>&amp;ldquo;对扩展开放、对修改关闭&amp;rdquo;&lt;/FONT>.
-&lt;strong>最基础，最重要的原则&lt;/strong>&lt;/p>
-&lt;p>从定义上看，这个原则主要包含两部分:
-&lt;strong>1 对扩展开放&lt;/strong>&lt;/p>
-&lt;p>这意味着模块的行为是可以扩展的。当应用程序的需求改变时，我们可以对其模块进行扩展，使其具有满足那些需求变更的新行为。换句话说，我们可以改变模块的功能。&lt;/p>
-&lt;p>&lt;strong>2 对修改关闭&lt;/strong>&lt;/p>
-&lt;p>“对模块行为进行扩展时，不必改动该模块的源代码或二进制代码。模块的二进制可执行版本，无论是可链接的库、DLL或Java的.jar文件，都无需改动&lt;/p>
-&lt;h2 id="模式划分3种类型">模式划分3种类型&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>JustKids</title><link>https://justkids.top/</link><description>Recent content on JustKids</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 01 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://justkids.top/index.xml" rel="self" type="application/rss+xml"/><item><title>设计模式-1-UML</title><link>https://justkids.top/p/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-1-uml/</link><pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate><guid>https://justkids.top/p/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-1-uml/</guid><description>&lt;h2 id="设计模式-uml-基础知识">设计模式-UML 基础知识&lt;/h2>
+&lt;h3 id="1什么是uml图">1、什么是UML图&lt;/h3>
+&lt;p>即Unified Modeling Language，翻译为：统一建模语言。是用来对软件密集系统进行可视化建模的一种语言。一份典型的建模图表通常包含几个块或框，连接线和作为模型附加信息之用的文本。这些虽简单却非常重要，在UML规则中相互联系和扩展。&lt;/p>
+&lt;p>UML立足于对事物的实体、性质、关系、结构、状态和动态变化过程的全程描述和反映。UML可以从不同角度描述人们所观察到的软件视图，也可以描述在不同开发阶段中的软件的形态&lt;/p>
+&lt;p>UML采用一组图形符号来描述软件模型，这些图形符号具有简单、直观和规范的特点，开发人员学习和掌握起来比较简单。所描述的软件模型，可以直观地理解和阅读，由于具有规范性，所以能够保证模型的准确、一致&lt;/p>
+&lt;h3 id="2-uml图的作用">2、 UML图的作用&lt;/h3>
+&lt;p>UML是一个通用的标准建模语言，
+可以对任何具有静态结构和动态行为的系统进行建模，而且适用于系统开发的不同阶段，从需求规格描述直至系统完成后的测试和维护。&lt;/p>
+&lt;h3 id="3uml-的类图关系">3、UML 的类图关系&lt;/h3>
+&lt;p>类图的6种关系:&lt;/p>
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">0
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>实现（Realization）、泛化（Generalization）
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>关联（Association）、聚合（Aggregation）
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>组合(Composition)、依赖(Dependency)
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;IMG SRC="https://i.loli.net/2019/08/06/ysxabt1DfXLoBKj.png">
+&lt;hr>
+&lt;h4 id="31-实现关系realization">3.1 实现关系（Realization）&lt;/h4>
+&lt;p>实现关系：使用的是一个&lt;strong>带空心箭头的虚线&lt;/strong>表示。&lt;/p>
+&lt;IMG SRC="https://www.likecs.com/default/index/img?u=aHR0cHM6Ly9pbWFnZXMyMDE3LmNuYmxvZ3MuY29tL2Jsb2cvMTIyNzMzMS8yMDE3MDkvMTIyNzMzMS0yMDE3MDkxODEwMDEwOTA3MS04ODIyMTg2MjQucG5n">
+&lt;p>上述类图我们可以说A实现了B，B是一个抽象概念，
+在现实中无法直接用来定义对象，只有指明具体的子类，才能用来定义对象.&lt;/p>
+&lt;h4 id="32-泛化关系">3.2 泛化关系&lt;/h4>
+&lt;p>泛化关系:实际上是对类的一个细分，
+(转)看懂类图——UML类图基础&lt;/p>
+&lt;IMG SRC="https://www.likecs.com/default/index/img?u=aHR0cHM6Ly9pbWFnZXMyMDE3LmNuYmxvZ3MuY29tL2Jsb2cvMTIyNzMzMS8yMDE3MDkvMTIyNzMzMS0yMDE3MDkxODEwMDkxNTQ5My0yMDA3NjEyMjk0LnBuZw==">
+&lt;p>最终代码中，泛化关系表现为继承非抽象类；&lt;/p>
+&lt;h4 id="33-聚合关系">3.3 聚合关系&lt;/h4>
+&lt;p>聚合关系：
+整体与部分之间是弱依赖关系，整体不存在了，部分依然可以独立存在，也就是说部分和整体的生命周期是独立的。
+聚合关系在UML中使用带空心菱形的实线表示&lt;/p>
+&lt;IMG SRC="https://www.likecs.com/default/index/img?u=aHR0cHM6Ly9pbWFnZXMyMDE3LmNuYmxvZ3MuY29tL2Jsb2cvMTIyNzMzMS8yMDE3MDkvMTIyNzMzMS0yMDE3MDkxODEwMjAzNjA4Ny0yMDc2ODkwOTg5LnBuZw==">
+&lt;p>例如班级不存在了，学生仍然能够单独存在&lt;/p>
+&lt;h4 id="34-组合关系">3.4 组合关系&lt;/h4>
+&lt;p>组合关系：
+整体与部分之间是强依赖关系，
+整体不存在了，部分也就不存在了。例如公司与部门之间的关系
+组合关系在UML中使用实心菱形的实线表示
+(转)看懂类图——UML类图基础&lt;/p>
+&lt;IMG SRC="https://www.likecs.com/default/index/img?u=aHR0cHM6Ly9pbWFnZXMyMDE3LmNuYmxvZ3MuY29tL2Jsb2cvMTIyNzMzMS8yMDE3MDkvMTIyNzMzMS0yMDE3MDkxODEwNDcwMzIyOC04ODY2NDk4NDgucG5n">
+&lt;h4 id="35-关联关系">3.5 关联关系&lt;/h4>
+&lt;p>关联关系:是用一条直线表示的；它描述不同类的对象之间的结构关系；
+它是一种静态关系， 通常与运行状态无关，一般由常识等因素决定的。
+它一般用来定义对象之间静态的、天然的结构。 所以，关联关系是一种“强关联”的关系；
+比如，乘车人和车票之间就是一种关联关系
+关联关系默认不强调方向，表示对象间相互知道；如果特别强调方向，如下图，表示A知道B，但 B不知道A，如下图
+(转)看懂类图——UML类图基础
+&lt;IMG SRC="https://www.likecs.com/default/index/img?u=aHR0cHM6Ly9pbWFnZXMyMDE3LmNuYmxvZ3MuY29tL2Jsb2cvMTIyNzMzMS8yMDE3MDkvMTIyNzMzMS0yMDE3MDkxODEwNTAyMzQ3OC0xMjU0MDk1NDM0LnBuZw==">&lt;/p>
+&lt;p>注：在最终代码中，关联对象通常是以成员变量的形式实现的；&lt;/p>
+&lt;h4 id="36-依赖关系">3.6 依赖关系&lt;/h4>
+&lt;p>依赖关系是用一套带箭头的虚线表示的&lt;/p>
+&lt;p>如下图表示A依赖于B；它描述一个对象在运行期间会用到另一个对象的关系；
+(转)看懂类图——UML类图基础
+&lt;IMG SRC="https://www.likecs.com/default/index/img?u=aHR0cHM6Ly9pbWFnZXMyMDE3LmNuYmxvZ3MuY29tL2Jsb2cvMTIyNzMzMS8yMDE3MDkvMTIyNzMzMS0yMDE3MDkxODEwNTMwNTA4Ny02NTQ0Nzg4My5wbmc=">&lt;/p>
+&lt;p>显然，依赖也有方向，双向依赖是一种非常糟糕的结构，我们总是应该保持单向依赖，杜绝双向依赖的产生.&lt;/p>
+&lt;p>在最终代码中，依赖关系体现为类构造方法及类方法的传入参数，箭头的指向为调用关系；依赖关系除了临时知道对方外，还“使用”对方的方法和属性.&lt;/p>
+&lt;h3 id="参考资料">参考资料&lt;/h3>
+&lt;p>&lt;a class="link" href="http://www.jasongj.com/design_pattern/simple_factory/" target="_blank" rel="noopener"
+>设计模式资料&lt;/a>
+&lt;a class="link" href="https://www.bilibili.com/video/BV1gJ411X7uN?p=27&amp;amp;vd_source=7c47b6d72612787b009ac686785b509a" target="_blank" rel="noopener"
+>设计模式-视频&lt;/a>&lt;/p></description></item><item><title>设计模式-结构</title><link>https://justkids.top/p/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E7%BB%93%E6%9E%84/</link><pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate><guid>https://justkids.top/p/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E7%BB%93%E6%9E%84/</guid><description>&lt;h2 id="模式划分三种类型">模式划分三种类型&lt;/h2>
 &lt;ul>
 &lt;li>1、行为型&lt;/li>
 &lt;li>2、结构型&lt;/li>
@@ -27,7 +85,401 @@
 &lt;p>&lt;a class="link" href="http://www.jasongj.com/design_pattern/simple_factory/" target="_blank" rel="noopener"
 >设计模式资料&lt;/a>&lt;/BR>
 &lt;a class="link" href="https://www.jianshu.com/p/b2c08a670299" target="_blank" rel="noopener"
->常用结构性模型&lt;/a>&lt;/p></description></item><item><title>亲子环青海湖骑行-环湖篇</title><link>https://justkids.top/p/%E4%BA%B2%E5%AD%90%E7%8E%AF%E9%9D%92%E6%B5%B7%E6%B9%96%E9%AA%91%E8%A1%8C-%E7%8E%AF%E6%B9%96%E7%AF%87/</link><pubDate>Tue, 02 Aug 2022 15:43:00 +0800</pubDate><guid>https://justkids.top/p/%E4%BA%B2%E5%AD%90%E7%8E%AF%E9%9D%92%E6%B5%B7%E6%B9%96%E9%AA%91%E8%A1%8C-%E7%8E%AF%E6%B9%96%E7%AF%87/</guid><description>&lt;img src="https://cdn.staticaly.com/gh/justkids2018/cdn@main/tool/20220803145353.jpeg" alt="Featured image of post 亲子环青海湖骑行-环湖篇" />&lt;h2 id="亲子环青海湖骑行">亲子环青海湖骑行&lt;/h2>
+>常用结构性模型&lt;/a>&lt;/p>
+&lt;p>&lt;a class="link" href="https://www.bilibili.com/video/BV1G4411c7N4?p=6&amp;amp;vd_source=7c47b6d72612787b009ac686785b509a" target="_blank" rel="noopener"
+>设计模式-视频讲解&lt;/a>&lt;/p>
+&lt;p>&lt;a class="link" href="https://github-yuteng.github.io/2019/08/01/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B8%83%E5%A4%A7%E5%8E%9F%E5%88%99/" target="_blank" rel="noopener"
+>设计模式-原则&lt;/a>&lt;/p></description></item><item><title>设计模式-六原则</title><link>https://justkids.top/p/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E5%85%AD%E5%8E%9F%E5%88%99/</link><pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate><guid>https://justkids.top/p/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E5%85%AD%E5%8E%9F%E5%88%99/</guid><description>&lt;h2 id="设计6大原则">设计6大原则&lt;/h2>
+&lt;h3 id="一开闭原则open-close-principle">一、开闭原则(Open Close Principle)&lt;/h3>
+&lt;p>软件实体（模块、类、方法等）应该&lt;FONT COLOR=RED>&amp;ldquo;对扩展开放、对修改关闭&amp;rdquo;&lt;/FONT>.
+&lt;strong>最基础，最重要的原则&lt;/strong>&lt;/p>
+&lt;p>从定义上看，这个原则主要包含两部分:
+&lt;strong>1 对扩展开放&lt;/strong>&lt;/p>
+&lt;p>这意味着模块的行为是可以扩展的。当应用程序的需求改变时，我们可以对其模块进行扩展，使其具有满足那些需求变更的新行为。换句话说，我们可以改变模块的功能。&lt;/p>
+&lt;p>&lt;strong>2 对修改关闭&lt;/strong>&lt;/p>
+&lt;p>“对模块行为进行扩展时，不必改动该模块的源代码或二进制代码。模块的二进制可执行版本，无论是可链接的库、DLL或Java的.jar文件，都无需改动&lt;/p>
+&lt;hr>
+&lt;h3 id="一单一原则single-responsibility">一、单一原则(Single responsibility)&lt;/h3>
+&lt;p>&lt;strong>单一职责原则注意事项和细节：&lt;/strong>&lt;/p>
+&lt;p>1、降低类的复杂度，一个类只负责一项职责；
+2、提高类的可读性，可维护性；
+3、降低变更引起的风险;
+4、通常情况下，应当遵守单一职责原则， &lt;strong>只有逻辑足够简单，才可以在方法级违反单一职责原则&lt;/strong>。&lt;/p>
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 0
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">23
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>/**
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> * @author
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> * 只有类中方法数量足够少，可以在方法级别保持单一职责原则
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> */
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>public class SingleResponsility {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> public static void main(String[] args) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Vehicle vehicle = new Vehicle();
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> vehicle.run(&amp;#34;布加迪威龙&amp;#34;);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> vehicle.fly(&amp;#34;波音747&amp;#34;);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>// 逻辑简单，方法级别实现单一职责
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>// 逻辑复杂，分类实现单一职责
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>class Vehicle {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> public void run(String string) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> System.out.println(string + &amp;#34;：是陆地交通工具&amp;#34;);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> public void fly(String string) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> System.out.println(string + &amp;#34;：是空中交通工具&amp;#34;);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="二接口隔离原则interface-segregation">二、接口隔离原则（Interface Segregation）&lt;/h3>
+&lt;p>&lt;strong>2.1 介绍&lt;/strong>&lt;/p>
+&lt;p>客户端不应该依赖它不需要的接口，即&lt;strong>一个类对另一个类的依赖应该建立在最小的接口上&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>2.2 不符合设计模式UML&lt;/strong>
+&lt;IMG SRC="https://img-blog.csdnimg.cn/4ef0a747466f4c2ab2a2949fec9a4729.png#pic_center">
+分析：&lt;/p>
+&lt;p>​ 1）类A通过接口Interface1依赖类B，类C通过 接口Interface1依赖类D，如果接口 Interface1对于类A和类C来说不是最小接口， 那么类B和类D必须去实现他们不需要的方法。&lt;/p>
+&lt;p>​ 2）按隔离原则应当这样处理&lt;/p>
+&lt;p>​ 将接口Interface1拆分为独立的几个接口， 类A和类C分别与他们需要的接口建立依赖关系。也就是采用接口隔离原则&lt;/p>
+&lt;p>&lt;strong>2.3 接口隔离模式UML&lt;/strong>&lt;/p>
+&lt;p>应传统方法的问题和使用接口隔离原则改进&lt;/p>
+&lt;ul>
+&lt;li>1、类A通过接口 Interface1、2 依赖类B，类C通过接口 Interface1、 3 依赖类D，如果接口 Interface 对于 类A 和 类C 来说不是最小接口，那么 类B 和 类D 必须去实现他们不需要的方法。&lt;/li>
+&lt;li>2、将接口 Interface 拆分为独立的几个接口，类A 和 类C 分别与他们需要的接口建立依赖关系。也就是采用接口隔离原则。&lt;/li>
+&lt;li>3、接口 Interface 中出现的方法，根据实际情祝拆分为三个接口。&lt;/li>
+&lt;/ul>
+&lt;IMG SRC="https://img-blog.csdnimg.cn/e978714a00cb4ef688dee2d52a2a8e17.png#pic_center">
+&lt;p>代码&lt;/p>
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 0
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">23
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">24
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">25
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">26
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">27
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">28
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">29
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">30
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">31
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">32
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">33
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">34
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">35
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">36
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">37
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">38
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">39
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">40
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">41
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">42
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">43
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">44
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">45
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">46
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">47
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">48
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">49
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">50
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">51
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">52
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">53
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">54
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">55
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">56
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">57
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">58
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">59
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">60
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">61
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">62
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">63
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">64
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">65
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">66
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">67
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">68
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">69
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">70
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">71
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">72
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">73
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">74
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">75
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">76
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">77
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">78
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">79
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">80
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">81
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">82
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">83
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">84
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">85
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">86
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">87
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">88
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">89
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">90
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">91
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">92
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">93
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">94
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>public class InterfaceSegregation {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> public static void main(String[] args) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> A a = new A();
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> a.depend1(new B());
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> a.depend2(new B());
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> a.depend3(new B());
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> C c = new C();
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> c.depend1(new D());
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> c.depend4(new D());
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> c.depend5(new D());
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>interface interface1 {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> void Operation1();
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>interface interface2 {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> void Operation2();
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> void Operation3();
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>interface interface3 {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> void Operation4();
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> void Operation5();
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>class B implements interface1, interface2 {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> @Override
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> public void Operation1() {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> System.out.println(&amp;#34;B 实现了 Operation1&amp;#34;);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> @Override
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> public void Operation2() {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> System.out.println(&amp;#34;B 实现了 Operation2&amp;#34;);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> @Override
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> public void Operation3() {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> System.out.println(&amp;#34;B 实现了 Operation3&amp;#34;);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>class D implements interface1, interface3 {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> @Override
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> public void Operation1() {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> System.out.println(&amp;#34;D 实现了 Operation1&amp;#34;);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> @Override
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> public void Operation4() {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> System.out.println(&amp;#34;D 实现了 Operation4&amp;#34;);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> @Override
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> public void Operation5() {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> System.out.println(&amp;#34;D 实现了 Operation5&amp;#34;);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>class A {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> public void depend1(interface1 i) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> i.Operation1();
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> public void depend2(interface2 i) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> i.Operation2();
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> public void depend3(interface2 i) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> i.Operation3();
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>class C {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> public void depend1(interface1 i) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> i.Operation1();
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> public void depend4(interface3 i) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> i.Operation4();
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> public void depend5(interface3 i) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> i.Operation5();
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;hr>
+&lt;h3 id="三依赖倒转原则dependence-inversion">三、依赖倒转原则（Dependence Inversion）&lt;/h3>
+&lt;h4 id="31-基本介绍">3.1 基本介绍&lt;/h4>
+&lt;p>​ 1) 高层模块不应该依赖低层模块，二者都应该依赖其抽象&lt;/p>
+&lt;p>​ 2) &lt;strong>抽象不应该依赖细节，细节应该依赖抽象&lt;/strong>&lt;/p>
+&lt;p>​ 3) 依赖倒转(倒置)的中心思想是面向接口编程&lt;/p>
+&lt;p>​ 4) 依赖倒转原则是基于这样的设计理念：
+相对于细节的多变性，抽象的东西要稳定的多。以抽象为基础搭建的架构比以细节为基础的架构要稳定的多。在java中，抽象指的是接口或抽象类，细节就是具体的实现类&lt;/p>
+&lt;p>​ 5) 使用接口或抽象类的目的是制定好规范，而不涉及任何具体的操作，把展现细节的任务交给他们的实现类去完成&lt;/p>
+&lt;h4 id="32依赖倒转原则注意事项和细节">3.2、依赖倒转原则注意事项和细节&lt;/h4>
+&lt;p>​ 1) 低层模块尽量都要有抽象类或接口，或者两者都有，程序稳定性更好&lt;/p>
+&lt;p>​ 2) 变量的声明类型尽量是抽象类或接口, 这样我们的变量引用和实际对象间，就存在 一个缓冲层，利于程序扩展和优化&lt;/p>
+&lt;p>​ 3) 继承时遵循里氏替换原则&lt;/p>
+&lt;h4 id="33-依赖关系三种传递方式">3.3 依赖关系三种传递方式：&lt;/h4>
+&lt;ul>
+&lt;li>接口传递（依赖）&lt;/li>
+&lt;li>构造方法传递（依赖）&lt;/li>
+&lt;li>setter方式传递（聚合）&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 0
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">23
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">24
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">25
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">26
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">27
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">28
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">29
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">30
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">31
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">32
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">33
+&lt;/span>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">34
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>public class DependenceInversion {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> public static void main(String[] args) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Person person = new Person();
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> person.receive(new Email());
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> person.receive(new WeChat());
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>interface Info{
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> String getInfo();
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>class Email implements Info{
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> @Override
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> public String getInfo() {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> return &amp;#34;Receive Email&amp;#34;;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>class WeChat implements Info{
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> @Override
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> public String getInfo() {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> return &amp;#34;Receive WeChat&amp;#34;;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>//person 接受信息
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>class Person {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> public void receive(Info info) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> System.out.println(info.getInfo());
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;hr>
+&lt;h2 id="参考资料">参考资料&lt;/h2>
+&lt;p>&lt;a class="link" href="http://www.jasongj.com/design_pattern/simple_factory/" target="_blank" rel="noopener"
+>设计模式资料&lt;/a>&lt;/BR>
+&lt;a class="link" href="https://www.jianshu.com/p/b2c08a670299" target="_blank" rel="noopener"
+>常用结构性模型&lt;/a>&lt;/p>
+&lt;p>&lt;a class="link" href="https://www.bilibili.com/video/BV1G4411c7N4?p=6&amp;amp;vd_source=7c47b6d72612787b009ac686785b509a" target="_blank" rel="noopener"
+>设计模式-视频讲解&lt;/a>&lt;/p>
+&lt;p>&lt;a class="link" href="https://github-yuteng.github.io/2019/08/01/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B8%83%E5%A4%A7%E5%8E%9F%E5%88%99/" target="_blank" rel="noopener"
+>设计模式-原则&lt;/a>
+&lt;a class="link" href="https://blog.csdn.net/java123456111/article/details/124841336" target="_blank" rel="noopener"
+>设计模式-原则&lt;/a>&lt;/p></description></item><item><title>亲子环青海湖骑行-环湖篇</title><link>https://justkids.top/p/%E4%BA%B2%E5%AD%90%E7%8E%AF%E9%9D%92%E6%B5%B7%E6%B9%96%E9%AA%91%E8%A1%8C-%E7%8E%AF%E6%B9%96%E7%AF%87/</link><pubDate>Tue, 02 Aug 2022 15:43:00 +0800</pubDate><guid>https://justkids.top/p/%E4%BA%B2%E5%AD%90%E7%8E%AF%E9%9D%92%E6%B5%B7%E6%B9%96%E9%AA%91%E8%A1%8C-%E7%8E%AF%E6%B9%96%E7%AF%87/</guid><description>&lt;img src="https://cdn.staticaly.com/gh/justkids2018/cdn@main/tool/20220803145353.jpeg" alt="Featured image of post 亲子环青海湖骑行-环湖篇" />&lt;h2 id="亲子环青海湖骑行">亲子环青海湖骑行&lt;/h2>
 &lt;p>&lt;img src="https://cdn.staticaly.com/gh/justkids2018/cdn@main/tool/20220803145133.jpeg"
 loading="lazy"
 alt="亲子环湖"
