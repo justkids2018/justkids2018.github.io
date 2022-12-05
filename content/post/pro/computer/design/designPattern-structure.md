@@ -8,8 +8,8 @@ author: "qsd"
 authorLink: ""
 description: ""
 
-tags: [DesignPattern]
-categories: [Framework]
+tags: []
+categories: [DesignPattern]
 
 hiddenFromHomePage: false
 hiddenFromSearch: false

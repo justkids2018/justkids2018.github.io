@@ -8,8 +8,8 @@ author: "qsd"
 authorLink: ""
 description: "设计模式-UML基础"
 
-tags: [DesignPattern]
-categories: [Framework]
+tags: []
+categories: [DesignPattern]
 
 hiddenFromHomePage: false
 hiddenFromSearch: false

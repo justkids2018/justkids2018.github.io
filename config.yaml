@@ -195,7 +195,7 @@ menu:
     
     main:
         - identifier: home
-          name: 时光列车
+          name: 首页
           url: /
           weight: -100
           params:
