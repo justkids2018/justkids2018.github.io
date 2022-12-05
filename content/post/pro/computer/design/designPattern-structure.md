@@ -1,12 +1,12 @@
 ---
-title: "设计模式-1"
-subtitle: "设计模式原则和分类"
+title: "设计模式-结构"
+subtitle: ""
 date: 2022-12-01 
 lastmod: 2022-12-01 
 draft: false
 author: "qsd"
 authorLink: ""
-description: "设计模式原则和分类"
+description: ""
 
 tags: [DesignPattern]
 categories: [Framework]
@@ -24,26 +24,7 @@ math:
 lightgallery: true
 license: ""
 ---
-
-## 设计6大原则
-
-### 开闭原则(Open Close Principle)
-
-软件实体（模块、类、方法等）应该<FONT COLOR=RED>"对扩展开放、对修改关闭"</FONT>.
-**最基础，最重要的原则**
-
-从定义上看，这个原则主要包含两部分:
-**1 对扩展开放**
- 
-   这意味着模块的行为是可以扩展的。当应用程序的需求改变时，我们可以对其模块进行扩展，使其具有满足那些需求变更的新行为。换句话说，我们可以改变模块的功能。
-
-**2 对修改关闭**
-
-“对模块行为进行扩展时，不必改动该模块的源代码或二进制代码。模块的二进制可执行版本，无论是可链接的库、DLL或Java的.jar文件，都无需改动
-
-
-
-##  模式划分3种类型
+##  模式划分三种类型
 * 1、行为型
 * 2、结构型
 * 3、创建型
@@ -68,4 +49,7 @@ license: ""
  [设计模式资料](http://www.jasongj.com/design_pattern/simple_factory/)</BR>
  [常用结构性模型](https://www.jianshu.com/p/b2c08a670299)
 
+ [设计模式-视频讲解](https://www.bilibili.com/video/BV1G4411c7N4?p=6&vd_source=7c47b6d72612787b009ac686785b509a)
+
+ [设计模式-原则](https://github-yuteng.github.io/2019/08/01/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B8%83%E5%A4%A7%E5%8E%9F%E5%88%99/)
  <!--more-->
