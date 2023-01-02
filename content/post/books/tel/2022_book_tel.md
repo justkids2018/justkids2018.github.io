@@ -25,9 +25,17 @@ lightgallery: false
 license: ""
 ---
 
-**《编程》--隐匿在计算机软硬件背后的语言 **
+**《编程》--隐匿在计算机软硬件背后的语言**
 
-作者：charles petzold
+<IMG SRC="https://img2.doubanio.com/view/subject/l/public/s27331702.jpg" width="200">
+
+**作者: [美] Charles Petzold**
+副标题: 隐匿在计算机软硬件背后的语言
+原作名: Code: The Hidden Language of Computer Hardware and Software
+[豆瓣:书籍引用](https://book.douban.com/subject/4822685/)
+-- --
+
+
 
 
 
