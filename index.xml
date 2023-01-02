@@ -896,8 +896,14 @@ loading="lazy"
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> https://cdn.staticaly.com/gh/
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div></description></item><item><title>2022-1-读书笔记《编程》</title><link>https://justkids.top/p/2022-1-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0%E7%BC%96%E7%A8%8B/</link><pubDate>Sat, 07 Aug 2021 07:13:20 +0800</pubDate><guid>https://justkids.top/p/2022-1-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0%E7%BC%96%E7%A8%8B/</guid><description>&lt;p>**《编程》&amp;ndash;隐匿在计算机软硬件背后的语言 **&lt;/p>
-&lt;p>作者：charles petzold&lt;/p></description></item><item><title>服务器部署在线和本地</title><link>https://justkids.top/p/%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%83%A8%E7%BD%B2%E5%9C%A8%E7%BA%BF%E5%92%8C%E6%9C%AC%E5%9C%B0/</link><pubDate>Sat, 07 Aug 2021 07:13:20 +0800</pubDate><guid>https://justkids.top/p/%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%83%A8%E7%BD%B2%E5%9C%A8%E7%BA%BF%E5%92%8C%E6%9C%AC%E5%9C%B0/</guid><description>&lt;h3 id="heading">&lt;/h3>
+&lt;/div></description></item><item><title>2022-1-读书笔记《编程》</title><link>https://justkids.top/p/2022-1-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0%E7%BC%96%E7%A8%8B/</link><pubDate>Sat, 07 Aug 2021 07:13:20 +0800</pubDate><guid>https://justkids.top/p/2022-1-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0%E7%BC%96%E7%A8%8B/</guid><description>&lt;p>&lt;strong>《编程》&amp;ndash;隐匿在计算机软硬件背后的语言&lt;/strong>&lt;/p>
+&lt;IMG SRC="https://img2.doubanio.com/view/subject/l/public/s27331702.jpg" width="200">
+&lt;p>&lt;strong>作者: [美] Charles Petzold&lt;/strong>
+副标题: 隐匿在计算机软硬件背后的语言
+原作名: Code: The Hidden Language of Computer Hardware and Software
+&lt;a class="link" href="https://book.douban.com/subject/4822685/" target="_blank" rel="noopener"
+>豆瓣:书籍引用&lt;/a>&lt;/p>
+&lt;hr></description></item><item><title>服务器部署在线和本地</title><link>https://justkids.top/p/%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%83%A8%E7%BD%B2%E5%9C%A8%E7%BA%BF%E5%92%8C%E6%9C%AC%E5%9C%B0/</link><pubDate>Sat, 07 Aug 2021 07:13:20 +0800</pubDate><guid>https://justkids.top/p/%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%83%A8%E7%BD%B2%E5%9C%A8%E7%BA%BF%E5%92%8C%E6%9C%AC%E5%9C%B0/</guid><description>&lt;h3 id="heading">&lt;/h3>
 &lt;h3 id="本地工具部署-指南">本地工具部署 指南&lt;/h3>
 &lt;blockquote>
 &lt;p>安装my sql&lt;/p>
