@@ -1,6 +1,6 @@
 ---
-title: "设计模式-六原则"
-subtitle: "设计模式原则和分类"
+title: "设计模式-七原则"
+subtitle: "设计模式原则"
 date: 2022-12-01 
 lastmod: 2022-12-01 
 draft: false
@@ -25,7 +25,7 @@ lightgallery: true
 license: ""
 ---
 
-## 设计6大原则
+## 设计模式七原则
 
 ### 设计模式的目的
 
@@ -38,9 +38,9 @@ license: ""
 4) 可靠性 (即:当我们增加新的功能后，对原来的功能没有影响)
 5) 使程序呈现高内聚，低耦合的特性
 ```
-### 一、单一原则(Single responsibility)
+### 单一原则(Single responsibility)
 
-#### 1.1 介绍
+#### 介绍
 **单一职责原则注意事项和细节：**
 
 1、降低类的复杂度，一个类只负责一项职责
@@ -75,15 +75,15 @@ class Vehicle {
 }
 ```
 
-### 二、接口隔离原则（Interface Segregation）
+### 接口隔离原则（Interface Segregation）
 
-#### **2.1 介绍**
+#### **介绍**
 
 客户端不应该依赖它不需要的接口，即**一个类对另一个类的依赖应该建立在最小的接口上**
 
 
  
- **2.2 不符合设计模式UML**
+ #### ** 不符合设计模式UML**
  <IMG SRC="https://img-blog.csdnimg.cn/4ef0a747466f4c2ab2a2949fec9a4729.png#pic_center">
 分析：
 
@@ -93,7 +93,7 @@ class Vehicle {
 
 ​ 将接口Interface1拆分为独立的几个接口， 类A和类C分别与他们需要的接口建立依赖关系。也就是采用接口隔离原则
 
-####  **2.3 接口隔离模式UML**
+####  **口隔离模式UML**
 
 应传统方法的问题和使用接口隔离原则改进
 * 1、类A通过接口 Interface1、2 依赖类B，类C通过接口   Interface1、 3 依赖类D，如果接口 Interface 对于 类A 和 类C 来说不是最小接口，那么 类B 和 类D 必须去实现他们不需要的方法。
@@ -203,9 +203,9 @@ class C {
 
 -- --
 
-### 三、依赖倒转原则（Dependence Inversion）
+### 依赖倒转原则（Dependence Inversion）
 
-#### 3.1 基本介绍
+#### 基本介绍
 
 ​ 1) 高层模块不应该依赖低层模块，二者都应该依赖其抽象
 
@@ -218,7 +218,7 @@ class C {
 
 ​ 5) 使用接口或抽象类的目的是制定好规范，而不涉及任何具体的操作，把展现细节的任务交给他们的实现类去完成
 
-#### 3.2、依赖倒转原则注意事项和细节
+#### 依赖倒转原则注意事项和细节
 ​ 1) 低层模块尽量都要有抽象类或接口，或者两者都有，程序稳定性更好
 
 ​ 2) 变量的声明类型尽量是抽象类或接口, 这样我们的变量引用和实际对象间，就存在 一个缓冲层，利于程序扩展和优化
@@ -227,7 +227,7 @@ class C {
 
 
 
-#### 3.3 依赖关系三种传递方式：
+#### 依赖关系三种传递方式：
 
 * 接口传递（依赖）
 * 构造方法传递（依赖）
@@ -273,9 +273,9 @@ class Person {
 ```
 -- --
 
-### 四、里氏替换原则（Liskov Substitution Principle）
+### 里氏替换原则（Liskov Substitution Principle）
 
-#### 4.1基本介绍
+#### 基本介绍
 1) 里氏替换原则(Liskov Substitution Principle)在1988 年，由麻省理工学院的Barbara Liskov提出的。
 2) 如果对每个类型为T1 的对象o1，都有类型为T2 的对象o2，使得以T1 定义的所有程序P 在所有的对象o1 都
 代换成o2 时，程序P 的行为没有发生变化，那么类型T2 是类型T1 的子类型。换句话说，所有引用基类的地
@@ -283,7 +283,7 @@ class Person {
 1) 在使用继承时，<FONT COLOR=RED>遵循里氏替换原则，在子类中尽量不要重写父类的方法</FONT>
 2) 里氏替换原则告诉我们:<FONT COLOR=RED>继承实际上让两个类耦合性增强了，在适当的情况下，可以通过聚合，组合，依赖 来解决问题</FONT>
 
-#### 4.2 OO 中的继承性的思考和说明
+#### OO 中的继承性的思考和说明
 1) 继承包含这样一层含义：父类中凡是已经实现好的方法，实际上是在设定规范和契约，虽然它不强制要求所有
 的子类必须遵循这些契约，但是如果子类对这些已经实现的方法任意修改，就会对整个继承体系造成破坏。
 2) 继承在给程序设计带来便利的同时，也带来了弊端。比如使用继承会给程序带来侵入性，程序的可移植性降低，
@@ -291,7 +291,10 @@ class Person {
 父类修改后，所有涉及到子类的功能都有可能产生故障
 3) 问题提出：在编程中，如何正确的使用继承? => 里氏替换原则
 
-### 五、开闭原则(Open Close Principle)
+---- 
+
+
+### 开闭原则(Open Close Principle)
 
 软件实体（模块、类、方法等）应该<FONT COLOR=RED>"对扩展开放、对修改关闭"</FONT>.
 **最基础，最重要的原则**
@@ -351,9 +354,9 @@ class OtherGraphic extends Shape {
 
 -- --
 
-### 六、迪米特法则 (Demeter Principle)
+### 迪米特法则 (Demeter Principle)
 
-#### 6.1 基本介绍
+####  基本介绍
 
 1) 一个对象应该对其他对象保持最少的了解
 2) **类与类关系越密切，耦合度越大**
@@ -364,7 +367,7 @@ class OtherGraphic extends Shape {
 5) <FONT COLOR=RED>直接的朋友:</FONT>
    每个对象都会与其他对象有耦合关系只要两个对象之间有耦合关系， 我们就说这两个对象之间是朋友关系。耦合的方式很多，依赖，关联，组合，聚合 等。其中，我们称出现成员变量，方法参数，方法返回值中的类为直接的朋友，而 出现在局部变量中的类不是直接的朋友。也就是说，<Font COLOR=RED>陌生的类最好不要以局部变量 的形式出现在类的内部。</FONT>
 
-#### 6.2 迪米特法则注意事项和细节
+#### 迪米特法则注意事项和细节
 
 1) <FONT COLOR=RED>迪米特法则的核心是降低类之间的耦合</Font>
 2) 但是注意:由于每个类都减少了不必要的依赖，因此迪米特法则**只是要求降低 类间(对象间)耦合关系， 并不是要求完全没有依赖关系**  
@@ -463,10 +466,10 @@ class SchoolManager {
 
 
 
-### 七、 合成复用原则(Composite Reuse Principle)
+###  合成复用原则(Composite Reuse Principle)
 
 
-#### 7.1 基本介绍：
+#### 基本介绍：
 
 <FONT COLOR=RED>原则是尽量使用合成/聚合的方式，而不是使用继承</FONT>
 
@@ -477,10 +480,13 @@ class SchoolManager {
 
 
 ## 参考资料
- [设计模式资料](http://www.jasongj.com/design_pattern/simple_factory/)</BR>
- [常用结构性模型](https://www.jianshu.com/p/b2c08a670299)
- [设计模式-视频讲解](https://www.bilibili.com/video/BV1G4411c7N4?p=6&vd_source=7c47b6d72612787b009ac686785b509a)
+ [设计模式资料](http://www.jasongj.com/design_pattern/simple_factory/)
 
+ [常用结构性模型](https://www.jianshu.com/p/b2c08a670299)
+ 
+ [设计模式-视频讲解](https://www.bilibili.com/video/BV1G4411c7N4?p=6&vd_source=7c47b6d72612787b009ac686785b509a)
+ 
  [设计模式-原则](https://github-yuteng.github.io/2019/08/01/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B8%83%E5%A4%A7%E5%8E%9F%E5%88%99/)
+ 
  [设计模式-原则](https://blog.csdn.net/java123456111/article/details/124841336)
  <!--more-->
