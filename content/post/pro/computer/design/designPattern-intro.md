@@ -27,7 +27,6 @@ license: ""
 
 ## 设计模式七原则
 
-### 设计模式的目的
 
 编写软件过程中，程序员面临着来自 耦合性，内聚性以及可维护性，可扩展性，重
 用性，灵活性 等多方面的挑战，设计模式是为了让程序(软件)，具有更好
@@ -38,7 +37,7 @@ license: ""
 4) 可靠性 (即:当我们增加新的功能后，对原来的功能没有影响)
 5) 使程序呈现高内聚，低耦合的特性
 ```
-### 单一原则(Single responsibility)
+### 一. 单一原则(Single responsibility)
 
 #### 介绍
 **单一职责原则注意事项和细节：**
@@ -75,7 +74,7 @@ class Vehicle {
 }
 ```
 
-### 接口隔离原则（Interface Segregation）
+### 二. 接口隔离原则（Interface Segregation）
 
 #### **介绍**
 
@@ -203,7 +202,7 @@ class C {
 
 -- --
 
-### 依赖倒转原则（Dependence Inversion）
+### 三. 依赖倒转原则（Dependence Inversion）
 
 #### 基本介绍
 
@@ -273,7 +272,7 @@ class Person {
 ```
 -- --
 
-### 里氏替换原则（Liskov Substitution Principle）
+### 四. 里氏替换原则（Liskov Substitution Principle）
 
 #### 基本介绍
 1) 里氏替换原则(Liskov Substitution Principle)在1988 年，由麻省理工学院的Barbara Liskov提出的。
@@ -294,7 +293,7 @@ class Person {
 ---- 
 
 
-### 开闭原则(Open Close Principle)
+### 五. 开闭原则(Open Close Principle)
 
 软件实体（模块、类、方法等）应该<FONT COLOR=RED>"对扩展开放、对修改关闭"</FONT>.
 **最基础，最重要的原则**
@@ -354,7 +353,7 @@ class OtherGraphic extends Shape {
 
 -- --
 
-### 迪米特法则 (Demeter Principle)
+### 六. 迪米特法则 (Demeter Principle)
 
 ####  基本介绍
 
@@ -466,7 +465,7 @@ class SchoolManager {
 
 
 
-###  合成复用原则(Composite Reuse Principle)
+### 七. 合成复用原则(Composite Reuse Principle)
 
 
 #### 基本介绍：
