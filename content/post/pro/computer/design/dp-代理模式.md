@@ -1,5 +1,5 @@
 ---
-title: "设计模式【结构型】之一 桥接模式"
+title: "设计模式【结构型】之六 代理模式"
 subtitle: ""
 date: 2022-12-01 
 lastmod: 2022-12-01 
@@ -24,12 +24,33 @@ math:
 lightgallery: true
 license: ""
 ---
-### 1 桥接模式
-#### 1.1 定义：
-桥接模式（Bridge Pattern）
 
-<FONT COLOR=RED>将抽象部分与它的实现分离，使它们都可以独立地变化。</FONT>
-更容易理解的表述是：实现系统可从多种维度分类，桥接模式将各维度抽象出来，各维度独立变化，之后可通过聚合，将各维度组合起来，减少了各维度间的耦合。
+### 1、代理模式
+#### 1、模式类型：
+    结构型
+#### 2、定义：
+   代理模式：为一个对象<FONT COLOR=RED>提供替身</FONT>
+#### 3、静态代理
+##### 3.1 介绍
+
+
+#### 4、动态代理
+```
+
+```
+
+### 2、实例：
+
+### 3、应用场景
+```
+1 封装有缺陷的接口设计
+2 统一多个类的接口设计
+3 替换依赖的外部系统
+4 兼容老版本接口
+5 适配不同格式的数据
+```
+
+
 
 
 
@@ -40,7 +61,8 @@ license: ""
 
 
 ### 参考资料
- [设计模式资料](http://www.jasongj.com/design_pattern/simple_factory/)</BR>
+ [设计模式-代理模式](http://www.jasongj.com/design_pattern/proxy_decorator/)</BR>
+ [动态dialing-cgib ](http://www.jasongj.com/design_pattern/dynamic_proxy_cglib/)
  [常用结构性模型](https://www.jianshu.com/p/b2c08a670299)
 
  [设计模式-视频讲解](https://www.bilibili.com/video/BV1G4411c7N4?p=6&vd_source=7c47b6d72612787b009ac686785b509a)

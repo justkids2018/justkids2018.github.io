@@ -13,5 +13,6 @@
 
 * hugo new  test.md
 * hugo new  /posts/test.md
+* 
 * hugo server --theme=hyde --buildDrafts
 * hugo server  --buildDrafts
