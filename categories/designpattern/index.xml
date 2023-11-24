@@ -1,4 +1,132 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>DesignPattern on JustKids</title><link>https://justkids.top/categories/designpattern/</link><description>Recent content in DesignPattern on JustKids</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 01 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://justkids.top/categories/designpattern/index.xml" rel="self" type="application/rss+xml"/><item><title>设计模式-1-UML</title><link>https://justkids.top/p/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-1-uml/</link><pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate><guid>https://justkids.top/p/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-1-uml/</guid><description>&lt;h2 id="设计模式-uml-基础知识">设计模式-UML 基础知识&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>DesignPattern on JustKids</title><link>https://justkids.top/categories/designpattern/</link><description>Recent content in DesignPattern on JustKids</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 27 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://justkids.top/categories/designpattern/index.xml" rel="self" type="application/rss+xml"/><item><title>设计模式【结构型】之四 外观模式</title><link>https://justkids.top/p/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E7%BB%93%E6%9E%84%E5%9E%8B%E4%B9%8B%E5%9B%9B-%E5%A4%96%E8%A7%82%E6%A8%A1%E5%BC%8F/</link><pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate><guid>https://justkids.top/p/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E7%BB%93%E6%9E%84%E5%9E%8B%E4%B9%8B%E5%9B%9B-%E5%A4%96%E8%A7%82%E6%A8%A1%E5%BC%8F/</guid><description>&lt;h3 id="1外观模式-也叫门面模式">1、外观模式-也叫门面模式&lt;/h3>
+&lt;h4 id="1模式类型">1、模式类型：&lt;/h4>
+&lt;pre>&lt;code>结构型
+&lt;/code>&lt;/pre>
+&lt;h4 id="2定义">2、定义：&lt;/h4>
+&lt;ol>
+&lt;li>外观模式（Facade），也叫“过程模式
+外观模式为子系统中的一组接口提供一个一致的界面，此模式定义了一个高层接口，这个接口使得这一子系统更加
+容易使用&lt;/li>
+&lt;li>外观模式通过定义一个一致的接口，用以屏蔽内部子系统的细节，使得调用端
+只需跟这个接口发生调用，而无需关心这个子系统的内部细节&lt;/li>
+&lt;/ol>
+&lt;h4 id="3原理类图">3、原理类图&lt;/h4>
+&lt;h5 id="31-uml-图">3.1 uml 图&lt;/h5>
+&lt;h5 id="32-原理说明">3.2 原理说明&lt;/h5>
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">0
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>1) 外观类(Facade): 为调用端提供统一的调用接口, 外观类知道哪些子系统负责处理请求,从而将调用端的请求代理给适当
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>子系统对象
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>2) 调用者(Client): 外观接口的调用者
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>3) 子系统的集合：指模块或者子系统，处理Facade 对象指派的任务，他是功能的实际提供者
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="2实例">2、实例：&lt;/h3>
+&lt;h3 id="3-注意细节">3、 注意细节&lt;/h3>
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">0
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">6
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">7
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">8
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">9
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>1) 外观模式对外屏蔽了子系统的细节，因此外观模式降低了客户端对子系统使用的复
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>杂性
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>2) 外观模式对客户端与子系统的耦合关系，让子系统内部的模块更易维护和扩展
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>3) 通过合理的使用外观模式，可以帮我们更好的划分访问的层次
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>4) 当系统需要进行分层设计时，可以考虑使用Facade模式
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>5) 在维护一个遗留的大型系统时，可能这个系统已经变得非常难以维护和扩展，此时
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>可以考虑为新系统开发一个Facade类，来提供遗留系统的比较清晰简单的接口，
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>让新系统与Facade类交互，提高复用性
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>6) 不能过多的或者不合理的使用外观模式，使用外观模式好，还是直接调用模块好。
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>要以让系统有层次，利于维护为目的。
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="3应用场景">3、应用场景&lt;/h3>
+&lt;h3 id="参考资料">参考资料&lt;/h3>
+&lt;p>&lt;a class="link" href="http://www.jasongj.com/design_pattern/simple_factory/" target="_blank" rel="noopener"
+>设计模式资料&lt;/a>&lt;/BR>
+&lt;a class="link" href="https://www.jianshu.com/p/b2c08a670299" target="_blank" rel="noopener"
+>常用结构性模型&lt;/a>&lt;/p>
+&lt;p>&lt;a class="link" href="https://www.bilibili.com/video/BV1G4411c7N4?p=6&amp;amp;vd_source=7c47b6d72612787b009ac686785b509a" target="_blank" rel="noopener"
+>设计模式-视频讲解&lt;/a>&lt;/p>
+&lt;p>&lt;a class="link" href="https://github-yuteng.github.io/2019/08/01/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B8%83%E5%A4%A7%E5%8E%9F%E5%88%99/" target="_blank" rel="noopener"
+>设计模式-原则&lt;/a>&lt;/p></description></item><item><title>设计模式【结构型】之五 享元模式</title><link>https://justkids.top/p/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E7%BB%93%E6%9E%84%E5%9E%8B%E4%B9%8B%E4%BA%94-%E4%BA%AB%E5%85%83%E6%A8%A1%E5%BC%8F/</link><pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate><guid>https://justkids.top/p/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E7%BB%93%E6%9E%84%E5%9E%8B%E4%B9%8B%E4%BA%94-%E4%BA%AB%E5%85%83%E6%A8%A1%E5%BC%8F/</guid><description>&lt;h3 id="1享元模式">1、享元模式&lt;/h3>
+&lt;h4 id="1模式类型">1、模式类型：&lt;/h4>
+&lt;pre>&lt;code>结构型
+&lt;/code>&lt;/pre>
+&lt;h4 id="2定义">2、定义：&lt;/h4>
+&lt;p>享元模式（Flyweight Pattern） 也叫 蝇量模式: 运用共享技术有效地支持大量细粒度的对象
+2) 常用于系统底层开发，解决系统的性能问题。像数据库连接池，里面都是创建好的连接对象，在这些连接对象
+中有我们需要的则直接拿来用，避免重新创建，如果没有我们需要的，则创建一个
+3) 享元模式能够解决重复对象的内存浪费的问题，当系统中有大量相似对象，需要缓冲池时。不需总是创建新对
+象，可以从缓冲池里拿。这样可以降低系统内存，同时提高效率
+4) 享元模式经典的应用场景就是池技术了，String 常量池、数据库连接池、缓冲池等等都是享元模式的应用，享
+元模式是池技术的重要实现方式&lt;/p>
+&lt;h4 id="3原理类图">3、原理类图&lt;/h4>
+&lt;h5 id="31-uml-图">3.1 uml 图&lt;/h5>
+&lt;h5 id="32-原理说明">3.2 原理说明&lt;/h5>
+&lt;p>对原理图的说明-即(模式的角色及职责)&lt;/p>
+&lt;ol>
+&lt;li>FlyWeight 是抽象的享元角色, 他是产品的抽象类, 同时定义出对象的&lt;fONT COLOR=RED>外部状态和内部状态&lt;/FONT>(后面介绍) 的接口
+或实现&lt;/li>
+&lt;li>ConcreteFlyWeight 是具体的享元角色，是具体的产品类，实现抽象角色定义相关业务&lt;/li>
+&lt;li>UnSharedConcreteFlyWeight 是不可共享的角色，一般不会出现在享元工厂。&lt;/li>
+&lt;li>FlyWeightFactory 享元工厂类，用于构建一个池容器(集合)， 同时提供从池中获取对象方法&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">0
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">6
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">7
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>内部状态和外部状态
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>比如围棋、五子棋、跳棋，它们都有大量的棋子对象，围棋和五子棋只有黑白两色，跳棋颜色多一点，所以棋子颜
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>色就是棋子的内部状态；而各个棋子之间的差别就是位置的不同，当我们落子后，落子颜色是定的，但位置是变化
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>的，所以棋子坐标就是棋子的外部状态
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>1) 享元模式提出了两个要求：细粒度和共享对象。这里就涉及到内部状态和外部状态了，即将对象的信息分为两
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>个部分：内部状态和外部状态
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>2) 内部状态指对象共享出来的信息，存储在享元对象内部且不会随环境的改变而改变
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>3) 外部状态指对象得以依赖的一个标记，是随环境改变而改变的、不可共享的状态
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="2实例">2、实例：&lt;/h3>
+&lt;h3 id="3-注意细节">3、 注意细节&lt;/h3>
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code class="language-fallback" data-lang="fallback">&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="3应用场景">3、应用场景&lt;/h3>
+&lt;h3 id="参考资料">参考资料&lt;/h3>
+&lt;p>&lt;a class="link" href="http://www.jasongj.com/design_pattern/simple_factory/" target="_blank" rel="noopener"
+>设计模式资料&lt;/a>&lt;/BR>
+&lt;a class="link" href="https://www.jianshu.com/p/b2c08a670299" target="_blank" rel="noopener"
+>常用结构性模型&lt;/a>&lt;/p>
+&lt;p>&lt;a class="link" href="https://www.bilibili.com/video/BV1G4411c7N4?p=6&amp;amp;vd_source=7c47b6d72612787b009ac686785b509a" target="_blank" rel="noopener"
+>设计模式-视频讲解&lt;/a>&lt;/p>
+&lt;p>&lt;a class="link" href="https://github-yuteng.github.io/2019/08/01/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B8%83%E5%A4%A7%E5%8E%9F%E5%88%99/" target="_blank" rel="noopener"
+>设计模式-原则&lt;/a>&lt;/p></description></item><item><title>设计模式-1-UML</title><link>https://justkids.top/p/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-1-uml/</link><pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate><guid>https://justkids.top/p/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-1-uml/</guid><description>&lt;h2 id="设计模式-uml-基础知识">设计模式-UML 基础知识&lt;/h2>
 &lt;h3 id="1什么是uml图">1、什么是UML图&lt;/h3>
 &lt;p>即Unified Modeling Language，翻译为：统一建模语言。是用来对软件密集系统进行可视化建模的一种语言。一份典型的建模图表通常包含几个块或框，连接线和作为模型附加信息之用的文本。这些虽简单却非常重要，在UML规则中相互联系和扩展。&lt;/p>
 &lt;p>UML立足于对事物的实体、性质、关系、结构、状态和动态变化过程的全程描述和反映。UML可以从不同角度描述人们所观察到的软件视图，也可以描述在不同开发阶段中的软件的形态&lt;/p>
@@ -87,9 +215,7 @@
 &lt;a class="link" href="https://www.jianshu.com/p/b2c08a670299" target="_blank" rel="noopener"
 >常用结构性模型&lt;/a>&lt;/p>
 &lt;p>&lt;a class="link" href="https://www.bilibili.com/video/BV1G4411c7N4?p=6&amp;amp;vd_source=7c47b6d72612787b009ac686785b509a" target="_blank" rel="noopener"
->设计模式-视频讲解&lt;/a>&lt;/p>
-&lt;p>&lt;a class="link" href="https://github-yuteng.github.io/2019/08/01/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B8%83%E5%A4%A7%E5%8E%9F%E5%88%99/" target="_blank" rel="noopener"
->设计模式-原则&lt;/a>&lt;/p></description></item><item><title>设计模式-七原则</title><link>https://justkids.top/p/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E4%B8%83%E5%8E%9F%E5%88%99/</link><pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate><guid>https://justkids.top/p/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E4%B8%83%E5%8E%9F%E5%88%99/</guid><description>&lt;h2 id="设计模式七原则">设计模式七原则&lt;/h2>
+>设计模式-视频讲解&lt;/a>&lt;/p></description></item><item><title>设计模式-七原则</title><link>https://justkids.top/p/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E4%B8%83%E5%8E%9F%E5%88%99/</link><pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate><guid>https://justkids.top/p/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E4%B8%83%E5%8E%9F%E5%88%99/</guid><description>&lt;h2 id="设计模式七原则">设计模式七原则&lt;/h2>
 &lt;p>编写软件过程中，程序员面临着来自 耦合性，内聚性以及可维护性，可扩展性，重
 用性，灵活性 等多方面的挑战，设计模式是为了让程序(软件)，具有更好&lt;/p>
 &lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">
@@ -108,7 +234,11 @@
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>5) 使程序呈现高内聚，低耦合的特性
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;h3 id="一-单一原则single-responsibility">一. 单一原则(Single responsibility)&lt;/h3>
+&lt;/div>&lt;h3 id="面向对象设计原则">面向对象设计原则&lt;/h3>
+&lt;font color=red>
+对接口编程而不是对实现编程。
+优先使用对象组合而不是继承。&lt;/FONT>
+&lt;h3 id="一-单一原则single-responsibility">一. 单一原则(Single responsibility)&lt;/h3>
 &lt;h4 id="介绍">介绍&lt;/h4>
 &lt;p>&lt;strong>单一职责原则注意事项和细节：&lt;/strong>&lt;/p>
 &lt;p>1、降低类的复杂度，一个类只负责一项职责
@@ -178,7 +308,7 @@
 &lt;p>​ 1）类A通过接口Interface1依赖类B，类C通过 接口Interface1依赖类D，如果接口 Interface1对于类A和类C来说不是最小接口， 那么类B和类D必须去实现他们不需要的方法。&lt;/p>
 &lt;p>​ 2）按隔离原则应当这样处理&lt;/p>
 &lt;p>​ 将接口Interface1拆分为独立的几个接口， 类A和类C分别与他们需要的接口建立依赖关系。也就是采用接口隔离原则&lt;/p>
-&lt;h4 id="口隔离模式uml">&lt;strong>口隔离模式UML&lt;/strong>&lt;/h4>
+&lt;h4 id="接口隔离模式uml">&lt;strong>接口隔离模式UML&lt;/strong>&lt;/h4>
 &lt;p>应传统方法的问题和使用接口隔离原则改进&lt;/p>
 &lt;ul>
 &lt;li>1、类A通过接口 Interface1、2 依赖类B，类C通过接口 Interface1、 3 依赖类D，如果接口 Interface 对于 类A 和 类C 来说不是最小接口，那么 类B 和 类D 必须去实现他们不需要的方法。&lt;/li>
@@ -388,13 +518,13 @@
 &lt;h4 id="基本介绍">基本介绍&lt;/h4>
 &lt;p>​ 1) 高层模块不应该依赖低层模块，二者都应该依赖其抽象&lt;/p>
 &lt;p>​ 2) &lt;strong>抽象不应该依赖细节，细节应该依赖抽象&lt;/strong>&lt;/p>
-&lt;p>​ 3) 依赖倒转(倒置)的中心思想是面向接口编程&lt;/p>
+&lt;p>​ 3) 依赖倒转(倒置)的中心思想是：&lt;FONT COLOR=RED>面向接口编程&lt;/FONT>&lt;/p>
 &lt;p>​ 4) 依赖倒转原则是基于这样的设计理念：
 相对于细节的多变性，抽象的东西要稳定的多。以抽象为基础搭建的架构比以细节为基础的架构要稳定的多。在java中，抽象指的是接口或抽象类，细节就是具体的实现类&lt;/p>
 &lt;p>​ 5) 使用接口或抽象类的目的是制定好规范，而不涉及任何具体的操作，把展现细节的任务交给他们的实现类去完成&lt;/p>
 &lt;h4 id="依赖倒转原则注意事项和细节">依赖倒转原则注意事项和细节&lt;/h4>
-&lt;p>​ 1) 低层模块尽量都要有抽象类或接口，或者两者都有，程序稳定性更好&lt;/p>
-&lt;p>​ 2) 变量的声明类型尽量是抽象类或接口, 这样我们的变量引用和实际对象间，就存在 一个缓冲层，利于程序扩展和优化&lt;/p>
+&lt;p>​ 1) 低层模块尽量都要有抽象类或接口，或者两者都有，程序稳定性更好
+​ 2) 变量的声明类型尽量是抽象类或接口, 这样我们的变量引用和实际对象间，就存在 一个缓冲层，利于程序扩展和优化&lt;/p>
 &lt;p>​ 3) 继承时遵循里氏替换原则&lt;/p>
 &lt;h4 id="依赖关系三种传递方式">依赖关系三种传递方式：&lt;/h4>
 &lt;ul>
@@ -551,44 +681,44 @@
 &lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">39
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>//main
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>public static void main(String[] args) {
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> //使用看看存在的问题
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> GraphicEditor graphicEditor = new GraphicEditor();
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> graphicEditor.drawShape(new Rectangle());
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> graphicEditor.drawShape(new Circle());
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> graphicEditor.drawShape(new Triangle());
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> graphicEditor.drawShape(new OtherGraphic());
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code class="language-gdscript3" data-lang="gdscript3">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">//&lt;/span>main
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>public &lt;span style="color:#66d9ef">static&lt;/span> void main(&lt;span style="color:#a6e22e">String&lt;/span>[] args) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">//&lt;/span>&lt;span style="color:#960050;background-color:#1e0010">使用看看存在的问题&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> GraphicEditor graphicEditor &lt;span style="color:#f92672">=&lt;/span> new GraphicEditor();
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> graphicEditor&lt;span style="color:#f92672">.&lt;/span>drawShape(new Rectangle());
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> graphicEditor&lt;span style="color:#f92672">.&lt;/span>drawShape(new Circle());
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> graphicEditor&lt;span style="color:#f92672">.&lt;/span>drawShape(new Triangle());
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> graphicEditor&lt;span style="color:#f92672">.&lt;/span>drawShape(new OtherGraphic());
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>//这是一个用于绘图的类 [使用方]
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>class GraphicEditor {
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> //接收Shape 对象，调用draw 方法
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> public void drawShape(Shape s) {
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> s.draw();
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">//&lt;/span>&lt;span style="color:#960050;background-color:#1e0010">这是一个用于绘图的类&lt;/span> [&lt;span style="color:#960050;background-color:#1e0010">使用方&lt;/span>]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">class&lt;/span> GraphicEditor {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">//&lt;/span>&lt;span style="color:#960050;background-color:#1e0010">接收&lt;/span>&lt;span style="color:#a6e22e">Shape&lt;/span> &lt;span style="color:#960050;background-color:#1e0010">对象，调用&lt;/span>draw &lt;span style="color:#960050;background-color:#1e0010">方法&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> public void drawShape(&lt;span style="color:#a6e22e">Shape&lt;/span> s) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> s&lt;span style="color:#f92672">.&lt;/span>draw();
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>//新增画三角形
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>class Triangle extends Shape {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">//&lt;/span>&lt;span style="color:#960050;background-color:#1e0010">新增画三角形&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">class&lt;/span> Triangle &lt;span style="color:#66d9ef">extends&lt;/span> &lt;span style="color:#a6e22e">Shape&lt;/span> {
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Triangle() {
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> super.m_type = 3;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> super&lt;span style="color:#f92672">.&lt;/span>m_type &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#ae81ff">3&lt;/span>;
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> @Override
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#960050;background-color:#1e0010">@&lt;/span>Override
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> public void draw() {
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> // TODO Auto-generated method stub
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> System.out.println(&amp;#34; 绘制三角形 &amp;#34;);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">//&lt;/span> TODO Auto&lt;span style="color:#f92672">-&lt;/span>generated method stub
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> System&lt;span style="color:#f92672">.&lt;/span>out&lt;span style="color:#f92672">.&lt;/span>println(&lt;span style="color:#e6db74">&amp;#34; 绘制三角形 &amp;#34;&lt;/span>);
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>//新增一个图形
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>class OtherGraphic extends Shape {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">//&lt;/span>&lt;span style="color:#960050;background-color:#1e0010">新增一个图形&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">class&lt;/span> OtherGraphic &lt;span style="color:#66d9ef">extends&lt;/span> &lt;span style="color:#a6e22e">Shape&lt;/span> {
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> OtherGraphic() {
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> super.m_type = 4;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> super&lt;span style="color:#f92672">.&lt;/span>m_type &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#ae81ff">4&lt;/span>;
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> @Override
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#960050;background-color:#1e0010">@&lt;/span>Override
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> public void draw() {
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> // TODO Auto-generated method stub
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> System.out.println(&amp;#34; 绘制其它图形 &amp;#34;);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">//&lt;/span> TODO Auto&lt;span style="color:#f92672">-&lt;/span>generated method stub
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> System&lt;span style="color:#f92672">.&lt;/span>out&lt;span style="color:#f92672">.&lt;/span>println(&lt;span style="color:#e6db74">&amp;#34; 绘制其它图形 &amp;#34;&lt;/span>);
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
@@ -798,25 +928,65 @@
 &lt;h2 id="参考资料">参考资料&lt;/h2>
 &lt;p>&lt;a class="link" href="http://www.jasongj.com/design_pattern/simple_factory/" target="_blank" rel="noopener"
 >设计模式资料&lt;/a>&lt;/p>
-&lt;p>&lt;a class="link" href="https://www.jianshu.com/p/b2c08a670299" target="_blank" rel="noopener"
->常用结构性模型&lt;/a>&lt;/p>
+&lt;p>&lt;a class="link" href="https://www.runoob.com/design-pattern/design-pattern-intro.html" target="_blank" rel="noopener"
+>设计模式教程&lt;/a>&lt;/p>
 &lt;p>&lt;a class="link" href="https://www.bilibili.com/video/BV1G4411c7N4?p=6&amp;amp;vd_source=7c47b6d72612787b009ac686785b509a" target="_blank" rel="noopener"
 >设计模式-视频讲解&lt;/a>&lt;/p>
 &lt;p>&lt;a class="link" href="https://github-yuteng.github.io/2019/08/01/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B8%83%E5%A4%A7%E5%8E%9F%E5%88%99/" target="_blank" rel="noopener"
->设计模式-原则&lt;/a>&lt;/p></description></item><item><title>设计模式【结构型】之一 桥接模式</title><link>https://justkids.top/p/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E7%BB%93%E6%9E%84%E5%9E%8B%E4%B9%8B%E4%B8%80-%E6%A1%A5%E6%8E%A5%E6%A8%A1%E5%BC%8F/</link><pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate><guid>https://justkids.top/p/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E7%BB%93%E6%9E%84%E5%9E%8B%E4%B9%8B%E4%B8%80-%E6%A1%A5%E6%8E%A5%E6%A8%A1%E5%BC%8F/</guid><description>&lt;h2 id="桥接模式">桥接模式&lt;/h2>
-&lt;h3 id="1桥接模式">1、桥接模式&lt;/h3>
-&lt;p>定义：桥接模式（Bridge Pattern）
-&lt;FONT COLOR=RED>将抽象部分与它的实现分离，使它们都可以独立地变化。&lt;/FONT>
-更容易理解的表述是：实现系统可从多种维度分类，桥接模式将各维度抽象出来，各维度独立变化，之后可通过聚合，将各维度组合起来，减少了各维度间的耦合。&lt;/p>
-&lt;h2 id="参考资料">参考资料&lt;/h2>
-&lt;p>&lt;a class="link" href="http://www.jasongj.com/design_pattern/simple_factory/" target="_blank" rel="noopener"
->设计模式资料&lt;/a>&lt;/BR>
+>设计模式-原则&lt;/a>&lt;/p></description></item><item><title>设计模式-行为型-1 命令模式</title><link>https://justkids.top/p/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E8%A1%8C%E4%B8%BA%E5%9E%8B-1-%E5%91%BD%E4%BB%A4%E6%A8%A1%E5%BC%8F/</link><pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate><guid>https://justkids.top/p/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E8%A1%8C%E4%B8%BA%E5%9E%8B-1-%E5%91%BD%E4%BB%A4%E6%A8%A1%E5%BC%8F/</guid><description>&lt;h3 id="1命令模式">1、命令模式&lt;/h3>
+&lt;h4 id="1模式类型">1、模式类型：&lt;/h4>
+&lt;pre>&lt;code>行为型
+&lt;/code>&lt;/pre>
+&lt;h4 id="2基本介绍">2、基本介绍：&lt;/h4>
+&lt;p>命令模式（Command Pattern）：
+在软件设计中，我们经常需要向某些对象发送请求，但是并不知道请求的接收
+者是谁，也不知道被请求的操作是哪个，我们只需在程序运行时指定具体的请求接收者即可，此时，可以使用命令模式来进行设计。&lt;/p>
+&lt;ol>
+&lt;li>命名模式&lt;FONT COLOR=RED>使得请求发送者与请求接收者消除彼此之间的耦合，让对象之间的调用关系更加灵活，实现解耦。&lt;/font>&lt;/li>
+&lt;li>在命名模式中，会将一个请求封装为一个对象，以便使用不同参数来表示不同的请求(即命名)，同时命令模式
+也支持可撤销的操作。&lt;/li>
+&lt;/ol>
+&lt;h4 id="3原理图">3、原理图&lt;/h4>
+&lt;IMG SRC="img/command_pattern.png">
+&lt;h3 id="2实例代码">2、实例代码：&lt;/h3>
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code class="language-fallback" data-lang="fallback">&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="3注意事项">3、注意事项&lt;/h3>
+&lt;p>将发起请求的对象与执行请求的对象解耦。发起请求的对象是调用者，调用者只要调用命令对象的execute()方
+法就可以让接收者工作，而不必知道具体的接收者对象是谁、是如何实现的，命令对象会负责让接收者执行请
+求的动作，也就是说：”请求发起者”和“请求执行者”之间的解耦是通过命令对象实现的，命令对象起到了
+纽带桥梁的作用。
+2) 容易设计一个命令队列。只要把命令对象放到列队，就可以多线程的执行命令
+3) 容易实现对请求的撤销和重做
+4) &lt;strong>命令模式不足：可能导致某些系统有过多的具体命令类，增加了系统的复杂度，这点在在使用的时候要注意&lt;/strong>
+5) 空命令也是一种设计模式，它为我们省去了判空的操作。在上面的实例中，如果没有用空命令，我们每按下一
+个按键都要判空，这给我们编码带来一定的麻烦。&lt;/p>
+&lt;h3 id="4应用场景">4、应用场景&lt;/h3>
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">0
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>界面的一个按钮都是一条命令、
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>模拟CMD（DOS 命令）订单的撤销/恢复、触发-反馈机制
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="参考资料">参考资料&lt;/h3>
+&lt;p>&lt;a class="link" href="http://www.jasongj.com/design_pattern/proxy_decorator/" target="_blank" rel="noopener"
+>设计模式-代理模式&lt;/a>&lt;/BR>
+&lt;a class="link" href="http://www.jasongj.com/design_pattern/dynamic_proxy_cglib/" target="_blank" rel="noopener"
+>动态dialing-cgib &lt;/a>
 &lt;a class="link" href="https://www.jianshu.com/p/b2c08a670299" target="_blank" rel="noopener"
 >常用结构性模型&lt;/a>&lt;/p>
 &lt;p>&lt;a class="link" href="https://www.bilibili.com/video/BV1G4411c7N4?p=6&amp;amp;vd_source=7c47b6d72612787b009ac686785b509a" target="_blank" rel="noopener"
 >设计模式-视频讲解&lt;/a>&lt;/p>
 &lt;p>&lt;a class="link" href="https://github-yuteng.github.io/2019/08/01/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B8%83%E5%A4%A7%E5%8E%9F%E5%88%99/" target="_blank" rel="noopener"
->设计模式-原则&lt;/a>&lt;/p></description></item><item><title>设计模式【结构型】之一 适配器模式</title><link>https://justkids.top/p/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E7%BB%93%E6%9E%84%E5%9E%8B%E4%B9%8B%E4%B8%80-%E9%80%82%E9%85%8D%E5%99%A8%E6%A8%A1%E5%BC%8F/</link><pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate><guid>https://justkids.top/p/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E7%BB%93%E6%9E%84%E5%9E%8B%E4%B9%8B%E4%B8%80-%E9%80%82%E9%85%8D%E5%99%A8%E6%A8%A1%E5%BC%8F/</guid><description>&lt;h4 id="1适配器模式">1、适配器模式&lt;/h4>
+>设计模式-原则&lt;/a>&lt;/p></description></item><item><title>设计模式【结构型】之二 适配器模式</title><link>https://justkids.top/p/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E7%BB%93%E6%9E%84%E5%9E%8B%E4%B9%8B%E4%BA%8C-%E9%80%82%E9%85%8D%E5%99%A8%E6%A8%A1%E5%BC%8F/</link><pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate><guid>https://justkids.top/p/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E7%BB%93%E6%9E%84%E5%9E%8B%E4%B9%8B%E4%BA%8C-%E9%80%82%E9%85%8D%E5%99%A8%E6%A8%A1%E5%BC%8F/</guid><description>&lt;h4 id="1适配器模式">1、适配器模式&lt;/h4>
 &lt;p>1、模式类型：
 结构型
 2、定义：适配器模式（Adapter Pattern）&lt;/p>
@@ -874,6 +1044,453 @@
 &lt;a class="link" href="https://www.jianshu.com/p/b2c08a670299" target="_blank" rel="noopener"
 >常用结构性模型&lt;/a>&lt;/p>
 &lt;p>&lt;a class="link" href="https://www.bilibili.com/video/BV1G4411c7N4?p=6&amp;amp;vd_source=7c47b6d72612787b009ac686785b509a" target="_blank" rel="noopener"
+>设计模式-视频讲解&lt;/a>&lt;/p>
+&lt;p>&lt;a class="link" href="https://github-yuteng.github.io/2019/08/01/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B8%83%E5%A4%A7%E5%8E%9F%E5%88%99/" target="_blank" rel="noopener"
+>设计模式-原则&lt;/a>&lt;/p></description></item><item><title>设计模式【结构型】之六 代理模式</title><link>https://justkids.top/p/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E7%BB%93%E6%9E%84%E5%9E%8B%E4%B9%8B%E5%85%AD-%E4%BB%A3%E7%90%86%E6%A8%A1%E5%BC%8F/</link><pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate><guid>https://justkids.top/p/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E7%BB%93%E6%9E%84%E5%9E%8B%E4%B9%8B%E5%85%AD-%E4%BB%A3%E7%90%86%E6%A8%A1%E5%BC%8F/</guid><description>&lt;h3 id="1代理模式">1、代理模式&lt;/h3>
+&lt;h4 id="1模式类型">1、模式类型：&lt;/h4>
+&lt;pre>&lt;code>结构型
+&lt;/code>&lt;/pre>
+&lt;h4 id="2定义">2、定义：&lt;/h4>
+&lt;p>代理模式：为一个对象&lt;FONT COLOR=RED>提供替身&lt;/FONT>&lt;/p>
+&lt;h4 id="3静态代理">3、静态代理&lt;/h4>
+&lt;h5 id="31-介绍">3.1 介绍&lt;/h5>
+&lt;h4 id="4动态代理">4、动态代理&lt;/h4>
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code class="language-fallback" data-lang="fallback">&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="2实例">2、实例：&lt;/h3>
+&lt;h3 id="3应用场景">3、应用场景&lt;/h3>
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">0
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>1 封装有缺陷的接口设计
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>2 统一多个类的接口设计
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>3 替换依赖的外部系统
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>4 兼容老版本接口
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>5 适配不同格式的数据
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="参考资料">参考资料&lt;/h3>
+&lt;p>&lt;a class="link" href="http://www.jasongj.com/design_pattern/proxy_decorator/" target="_blank" rel="noopener"
+>设计模式-代理模式&lt;/a>&lt;/BR>
+&lt;a class="link" href="http://www.jasongj.com/design_pattern/dynamic_proxy_cglib/" target="_blank" rel="noopener"
+>动态dialing-cgib &lt;/a>
+&lt;a class="link" href="https://www.jianshu.com/p/b2c08a670299" target="_blank" rel="noopener"
+>常用结构性模型&lt;/a>&lt;/p>
+&lt;p>&lt;a class="link" href="https://www.bilibili.com/video/BV1G4411c7N4?p=6&amp;amp;vd_source=7c47b6d72612787b009ac686785b509a" target="_blank" rel="noopener"
+>设计模式-视频讲解&lt;/a>&lt;/p>
+&lt;p>&lt;a class="link" href="https://github-yuteng.github.io/2019/08/01/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B8%83%E5%A4%A7%E5%8E%9F%E5%88%99/" target="_blank" rel="noopener"
+>设计模式-原则&lt;/a>&lt;/p></description></item><item><title>设计模式【结构型】之三 外观模式</title><link>https://justkids.top/p/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E7%BB%93%E6%9E%84%E5%9E%8B%E4%B9%8B%E4%B8%89-%E5%A4%96%E8%A7%82%E6%A8%A1%E5%BC%8F/</link><pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate><guid>https://justkids.top/p/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E7%BB%93%E6%9E%84%E5%9E%8B%E4%B9%8B%E4%B8%89-%E5%A4%96%E8%A7%82%E6%A8%A1%E5%BC%8F/</guid><description>&lt;h3 id="1模式">1、模式&lt;/h3>
+&lt;h4 id="1模式类型">1、模式类型：&lt;/h4>
+&lt;pre>&lt;code>结构型
+&lt;/code>&lt;/pre>
+&lt;h4 id="2定义">2、定义：&lt;/h4>
+&lt;h4 id="3原理类图">3、原理类图&lt;/h4>
+&lt;h4 id="4工作原理">4、工作原理&lt;/h4>
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code class="language-fallback" data-lang="fallback">&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="2实例">2、实例：&lt;/h3>
+&lt;h3 id="3注意事项">3、注意事项&lt;/h3>
+&lt;h3 id="4应用场景">4、应用场景&lt;/h3>
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code class="language-fallback" data-lang="fallback">&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="参考资料">参考资料&lt;/h3>
+&lt;p>&lt;a class="link" href="http://www.jasongj.com/design_pattern/simple_factory/" target="_blank" rel="noopener"
+>设计模式资料&lt;/a>&lt;/BR>
+&lt;a class="link" href="https://www.jianshu.com/p/b2c08a670299" target="_blank" rel="noopener"
+>常用结构性模型&lt;/a>&lt;/p>
+&lt;p>&lt;a class="link" href="https://www.bilibili.com/video/BV1G4411c7N4?p=6&amp;amp;vd_source=7c47b6d72612787b009ac686785b509a" target="_blank" rel="noopener"
+>设计模式-视频讲解&lt;/a>&lt;/p>
+&lt;p>&lt;a class="link" href="https://github-yuteng.github.io/2019/08/01/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B8%83%E5%A4%A7%E5%8E%9F%E5%88%99/" target="_blank" rel="noopener"
+>设计模式-原则&lt;/a>&lt;/p></description></item><item><title>设计模式【结构型】之三 组合模式</title><link>https://justkids.top/p/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E7%BB%93%E6%9E%84%E5%9E%8B%E4%B9%8B%E4%B8%89-%E7%BB%84%E5%90%88%E6%A8%A1%E5%BC%8F/</link><pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate><guid>https://justkids.top/p/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E7%BB%93%E6%9E%84%E5%9E%8B%E4%B9%8B%E4%B8%89-%E7%BB%84%E5%90%88%E6%A8%A1%E5%BC%8F/</guid><description>&lt;h4 id="1适配器模式">1、适配器模式&lt;/h4>
+&lt;p>1、模式类型：
+结构型
+2、定义：适配器模式（Adapter Pattern）&lt;/p>
+&lt;p>&lt;font color=red>将一个类的接口转换成客户希望的另外一个接口。&lt;/FONT>适配器模式使得原本由于接口不兼容而不能一起工作的那些类可以一起工作。其别名为包装器(Wrapper)
+3、适配器分三类：&lt;/p>
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">0
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>类适配器模式、
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>对象适配器模式、
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>接口适配器模式
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>4、工作原理&lt;/p>
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">0
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>1) 适配器模式：将一个类的接口转换成另一种接口.让原本接口不兼容的类可以兼容
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>2) 从用户的角度看不到被适配者，是解耦的
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>3) 用户调用适配器转化出来的目标接口方法，适配器再调用被适配者的相关接口方法
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>4) 用户收到反馈结果，感觉只是和目标接口交互，如图
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h4 id="2原理uml图">2、原理uml图&lt;/h4>
+&lt;h4 id="3实例">3、实例：&lt;/h4>
+&lt;h4 id="4应用场景">4、应用场景&lt;/h4>
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">0
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>1 封装有缺陷的接口设计
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>2 统一多个类的接口设计
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>3 替换依赖的外部系统
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>4 兼容老版本接口
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>5 适配不同格式的数据
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="参考资料">参考资料&lt;/h3>
+&lt;p>&lt;a class="link" href="http://www.jasongj.com/design_pattern/simple_factory/" target="_blank" rel="noopener"
+>设计模式资料&lt;/a>&lt;/BR>
+&lt;a class="link" href="https://www.jianshu.com/p/b2c08a670299" target="_blank" rel="noopener"
+>常用结构性模型&lt;/a>&lt;/p>
+&lt;p>&lt;a class="link" href="https://www.bilibili.com/video/BV1G4411c7N4?p=6&amp;amp;vd_source=7c47b6d72612787b009ac686785b509a" target="_blank" rel="noopener"
+>设计模式-视频讲解&lt;/a>&lt;/p>
+&lt;p>&lt;a class="link" href="https://github-yuteng.github.io/2019/08/01/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B8%83%E5%A4%A7%E5%8E%9F%E5%88%99/" target="_blank" rel="noopener"
+>设计模式-原则&lt;/a>&lt;/p></description></item><item><title>设计模式【结构型】之一 桥接模式</title><link>https://justkids.top/p/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E7%BB%93%E6%9E%84%E5%9E%8B%E4%B9%8B%E4%B8%80-%E6%A1%A5%E6%8E%A5%E6%A8%A1%E5%BC%8F/</link><pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate><guid>https://justkids.top/p/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E7%BB%93%E6%9E%84%E5%9E%8B%E4%B9%8B%E4%B8%80-%E6%A1%A5%E6%8E%A5%E6%A8%A1%E5%BC%8F/</guid><description>&lt;h3 id="1-桥接模式">1 桥接模式&lt;/h3>
+&lt;h4 id="11-定义">1.1 定义：&lt;/h4>
+&lt;p>桥接模式（Bridge Pattern）&lt;/p>
+&lt;p>&lt;FONT COLOR=RED>将抽象部分与它的实现分离，使它们都可以独立地变化。&lt;/FONT>
+更容易理解的表述是：实现系统可从多种维度分类，桥接模式将各维度抽象出来，各维度独立变化，之后可通过聚合，将各维度组合起来，减少了各维度间的耦合。&lt;/p>
+&lt;h3 id="参考资料">参考资料&lt;/h3>
+&lt;p>&lt;a class="link" href="http://www.jasongj.com/design_pattern/simple_factory/" target="_blank" rel="noopener"
+>设计模式资料&lt;/a>&lt;/BR>
+&lt;a class="link" href="https://www.jianshu.com/p/b2c08a670299" target="_blank" rel="noopener"
+>常用结构性模型&lt;/a>&lt;/p>
+&lt;p>&lt;a class="link" href="https://www.bilibili.com/video/BV1G4411c7N4?p=6&amp;amp;vd_source=7c47b6d72612787b009ac686785b509a" target="_blank" rel="noopener"
+>设计模式-视频讲解&lt;/a>&lt;/p>
+&lt;p>&lt;a class="link" href="https://github-yuteng.github.io/2019/08/01/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B8%83%E5%A4%A7%E5%8E%9F%E5%88%99/" target="_blank" rel="noopener"
+>设计模式-原则&lt;/a>&lt;/p></description></item><item><title>设计模式【行为】备忘录模式</title><link>https://justkids.top/p/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E8%A1%8C%E4%B8%BA%E5%A4%87%E5%BF%98%E5%BD%95%E6%A8%A1%E5%BC%8F/</link><pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate><guid>https://justkids.top/p/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E8%A1%8C%E4%B8%BA%E5%A4%87%E5%BF%98%E5%BD%95%E6%A8%A1%E5%BC%8F/</guid><description>&lt;h3 id="1备忘录模式">1、备忘录模式&lt;/h3>
+&lt;h4 id="1模式类型">1、模式类型：&lt;/h4>
+&lt;pre>&lt;code>行为型
+&lt;/code>&lt;/pre>
+&lt;h4 id="2定义">2、定义：&lt;/h4>
+&lt;pre>&lt;code>备忘录模式（Memento Pattern）保存一个对象的某个状态，以便在适当的时候恢复对象。备忘录模式属于行为型模式。
+&lt;/code>&lt;/pre>
+&lt;h4 id="3工作原理">3、工作原理&lt;/h4>
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">0
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">6
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">7
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">8
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>意图：在不破坏封装性的前提下，捕获一个对象的内部状态，并在该对象之外保存这个状态。
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>主要解决：所谓备忘录模式就是在不破坏封装的前提下，捕获一个对象的内部状态，并在该对象之外保存这个状态，这样可以在以后将对象恢复到原先保存的状态。
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>何时使用：很多时候我们总是需要记录一个对象的内部状态，这样做的目的就是为了允许用户取消不确定或者错误的操作，能够恢复到他原先的状态，使得他有&amp;#34;后悔药&amp;#34;可吃。
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>如何解决：通过一个备忘录类专门存储对象状态。
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>关键代码：客户不与备忘录类耦合，与备忘录管理类耦合。
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h4 id="4原理类图">4、原理类图&lt;/h4>
+&lt;h3 id="2实例">2、实例：&lt;/h3>
+&lt;h3 id="3注意事项">3、注意事项&lt;/h3>
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">0
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>优点：
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>1、给用户提供了一种可以恢复状态的机制，可以使用户能够比较方便地回到某个历史的状态。
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>2、实现了信息的封装，使得用户不需要关心状态的保存细节。
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>缺点：消耗资源。如果类的成员变量过多，势必会占用比较大的资源，而且每一次保存都会消耗一定的内存。
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="4应用场景">4、应用场景&lt;/h3>
+&lt;p>1、存档 2、游戏角色 保存&lt;/p>
+&lt;h3 id="参考资料">参考资料&lt;/h3>
+&lt;p>&lt;a class="link" href="https://www.runoob.com/design-pattern/memento-pattern.html" target="_blank" rel="noopener"
+>备忘录模式详解&lt;/a>
+&lt;a class="link" href="http://www.jasongj.com/design_pattern/simple_factory/" target="_blank" rel="noopener"
+>设计模式资料&lt;/a>&lt;/BR>
+&lt;a class="link" href="https://www.jianshu.com/p/b2c08a670299" target="_blank" rel="noopener"
+>常用结构性模型&lt;/a>&lt;/p>
+&lt;p>&lt;a class="link" href="https://www.bilibili.com/video/BV1G4411c7N4?p=6&amp;amp;vd_source=7c47b6d72612787b009ac686785b509a" target="_blank" rel="noopener"
+>设计模式-视频讲解&lt;/a>&lt;/p>
+&lt;p>&lt;a class="link" href="https://github-yuteng.github.io/2019/08/01/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B8%83%E5%A4%A7%E5%8E%9F%E5%88%99/" target="_blank" rel="noopener"
+>设计模式-原则&lt;/a>&lt;/p></description></item><item><title>设计模式【行为】策略模式</title><link>https://justkids.top/p/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E8%A1%8C%E4%B8%BA%E7%AD%96%E7%95%A5%E6%A8%A1%E5%BC%8F/</link><pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate><guid>https://justkids.top/p/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E8%A1%8C%E4%B8%BA%E7%AD%96%E7%95%A5%E6%A8%A1%E5%BC%8F/</guid><description>&lt;h3 id="1模式">1、模式&lt;/h3>
+&lt;h4 id="1模式类型">1、模式类型：&lt;/h4>
+&lt;pre>&lt;code>结构型
+&lt;/code>&lt;/pre>
+&lt;h4 id="2定义">2、定义：&lt;/h4>
+&lt;h4 id="3原理类图">3、原理类图&lt;/h4>
+&lt;h4 id="4工作原理">4、工作原理&lt;/h4>
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code class="language-fallback" data-lang="fallback">&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="2实例">2、实例：&lt;/h3>
+&lt;h3 id="3注意事项">3、注意事项&lt;/h3>
+&lt;h3 id="4应用场景">4、应用场景&lt;/h3>
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code class="language-fallback" data-lang="fallback">&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="参考资料">参考资料&lt;/h3>
+&lt;p>&lt;a class="link" href="https://www.runoob.com/design-pattern/state-pattern.html" target="_blank" rel="noopener"
+>备忘录模式详解&lt;/a>
+&lt;a class="link" href="http://www.jasongj.com/design_pattern/simple_factory/" target="_blank" rel="noopener"
+>设计模式资料&lt;/a>&lt;/BR>
+&lt;a class="link" href="https://www.jianshu.com/p/b2c08a670299" target="_blank" rel="noopener"
+>常用结构性模型&lt;/a>&lt;/p></description></item><item><title>设计模式【行为】解释器模式</title><link>https://justkids.top/p/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E8%A1%8C%E4%B8%BA%E8%A7%A3%E9%87%8A%E5%99%A8%E6%A8%A1%E5%BC%8F/</link><pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate><guid>https://justkids.top/p/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E8%A1%8C%E4%B8%BA%E8%A7%A3%E9%87%8A%E5%99%A8%E6%A8%A1%E5%BC%8F/</guid><description>&lt;h3 id="1解释器模式">1、解释器模式&lt;/h3>
+&lt;h4 id="1模式类型">1、模式类型：&lt;/h4>
+&lt;pre>&lt;code>行为型
+&lt;/code>&lt;/pre>
+&lt;h4 id="2定义">2、定义：&lt;/h4>
+&lt;p>解释器模式（Interpreter Pattern）提供了评估语言的语法或表达式的方式，它属于行为型模式。这种模式实现了一个表达式接口，该接口解释一个特定的上下文。这种模式被用在 SQL 解析、符号处理引擎等。&lt;/p>
+&lt;h4 id="3工作原理">3、工作原理&lt;/h4>
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">0
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">6
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">7
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">8
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>意图：在不破坏封装性的前提下，捕获一个对象的内部状态，并在该对象之外保存这个状态。
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>主要解决：所谓备忘录模式就是在不破坏封装的前提下，捕获一个对象的内部状态，并在该对象之外保存这个状态，这样可以在以后将对象恢复到原先保存的状态。
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>何时使用：很多时候我们总是需要记录一个对象的内部状态，这样做的目的就是为了允许用户取消不确定或者错误的操作，能够恢复到他原先的状态，使得他有&amp;#34;后悔药&amp;#34;可吃。
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>如何解决：通过一个备忘录类专门存储对象状态。
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>关键代码：客户不与备忘录类耦合，与备忘录管理类耦合。
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h4 id="4原理类图">4、原理类图&lt;/h4>
+&lt;h3 id="2实例">2、实例：&lt;/h3>
+&lt;h3 id="3注意事项">3、注意事项&lt;/h3>
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">0
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>优点：
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>1、给用户提供了一种可以恢复状态的机制，可以使用户能够比较方便地回到某个历史的状态。
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>2、实现了信息的封装，使得用户不需要关心状态的保存细节。
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>缺点：消耗资源。如果类的成员变量过多，势必会占用比较大的资源，而且每一次保存都会消耗一定的内存。
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="4应用场景">4、应用场景&lt;/h3>
+&lt;p>1、存档 2、游戏角色 保存&lt;/p>
+&lt;h3 id="参考资料">参考资料&lt;/h3>
+&lt;p>&lt;a class="link" href="https://www.runoob.com/design-pattern/memento-pattern.html" target="_blank" rel="noopener"
+>备忘录模式详解&lt;/a>
+&lt;a class="link" href="http://www.jasongj.com/design_pattern/simple_factory/" target="_blank" rel="noopener"
+>设计模式资料&lt;/a>&lt;/BR>
+&lt;a class="link" href="https://www.jianshu.com/p/b2c08a670299" target="_blank" rel="noopener"
+>常用结构性模型&lt;/a>&lt;/p>
+&lt;p>&lt;a class="link" href="https://www.bilibili.com/video/BV1G4411c7N4?p=6&amp;amp;vd_source=7c47b6d72612787b009ac686785b509a" target="_blank" rel="noopener"
+>设计模式-视频讲解&lt;/a>&lt;/p>
+&lt;p>&lt;a class="link" href="https://github-yuteng.github.io/2019/08/01/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B8%83%E5%A4%A7%E5%8E%9F%E5%88%99/" target="_blank" rel="noopener"
+>设计模式-原则&lt;/a>&lt;/p></description></item><item><title>设计模式【行为】之二 访问者模式</title><link>https://justkids.top/p/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E8%A1%8C%E4%B8%BA%E4%B9%8B%E4%BA%8C-%E8%AE%BF%E9%97%AE%E8%80%85%E6%A8%A1%E5%BC%8F/</link><pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate><guid>https://justkids.top/p/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E8%A1%8C%E4%B8%BA%E4%B9%8B%E4%BA%8C-%E8%AE%BF%E9%97%AE%E8%80%85%E6%A8%A1%E5%BC%8F/</guid><description>&lt;h3 id="1模式">1、模式&lt;/h3>
+&lt;h4 id="1模式类型">1、模式类型：&lt;/h4>
+&lt;pre>&lt;code>结构型
+&lt;/code>&lt;/pre>
+&lt;h4 id="2定义">2、定义：&lt;/h4>
+&lt;h4 id="3原理类图">3、原理类图&lt;/h4>
+&lt;h4 id="4工作原理">4、工作原理&lt;/h4>
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code class="language-fallback" data-lang="fallback">&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="2实例">2、实例：&lt;/h3>
+&lt;h3 id="3注意事项">3、注意事项&lt;/h3>
+&lt;h3 id="4应用场景">4、应用场景&lt;/h3>
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code class="language-fallback" data-lang="fallback">&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="参考资料">参考资料&lt;/h3>
+&lt;p>&lt;a class="link" href="http://www.jasongj.com/design_pattern/simple_factory/" target="_blank" rel="noopener"
+>设计模式资料&lt;/a>&lt;/BR>
+&lt;a class="link" href="https://www.jianshu.com/p/b2c08a670299" target="_blank" rel="noopener"
+>常用结构性模型&lt;/a>&lt;/p>
+&lt;p>&lt;a class="link" href="https://www.bilibili.com/video/BV1G4411c7N4?p=6&amp;amp;vd_source=7c47b6d72612787b009ac686785b509a" target="_blank" rel="noopener"
+>设计模式-视频讲解&lt;/a>&lt;/p>
+&lt;p>&lt;a class="link" href="https://github-yuteng.github.io/2019/08/01/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B8%83%E5%A4%A7%E5%8E%9F%E5%88%99/" target="_blank" rel="noopener"
+>设计模式-原则&lt;/a>&lt;/p></description></item><item><title>设计模式【行为】之二 访问者模式</title><link>https://justkids.top/p/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E8%A1%8C%E4%B8%BA%E4%B9%8B%E4%BA%8C-%E8%AE%BF%E9%97%AE%E8%80%85%E6%A8%A1%E5%BC%8F/</link><pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate><guid>https://justkids.top/p/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E8%A1%8C%E4%B8%BA%E4%B9%8B%E4%BA%8C-%E8%AE%BF%E9%97%AE%E8%80%85%E6%A8%A1%E5%BC%8F/</guid><description>&lt;h3 id="1模式">1、模式&lt;/h3>
+&lt;h4 id="1模式类型">1、模式类型：&lt;/h4>
+&lt;pre>&lt;code>结构型
+&lt;/code>&lt;/pre>
+&lt;h4 id="2定义">2、定义：&lt;/h4>
+&lt;h4 id="3原理类图">3、原理类图&lt;/h4>
+&lt;h4 id="4工作原理">4、工作原理&lt;/h4>
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code class="language-fallback" data-lang="fallback">&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="2实例">2、实例：&lt;/h3>
+&lt;h3 id="3注意事项">3、注意事项&lt;/h3>
+&lt;h3 id="4应用场景">4、应用场景&lt;/h3>
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code class="language-fallback" data-lang="fallback">&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="参考资料">参考资料&lt;/h3>
+&lt;p>&lt;a class="link" href="http://www.jasongj.com/design_pattern/simple_factory/" target="_blank" rel="noopener"
+>设计模式资料&lt;/a>&lt;/BR>
+&lt;a class="link" href="https://www.jianshu.com/p/b2c08a670299" target="_blank" rel="noopener"
+>常用结构性模型&lt;/a>&lt;/p>
+&lt;p>&lt;a class="link" href="https://www.bilibili.com/video/BV1G4411c7N4?p=6&amp;amp;vd_source=7c47b6d72612787b009ac686785b509a" target="_blank" rel="noopener"
+>设计模式-视频讲解&lt;/a>&lt;/p>
+&lt;p>&lt;a class="link" href="https://github-yuteng.github.io/2019/08/01/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B8%83%E5%A4%A7%E5%8E%9F%E5%88%99/" target="_blank" rel="noopener"
+>设计模式-原则&lt;/a>&lt;/p></description></item><item><title>设计模式【行为】职责链模式</title><link>https://justkids.top/p/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E8%A1%8C%E4%B8%BA%E8%81%8C%E8%B4%A3%E9%93%BE%E6%A8%A1%E5%BC%8F/</link><pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate><guid>https://justkids.top/p/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E8%A1%8C%E4%B8%BA%E8%81%8C%E8%B4%A3%E9%93%BE%E6%A8%A1%E5%BC%8F/</guid><description>&lt;h3 id="1模式">1、模式&lt;/h3>
+&lt;h4 id="1模式类型">1、模式类型：&lt;/h4>
+&lt;pre>&lt;code>结构型
+&lt;/code>&lt;/pre>
+&lt;h4 id="2定义">2、定义：&lt;/h4>
+&lt;h4 id="3原理类图">3、原理类图&lt;/h4>
+&lt;h4 id="4工作原理">4、工作原理&lt;/h4>
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code class="language-fallback" data-lang="fallback">&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="2实例">2、实例：&lt;/h3>
+&lt;h3 id="3注意事项">3、注意事项&lt;/h3>
+&lt;h3 id="4应用场景">4、应用场景&lt;/h3>
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code class="language-fallback" data-lang="fallback">&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="参考资料">参考资料&lt;/h3>
+&lt;p>&lt;a class="link" href="https://www.runoob.com/design-pattern/state-pattern.html" target="_blank" rel="noopener"
+>备忘录模式详解&lt;/a>
+&lt;a class="link" href="http://www.jasongj.com/design_pattern/simple_factory/" target="_blank" rel="noopener"
+>设计模式资料&lt;/a>&lt;/BR>
+&lt;a class="link" href="https://www.jianshu.com/p/b2c08a670299" target="_blank" rel="noopener"
+>常用结构性模型&lt;/a>&lt;/p></description></item><item><title>设计模式【行为】状态模式</title><link>https://justkids.top/p/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E8%A1%8C%E4%B8%BA%E7%8A%B6%E6%80%81%E6%A8%A1%E5%BC%8F/</link><pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate><guid>https://justkids.top/p/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E8%A1%8C%E4%B8%BA%E7%8A%B6%E6%80%81%E6%A8%A1%E5%BC%8F/</guid><description>&lt;h3 id="1模式">1、模式&lt;/h3>
+&lt;h4 id="1模式类型">1、模式类型：&lt;/h4>
+&lt;pre>&lt;code>结构型
+&lt;/code>&lt;/pre>
+&lt;h4 id="2定义">2、定义：&lt;/h4>
+&lt;h4 id="3原理类图">3、原理类图&lt;/h4>
+&lt;h4 id="4工作原理">4、工作原理&lt;/h4>
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code class="language-fallback" data-lang="fallback">&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="2实例">2、实例：&lt;/h3>
+&lt;h3 id="3注意事项">3、注意事项&lt;/h3>
+&lt;h3 id="4应用场景">4、应用场景&lt;/h3>
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code class="language-fallback" data-lang="fallback">&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="参考资料">参考资料&lt;/h3>
+&lt;p>&lt;a class="link" href="https://www.runoob.com/design-pattern/state-pattern.html" target="_blank" rel="noopener"
+>备忘录模式详解&lt;/a>
+&lt;a class="link" href="http://www.jasongj.com/design_pattern/simple_factory/" target="_blank" rel="noopener"
+>设计模式资料&lt;/a>&lt;/BR>
+&lt;a class="link" href="https://www.jianshu.com/p/b2c08a670299" target="_blank" rel="noopener"
+>常用结构性模型&lt;/a>&lt;/p></description></item><item><title>设计模式【行为型】之三 迭代器模式</title><link>https://justkids.top/p/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E8%A1%8C%E4%B8%BA%E5%9E%8B%E4%B9%8B%E4%B8%89-%E8%BF%AD%E4%BB%A3%E5%99%A8%E6%A8%A1%E5%BC%8F/</link><pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate><guid>https://justkids.top/p/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E8%A1%8C%E4%B8%BA%E5%9E%8B%E4%B9%8B%E4%B8%89-%E8%BF%AD%E4%BB%A3%E5%99%A8%E6%A8%A1%E5%BC%8F/</guid><description>&lt;h3 id="1模式">1、模式&lt;/h3>
+&lt;h4 id="1模式类型">1、模式类型：&lt;/h4>
+&lt;pre>&lt;code>行为型
+&lt;/code>&lt;/pre>
+&lt;h4 id="2定义">2、定义：&lt;/h4>
+&lt;h4 id="3原理类图">3、原理类图&lt;/h4>
+&lt;h4 id="4工作原理">4、工作原理&lt;/h4>
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code class="language-fallback" data-lang="fallback">&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="2实例">2、实例：&lt;/h3>
+&lt;h3 id="3注意事项">3、注意事项&lt;/h3>
+&lt;h3 id="4应用场景">4、应用场景&lt;/h3>
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code class="language-fallback" data-lang="fallback">&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="参考资料">参考资料&lt;/h3>
+&lt;p>&lt;a class="link" href="http://www.jasongj.com/design_pattern/simple_factory/" target="_blank" rel="noopener"
+>设计模式资料&lt;/a>&lt;/BR>
+&lt;a class="link" href="https://www.jianshu.com/p/b2c08a670299" target="_blank" rel="noopener"
+>常用结构性模型&lt;/a>
+&lt;a class="link" href="https://www.runoob.com/design-pattern/iterator-pattern.html" target="_blank" rel="noopener"
+>设计模式&lt;/a>&lt;/p>
+&lt;p>&lt;a class="link" href="https://www.bilibili.com/video/BV1G4411c7N4?p=112&amp;amp;spm_id_from=pageDriver&amp;amp;vd_source=7c47b6d72612787b009ac686785b509a" target="_blank" rel="noopener"
 >设计模式-视频讲解&lt;/a>&lt;/p>
 &lt;p>&lt;a class="link" href="https://github-yuteng.github.io/2019/08/01/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B8%83%E5%A4%A7%E5%8E%9F%E5%88%99/" target="_blank" rel="noopener"
 >设计模式-原则&lt;/a>&lt;/p></description></item></channel></rss>
