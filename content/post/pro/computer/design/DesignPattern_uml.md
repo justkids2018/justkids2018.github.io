@@ -49,13 +49,15 @@ UML是一个通用的标准建模语言，
 ```
 
 <IMG SRC="https://i.loli.net/2019/08/06/ysxabt1DfXLoBKj.png">
-
+<IMG src="img/uml_class.webp">
 ----
 #### 3.1 实现关系（Realization）
 
 实现关系：使用的是一个**带空心箭头的虚线**表示。
  
- <IMG SRC="https://www.likecs.com/default/index/img?u=aHR0cHM6Ly9pbWFnZXMyMDE3LmNuYmxvZ3MuY29tL2Jsb2cvMTIyNzMzMS8yMDE3MDkvMTIyNzMzMS0yMDE3MDkxODEwMDEwOTA3MS04ODIyMTg2MjQucG5n">
+<IMG SRC="https://www.likecs.com/default/index/img?u=aHR0cHM6Ly9pbWFnZXMyMDE3LmNuYmxvZ3MuY29tL2Jsb2cvMTIyNzMzMS8yMDE3MDkvMTIyNzMzMS0yMDE3MDkxODEwMDEwOTA3MS04ODIyMTg2MjQucG5n">
+
+
 
 上述类图我们可以说A实现了B，B是一个抽象概念，
 在现实中无法直接用来定义对象，只有指明具体的子类，才能用来定义对象.
@@ -89,7 +91,7 @@ UML是一个通用的标准建模语言，
 
 <IMG SRC="https://www.likecs.com/default/index/img?u=aHR0cHM6Ly9pbWFnZXMyMDE3LmNuYmxvZ3MuY29tL2Jsb2cvMTIyNzMzMS8yMDE3MDkvMTIyNzMzMS0yMDE3MDkxODEwNDcwMzIyOC04ODY2NDk4NDgucG5n">
 
-#### 3.5 关联关系
+#### 3.5 关联关系 
 
 关联关系:是用一条直线表示的；它描述不同类的对象之间的结构关系；
 它是一种静态关系， 通常与运行状态无关，一般由常识等因素决定的。
@@ -111,7 +113,6 @@ UML是一个通用的标准建模语言，
 显然，依赖也有方向，双向依赖是一种非常糟糕的结构，我们总是应该保持单向依赖，杜绝双向依赖的产生.
 
 在最终代码中，依赖关系体现为类构造方法及类方法的传入参数，箭头的指向为调用关系；依赖关系除了临时知道对方外，还“使用”对方的方法和属性.
-
 
 
 
