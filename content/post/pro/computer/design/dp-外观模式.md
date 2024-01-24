@@ -1,6 +1,6 @@
 ---
-title: "设计模式【结构型】之四 外观模式"
-subtitle: ""
+title: "设计模式-外观模式"
+subtitle: "结构型"
 date: 2023-10-27 
 lastmod: 2023-10-27
 draft: false
@@ -25,8 +25,8 @@ lightgallery: true
 license: ""
 ---
 
-### 1、外观模式-也叫门面模式
-#### 1、模式类型：
+### 1、外观模式也叫门面模式
+### 1、模式类型：
     结构型
 #### 2、定义：
  1) 外观模式（Facade），也叫“过程模式
@@ -38,6 +38,9 @@ license: ""
 #### 3、原理类图
 ##### 3.1 uml 图
 
+
+<img src="img/disign-dp-structure-facade模式.drawio.png">
+
 ##### 3.2 原理说明
 ```
 1) 外观类(Facade): 为调用端提供统一的调用接口, 外观类知道哪些子系统负责处理请求,从而将调用端的请求代理给适当
@@ -46,10 +49,74 @@ license: ""
 3) 子系统的集合：指模块或者子系统，处理Facade 对象指派的任务，他是功能的实际提供者
 
 ```
-### 2、实例：
-
-### 3、 注意细节
+### 2、代码实例：
 ```
+// 子系统接口
+public interface SubsystemA {
+    void operationA();
+}
+
+public interface SubsystemB {
+    void operationB();
+}
+
+public interface SubsystemC {
+    void operationC();
+}
+
+// 具体子系统实现
+public class ConcreteSubsystemA implements SubsystemA {
+    @Override
+    public void operationA() {
+        System.out.println("SubsystemA operation A");
+    }
+}
+
+public class ConcreteSubsystemB implements SubsystemB {
+    @Override
+    public void operationB() {
+        System.out.println("SubsystemB operation B");
+    }
+}
+
+public class ConcreteSubsystemC implements SubsystemC {
+    @Override
+    public void operationC() {
+        System.out.println("SubsystemC operation C");
+    }
+}
+
+// 外观类
+public class Facade {
+    private SubsystemA subsystemA;
+    private SubsystemB subsystemB;
+    private SubsystemC subsystemC;
+
+    public Facade() {
+        subsystemA = new ConcreteSubsystemA();
+        subsystemB = new ConcreteSubsystemB();
+        subsystemC = new ConcreteSubsystemC();
+    }
+
+    public void operation() {
+        subsystemA.operationA();
+        subsystemB.operationB();
+        subsystemC.operationC();
+    }
+}
+
+// 客户端代码
+public class Client {
+    public static void main(String[] args) {
+        Facade facade = new Facade();
+        facade.operation();
+    }
+}
+```
+
+### 3、优缺点
+```
+优点：
 1) 外观模式对外屏蔽了子系统的细节，因此外观模式降低了客户端对子系统使用的复
 杂性
 2) 外观模式对客户端与子系统的耦合关系，让子系统内部的模块更易维护和扩展
@@ -64,9 +131,6 @@ license: ""
 ```
 
 
-
-
-### 3、应用场景
 
 
 

@@ -36,7 +36,7 @@ license: ""
 
 ### 3、原理图
 #### 3.1 UML类图
-<img src="img/disign-dp-适配器模式.drawio.png">
+<img src="img/disign-dp-structure-享元模式.drawio.png">
 
 #### 3.2 原理角色说明
 对原理图的说明-即(模式的角色及职责)

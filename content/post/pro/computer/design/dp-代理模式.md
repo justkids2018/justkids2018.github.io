@@ -1,6 +1,6 @@
 ---
-title: "设计模式【结构型】之六 代理模式"
-subtitle: ""
+title: "设计模式代理模式"
+subtitle: "结构型"
 date: 2022-12-01 
 lastmod: 2022-12-01 
 draft: false
@@ -25,10 +25,9 @@ lightgallery: true
 license: ""
 ---
 
-### 1、代理模式
-#### 1、模式类型：
+### 1、模式类型：
     结构型
-#### 2、定义：
+### 2、定义：
    代理模式：为一个对象<FONT COLOR=RED>提供替身</FONT>
 #### 3、静态代理
 ##### 3.1 介绍
