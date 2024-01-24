@@ -31,7 +31,7 @@ license: ""
 #### 2、定义：
 抽象工厂模式（Abstract Factory Pattern）是围绕一个超级工厂创建其他工厂。该超级工厂又称为其他工厂的工厂。这种类型的设计模式属于创建型模式，它提供了一种创建对象的最佳方式。
 #### 3、原理类图
-<img src="dp-create-abstractFactory.jpeg">
+<img src="img/dp-create-abstractFactory.jpeg">
 
 #### 4、工作原理
 ```

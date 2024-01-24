@@ -1,6 +1,6 @@
 ---
-title: "设计模式【结构型】之二 适配器模式"
-subtitle: ""
+title: "设计模式-适配器模式"
+subtitle: "结构型"
 date: 2022-12-01 
 lastmod: 2022-12-01 
 draft: false
@@ -48,7 +48,64 @@ license: ""
 ```
 #### 2、原理uml图
 
+
+
+<img src="img/disign-dp-适配器模式.drawio.png">
+
 #### 3、实例：
+```
+//类适配器
+public class Client {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Phone phone = new Phone();
+		phone.charging(new VoltageAdapter());
+	}
+}
+
+
+public class Phone {
+	public void charging(IVoltage5V iVoltage5V) {
+		if(iVoltage5V.output5V() == 5) {
+			System.out.println("V5~~");
+		} else if (iVoltage5V.output5V() > 5) {
+			System.out.println("220~~");
+		}
+	}
+}
+
+
+
+public interface IVoltage5V {
+	public int output5V();
+}
+
+public class Voltage220V {
+	//220V
+	public int output220V() {
+		int src = 220;
+		System.out.println("Voltage220V=" + src);
+		return src;
+	}
+}
+
+public class VoltageAdapter extends Voltage220V implements IVoltage5V {
+
+	@Override
+	public int output5V() {
+		// TODO Auto-generated method stub
+		int srcV = output220V();
+		int dstV = srcV / 44 ; 
+		return dstV;
+	}
+
+}
+
+
+
+```
+
 
 #### 4、应用场景
 ```
