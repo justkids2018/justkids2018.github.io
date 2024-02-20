@@ -1213,7 +1213,191 @@
 &lt;p>&lt;a class="link" href="https://www.bilibili.com/video/BV1fG411P75c/?spm_id_from=333.337.search-card.all.click&amp;amp;vd_source=7c47b6d72612787b009ac686785b509a" target="_blank" rel="noopener"
 >设计模式-图灵星球&lt;/a>&lt;/p>
 &lt;p>&lt;a class="link" href="https://github-yuteng.github.io/2019/08/01/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B8%83%E5%A4%A7%E5%8E%9F%E5%88%99/" target="_blank" rel="noopener"
->设计模式-原则&lt;/a>&lt;/p></description></item><item><title>设计模式-适配器模式</title><link>https://justkids.top/p/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E9%80%82%E9%85%8D%E5%99%A8%E6%A8%A1%E5%BC%8F/</link><pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate><guid>https://justkids.top/p/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E9%80%82%E9%85%8D%E5%99%A8%E6%A8%A1%E5%BC%8F/</guid><description>&lt;h4 id="1适配器模式">1、适配器模式&lt;/h4>
+>设计模式-原则&lt;/a>&lt;/p></description></item><item><title>设计模式-桥接模式</title><link>https://justkids.top/p/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E6%A1%A5%E6%8E%A5%E6%A8%A1%E5%BC%8F/</link><pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate><guid>https://justkids.top/p/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E6%A1%A5%E6%8E%A5%E6%A8%A1%E5%BC%8F/</guid><description>&lt;h3 id="1-桥接模式">1 桥接模式&lt;/h3>
+&lt;h4 id="1-定义">1 定义：&lt;/h4>
+&lt;p>桥接模式（Bridge Pattern）&lt;/p>
+&lt;p>&lt;FONT COLOR=RED>将抽象部分与它的实现分离，使它们都可以独立地变化。&lt;/FONT>
+桥接模式的核心思想是:将抽象部分与实现部分分离，通过桥接接口来连接它们。
+抽象部分包含高层的业务逻辑，而实现部分包含底层的具体实现。通过桥接模式，可以在两个维度上进行独立地变化，而不会相互影响。&lt;/p>
+&lt;h4 id="2原理类图">2、原理类图&lt;/h4>
+&lt;h5 id="21-uml-图">2.1 uml 图&lt;/h5>
+&lt;img src="img/disign-dp-structure-桥接模式.drawio.png">
+&lt;h5 id="22-原理说明">2.2 原理说明&lt;/h5>
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">0
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>Abstraction（抽象部分）：定义高层的业务逻辑，并包含对实现部分的引用。抽象部分可以是一个抽象类或接口。
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>RefinedAbstraction（具体抽象类）：继承抽象部分，并扩展其功能。
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Implementor（实现部分）：定义实现部分的接口，提供具体实现的方法。
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>ConcreteImplementor（具体实现类）：实现实现部分接口的具体实现。
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h4 id="代码示意">代码示意&lt;/h4>
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 0
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">23
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">24
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">25
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">26
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">27
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">28
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">29
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">30
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">31
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">32
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">33
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">34
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">35
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">36
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">37
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">38
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">39
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">40
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">41
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">42
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">43
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">44
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">45
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">46
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">47
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">48
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">49
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">50
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">51
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">52
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">53
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">54
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">55
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">56
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code class="language-gdscript3" data-lang="gdscript3">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">//&lt;/span> &lt;span style="color:#960050;background-color:#1e0010">实现部分的接口&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>public interface Implementor {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> void operationImpl();
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">//&lt;/span> &lt;span style="color:#960050;background-color:#1e0010">具体实现类&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>public &lt;span style="color:#66d9ef">class&lt;/span> ConcreteImplementorA implements Implementor {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#960050;background-color:#1e0010">@&lt;/span>Override
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> public void operationImpl() {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> System&lt;span style="color:#f92672">.&lt;/span>out&lt;span style="color:#f92672">.&lt;/span>println(&lt;span style="color:#e6db74">&amp;#34;ConcreteImplementorA operation&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>public &lt;span style="color:#66d9ef">class&lt;/span> ConcreteImplementorB implements Implementor {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#960050;background-color:#1e0010">@&lt;/span>Override
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> public void operationImpl() {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> System&lt;span style="color:#f92672">.&lt;/span>out&lt;span style="color:#f92672">.&lt;/span>println(&lt;span style="color:#e6db74">&amp;#34;ConcreteImplementorB operation&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">//&lt;/span> &lt;span style="color:#960050;background-color:#1e0010">抽象部分的接口&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>public abstract &lt;span style="color:#66d9ef">class&lt;/span> Abstraction {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> protected Implementor implementor;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> public Abstraction(Implementor implementor) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> this&lt;span style="color:#f92672">.&lt;/span>implementor &lt;span style="color:#f92672">=&lt;/span> implementor;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> public abstract void operation();
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">//&lt;/span> &lt;span style="color:#960050;background-color:#1e0010">具体抽象类&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>public &lt;span style="color:#66d9ef">class&lt;/span> RefinedAbstraction &lt;span style="color:#66d9ef">extends&lt;/span> Abstraction {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> public RefinedAbstraction(Implementor implementor) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> super(implementor);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#960050;background-color:#1e0010">@&lt;/span>Override
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> public void operation() {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> System&lt;span style="color:#f92672">.&lt;/span>out&lt;span style="color:#f92672">.&lt;/span>println(&lt;span style="color:#e6db74">&amp;#34;RefinedAbstraction operation&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> implementor&lt;span style="color:#f92672">.&lt;/span>operationImpl();
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">//&lt;/span> &lt;span style="color:#960050;background-color:#1e0010">客户端代码&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>public &lt;span style="color:#66d9ef">class&lt;/span> Client {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> public &lt;span style="color:#66d9ef">static&lt;/span> void main(&lt;span style="color:#a6e22e">String&lt;/span>[] args) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Implementor implementorA &lt;span style="color:#f92672">=&lt;/span> new ConcreteImplementorA();
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Implementor implementorB &lt;span style="color:#f92672">=&lt;/span> new ConcreteImplementorB();
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Abstraction abstractionA &lt;span style="color:#f92672">=&lt;/span> new RefinedAbstraction(implementorA);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> abstractionA&lt;span style="color:#f92672">.&lt;/span>operation();
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Abstraction abstractionB &lt;span style="color:#f92672">=&lt;/span> new RefinedAbstraction(implementorB);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> abstractionB&lt;span style="color:#f92672">.&lt;/span>operation();
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="3-桥接模式的优缺点">3 桥接模式的优缺点&lt;/h3>
+&lt;h4 id="31-桥接模式的优点">3.1 桥接模式的优点&lt;/h4>
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">0
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>分离抽象和实现部分，使它们可以独立地变化。
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>扩展性好，可以通过增加新的抽象和实现类来扩展系统功能。
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>提高了系统的灵活性和可维护性。
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h4 id="32-桥接模式的缺点包括">3.2 桥接模式的缺点包括：&lt;/h4>
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">0
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>增加了系统的复杂性，由于需要定义抽象和实现部分以及它们之间的桥接接口。
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>对于简单的系统，引入桥接模式可能会显得过于繁琐。
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>适用场景：
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>当系统有多个维度变化且维度之间存在关联关系时，可以考虑使用桥接模式。
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>当希望抽象部分和实现部分可以独立地变化，且可以动态地组合时，可以使用桥接
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="参考资料">参考资料&lt;/h3>
+&lt;p>&lt;a class="link" href="http://www.jasongj.com/design_pattern/simple_factory/" target="_blank" rel="noopener"
+>设计模式资料&lt;/a>&lt;/BR>
+&lt;a class="link" href="https://www.jianshu.com/p/b2c08a670299" target="_blank" rel="noopener"
+>常用结构性模型&lt;/a>
+&lt;a class="link" href="https://www.runoob.com/design-pattern/bridge-pattern.html" target="_blank" rel="noopener"
+>设计模式-桥接模式&lt;/a>
+&lt;a class="link" href="https://www.bilibili.com/video/BV1G4411c7N4?p=6&amp;amp;vd_source=7c47b6d72612787b009ac686785b509a" target="_blank" rel="noopener"
+>设计模式-视频讲解&lt;/a>&lt;/p></description></item><item><title>设计模式-适配器模式</title><link>https://justkids.top/p/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E9%80%82%E9%85%8D%E5%99%A8%E6%A8%A1%E5%BC%8F/</link><pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate><guid>https://justkids.top/p/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E9%80%82%E9%85%8D%E5%99%A8%E6%A8%A1%E5%BC%8F/</guid><description>&lt;h4 id="1适配器模式">1、适配器模式&lt;/h4>
 &lt;p>1、模式类型：
 结构型
 2、定义：适配器模式（Adapter Pattern）&lt;/p>
@@ -1439,7 +1623,198 @@
 &lt;p>&lt;a class="link" href="https://www.bilibili.com/video/BV1G4411c7N4?p=6&amp;amp;vd_source=7c47b6d72612787b009ac686785b509a" target="_blank" rel="noopener"
 >设计模式-视频讲解&lt;/a>&lt;/p>
 &lt;p>&lt;a class="link" href="https://github-yuteng.github.io/2019/08/01/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B8%83%E5%A4%A7%E5%8E%9F%E5%88%99/" target="_blank" rel="noopener"
->设计模式-原则&lt;/a>&lt;/p></description></item><item><title>设计模式【结构型】之三 外观模式</title><link>https://justkids.top/p/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E7%BB%93%E6%9E%84%E5%9E%8B%E4%B9%8B%E4%B8%89-%E5%A4%96%E8%A7%82%E6%A8%A1%E5%BC%8F/</link><pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate><guid>https://justkids.top/p/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E7%BB%93%E6%9E%84%E5%9E%8B%E4%B9%8B%E4%B8%89-%E5%A4%96%E8%A7%82%E6%A8%A1%E5%BC%8F/</guid><description>&lt;h3 id="1模式">1、模式&lt;/h3>
+>设计模式-原则&lt;/a>&lt;/p></description></item><item><title>设计模式-组合模式</title><link>https://justkids.top/p/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E7%BB%84%E5%90%88%E6%A8%A1%E5%BC%8F/</link><pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate><guid>https://justkids.top/p/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E7%BB%84%E5%90%88%E6%A8%A1%E5%BC%8F/</guid><description>&lt;h3 id="1组合模式">1、组合模式&lt;/h3>
+&lt;p>1、模式类型： 结构型&lt;/p>
+&lt;p>又叫部分整体模式，是用于把一组相似的对象当作一个单一的对象。组合模式依据树形结构来组合对象，用来表示部分以及整体层次。这种类型的设计模式属于结构型模式，它创建了对象组的树形结构。&lt;/p>
+&lt;p>意图：&lt;strong>将对象组合成树形结构&lt;/strong>以表示&amp;quot;部分-整体&amp;quot;的层次结构。组合模式使得用户对单个对象和组合对象的使用具有一致性。&lt;/p>
+&lt;p>主要解决：它在我们树型结构的问题中，模糊了简单元素和复杂元素的概念，客户程序可以像处理简单元素一样来处理复杂元素，从而使得客户程序与复杂元素的内部结构解耦。
+组合模式依据树形结构来组合对象，用来表示部分以及整体层次。&lt;/p>
+&lt;h3 id="2原理图">2、原理图&lt;/h3>
+&lt;h4 id="21-uml">2.1 UML&lt;/h4>
+&lt;img src="img/iShot_2024-01-29_14.39.23.png">
+&lt;h4 id="21-原理说明">2.1 原理说明&lt;/h4>
+&lt;p>组合模式的相关角色：&lt;/p>
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">0
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>组件（Component）：定义了组合对象和叶子对象的共同接口，可以是抽象类或接口。
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>树枝节点（Composite）：表示组合对象，可以包含子节点，实现了组件接口。
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>叶子节点（Leaf）：表示叶子对象，不包含子节点，实现了组件接口。
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="3实例">3、实例：&lt;/h3>
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 0
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">23
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">24
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">25
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">26
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">27
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">28
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">29
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">30
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">31
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">32
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">33
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">34
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">35
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">36
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">37
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">38
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">39
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">40
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">41
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">42
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">43
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">44
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">45
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">46
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">47
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">48
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">49
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">50
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">51
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">52
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">53
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">54
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">55
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">56
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">57
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">58
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">59
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">60
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">61
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">62
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">63
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">64
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">65
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">66
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">67
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>// 组件接口
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>interface Component {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> void showName();
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>// 树枝节点
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>class Composite implements Component {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> private String name;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> private List&amp;lt;Component&amp;gt; children = new ArrayList&amp;lt;&amp;gt;();
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> public Composite(String name) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> this.name = name;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> public void add(Component component) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> children.add(component);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> public void remove(Component component) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> children.remove(component);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> public List&amp;lt;Component&amp;gt; getChildren() {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> return children;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> @Override
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> public void showName() {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> System.out.println(&amp;#34;Composite: &amp;#34; + name);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> for (Component component : children) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> component.showName();
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>// 叶子节点
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>class Leaf implements Component {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> private String name;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> public Leaf(String name) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> this.name = name;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> @Override
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> public void showName() {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> System.out.println(&amp;#34;Leaf: &amp;#34; + name);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>// 客户端代码
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>public class Client {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> public static void main(String[] args) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Composite company = new Composite(&amp;#34;Company&amp;#34;);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Composite department1 = new Composite(&amp;#34;Department 1&amp;#34;);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> department1.add(new Leaf(&amp;#34;Employee 1&amp;#34;));
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> department1.add(new Leaf(&amp;#34;Employee 2&amp;#34;));
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Composite department2 = new Composite(&amp;#34;Department 2&amp;#34;);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> department2.add(new Leaf(&amp;#34;Employee 3&amp;#34;));
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> department2.add(new Leaf(&amp;#34;Employee 4&amp;#34;));
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> company.add(department1);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> company.add(department2);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> company.showName();
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="4优缺点">4、优缺点&lt;/h3>
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">0
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>优点： 1、高层模块调用简单。 2、节点自由增加。
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>缺点：在使用组合模式时，其叶子和树枝的声明都是实现类，而不是接口，违反了依赖倒置原则。
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>使用场景：部分、整体场景，如树形菜单，文件、文件夹的管理。
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="参考资料">参考资料&lt;/h3>
+&lt;p>&lt;a class="link" href="http://www.jasongj.com/design_pattern/simple_factory/" target="_blank" rel="noopener"
+>设计模式资料&lt;/a>&lt;/BR>
+&lt;a class="link" href="https://www.jianshu.com/p/b2c08a670299" target="_blank" rel="noopener"
+>常用结构性模型&lt;/a>&lt;/p>
+&lt;p>&lt;a class="link" href="https://www.bilibili.com/video/BV1G4411c7N4?p=6&amp;amp;vd_source=7c47b6d72612787b009ac686785b509a" target="_blank" rel="noopener"
+>设计模式-视频讲解&lt;/a>&lt;/p>
+&lt;p>&lt;a class="link" href="https://www.runoob.com/design-pattern/composite-pattern.html" target="_blank" rel="noopener"
+>设计模式-组合模式&lt;/a>&lt;/p></description></item><item><title>设计模式【结构型】之三 外观模式</title><link>https://justkids.top/p/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E7%BB%93%E6%9E%84%E5%9E%8B%E4%B9%8B%E4%B8%89-%E5%A4%96%E8%A7%82%E6%A8%A1%E5%BC%8F/</link><pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate><guid>https://justkids.top/p/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E7%BB%93%E6%9E%84%E5%9E%8B%E4%B9%8B%E4%B8%89-%E5%A4%96%E8%A7%82%E6%A8%A1%E5%BC%8F/</guid><description>&lt;h3 id="1模式">1、模式&lt;/h3>
 &lt;h4 id="1模式类型">1、模式类型：&lt;/h4>
 &lt;pre>&lt;code>结构型
 &lt;/code>&lt;/pre>
@@ -1462,79 +1837,6 @@
 &lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code class="language-fallback" data-lang="fallback">&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;h3 id="参考资料">参考资料&lt;/h3>
-&lt;p>&lt;a class="link" href="http://www.jasongj.com/design_pattern/simple_factory/" target="_blank" rel="noopener"
->设计模式资料&lt;/a>&lt;/BR>
-&lt;a class="link" href="https://www.jianshu.com/p/b2c08a670299" target="_blank" rel="noopener"
->常用结构性模型&lt;/a>&lt;/p>
-&lt;p>&lt;a class="link" href="https://www.bilibili.com/video/BV1G4411c7N4?p=6&amp;amp;vd_source=7c47b6d72612787b009ac686785b509a" target="_blank" rel="noopener"
->设计模式-视频讲解&lt;/a>&lt;/p>
-&lt;p>&lt;a class="link" href="https://github-yuteng.github.io/2019/08/01/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B8%83%E5%A4%A7%E5%8E%9F%E5%88%99/" target="_blank" rel="noopener"
->设计模式-原则&lt;/a>&lt;/p></description></item><item><title>设计模式【结构型】之三 组合模式</title><link>https://justkids.top/p/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E7%BB%93%E6%9E%84%E5%9E%8B%E4%B9%8B%E4%B8%89-%E7%BB%84%E5%90%88%E6%A8%A1%E5%BC%8F/</link><pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate><guid>https://justkids.top/p/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E7%BB%93%E6%9E%84%E5%9E%8B%E4%B9%8B%E4%B8%89-%E7%BB%84%E5%90%88%E6%A8%A1%E5%BC%8F/</guid><description>&lt;h4 id="1适配器模式">1、适配器模式&lt;/h4>
-&lt;p>1、模式类型：
-结构型
-2、定义：适配器模式（Adapter Pattern）&lt;/p>
-&lt;p>&lt;font color=red>将一个类的接口转换成客户希望的另外一个接口。&lt;/FONT>适配器模式使得原本由于接口不兼容而不能一起工作的那些类可以一起工作。其别名为包装器(Wrapper)
-3、适配器分三类：&lt;/p>
-&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">
-&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
-&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">0
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>类适配器模式、
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>对象适配器模式、
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>接口适配器模式
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>4、工作原理&lt;/p>
-&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">
-&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
-&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">0
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>1) 适配器模式：将一个类的接口转换成另一种接口.让原本接口不兼容的类可以兼容
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>2) 从用户的角度看不到被适配者，是解耦的
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>3) 用户调用适配器转化出来的目标接口方法，适配器再调用被适配者的相关接口方法
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>4) 用户收到反馈结果，感觉只是和目标接口交互，如图
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;h4 id="2原理uml图">2、原理uml图&lt;/h4>
-&lt;h4 id="3实例">3、实例：&lt;/h4>
-&lt;h4 id="4应用场景">4、应用场景&lt;/h4>
-&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">
-&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
-&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">0
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>1 封装有缺陷的接口设计
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>2 统一多个类的接口设计
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>3 替换依赖的外部系统
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>4 兼容老版本接口
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>5 适配不同格式的数据
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;h3 id="参考资料">参考资料&lt;/h3>
-&lt;p>&lt;a class="link" href="http://www.jasongj.com/design_pattern/simple_factory/" target="_blank" rel="noopener"
->设计模式资料&lt;/a>&lt;/BR>
-&lt;a class="link" href="https://www.jianshu.com/p/b2c08a670299" target="_blank" rel="noopener"
->常用结构性模型&lt;/a>&lt;/p>
-&lt;p>&lt;a class="link" href="https://www.bilibili.com/video/BV1G4411c7N4?p=6&amp;amp;vd_source=7c47b6d72612787b009ac686785b509a" target="_blank" rel="noopener"
->设计模式-视频讲解&lt;/a>&lt;/p>
-&lt;p>&lt;a class="link" href="https://github-yuteng.github.io/2019/08/01/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B8%83%E5%A4%A7%E5%8E%9F%E5%88%99/" target="_blank" rel="noopener"
->设计模式-原则&lt;/a>&lt;/p></description></item><item><title>设计模式【结构型】之一 桥接模式</title><link>https://justkids.top/p/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E7%BB%93%E6%9E%84%E5%9E%8B%E4%B9%8B%E4%B8%80-%E6%A1%A5%E6%8E%A5%E6%A8%A1%E5%BC%8F/</link><pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate><guid>https://justkids.top/p/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E7%BB%93%E6%9E%84%E5%9E%8B%E4%B9%8B%E4%B8%80-%E6%A1%A5%E6%8E%A5%E6%A8%A1%E5%BC%8F/</guid><description>&lt;h3 id="1-桥接模式">1 桥接模式&lt;/h3>
-&lt;h4 id="11-定义">1.1 定义：&lt;/h4>
-&lt;p>桥接模式（Bridge Pattern）&lt;/p>
-&lt;p>&lt;FONT COLOR=RED>将抽象部分与它的实现分离，使它们都可以独立地变化。&lt;/FONT>
-更容易理解的表述是：实现系统可从多种维度分类，桥接模式将各维度抽象出来，各维度独立变化，之后可通过聚合，将各维度组合起来，减少了各维度间的耦合。&lt;/p>
-&lt;h3 id="参考资料">参考资料&lt;/h3>
 &lt;p>&lt;a class="link" href="http://www.jasongj.com/design_pattern/simple_factory/" target="_blank" rel="noopener"
 >设计模式资料&lt;/a>&lt;/BR>
 &lt;a class="link" href="https://www.jianshu.com/p/b2c08a670299" target="_blank" rel="noopener"
