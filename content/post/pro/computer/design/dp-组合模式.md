@@ -1,6 +1,6 @@
 ---
-title: "设计模式【结构型】之三 组合模式"
-subtitle: ""
+title: "设计模式-组合模式"
+subtitle: "【结构型】"
 date: 2022-12-01 
 lastmod: 2022-12-01 
 draft: false
@@ -25,47 +25,111 @@ lightgallery: true
 license: ""
 ---
 
-#### 1、适配器模式
-1、模式类型：
-    结构型
-2、定义：适配器模式（Adapter Pattern）
+### 1、组合模式
+1、模式类型： 结构型
 
-<font color=red>将一个类的接口转换成客户希望的另外一个接口。</FONT>适配器模式使得原本由于接口不兼容而不能一起工作的那些类可以一起工作。其别名为包装器(Wrapper)
-3、适配器分三类：
-```
-类适配器模式、
-对象适配器模式、
-接口适配器模式
-```
+又叫部分整体模式，是用于把一组相似的对象当作一个单一的对象。组合模式依据树形结构来组合对象，用来表示部分以及整体层次。这种类型的设计模式属于结构型模式，它创建了对象组的树形结构。
 
-4、工作原理
-```
-1) 适配器模式：将一个类的接口转换成另一种接口.让原本接口不兼容的类可以兼容
-2) 从用户的角度看不到被适配者，是解耦的
-3) 用户调用适配器转化出来的目标接口方法，适配器再调用被适配者的相关接口方法
-4) 用户收到反馈结果，感觉只是和目标接口交互，如图
+意图：**将对象组合成树形结构**以表示"部分-整体"的层次结构。组合模式使得用户对单个对象和组合对象的使用具有一致性。
 
-```
-#### 2、原理uml图
+主要解决：它在我们树型结构的问题中，模糊了简单元素和复杂元素的概念，客户程序可以像处理简单元素一样来处理复杂元素，从而使得客户程序与复杂元素的内部结构解耦。
+组合模式依据树形结构来组合对象，用来表示部分以及整体层次。
+### 2、原理图
 
-#### 3、实例：
+#### 2.1 UML
 
-#### 4、应用场景
+<img src="img/iShot_2024-01-29_14.39.23.png">
+
+#### 2.1 原理说明
+
+组合模式的相关角色：
 ```
-1 封装有缺陷的接口设计
-2 统一多个类的接口设计
-3 替换依赖的外部系统
-4 兼容老版本接口
-5 适配不同格式的数据
+组件（Component）：定义了组合对象和叶子对象的共同接口，可以是抽象类或接口。
+树枝节点（Composite）：表示组合对象，可以包含子节点，实现了组件接口。
+叶子节点（Leaf）：表示叶子对象，不包含子节点，实现了组件接口。
+
 ```
 
+### 3、实例：
+```
+// 组件接口
+interface Component {
+    void showName();
+}
 
+// 树枝节点
+class Composite implements Component {
+    private String name;
+    private List<Component> children = new ArrayList<>();
 
+    public Composite(String name) {
+        this.name = name;
+    }
 
+    public void add(Component component) {
+        children.add(component);
+    }
 
+    public void remove(Component component) {
+        children.remove(component);
+    }
 
-   
+    public List<Component> getChildren() {
+        return children;
+    }
 
+    @Override
+    public void showName() {
+        System.out.println("Composite: " + name);
+        for (Component component : children) {
+            component.showName();
+        }
+    }
+}
+
+// 叶子节点
+class Leaf implements Component {
+    private String name;
+
+    public Leaf(String name) {
+        this.name = name;
+    }
+
+    @Override
+    public void showName() {
+        System.out.println("Leaf: " + name);
+    }
+}
+
+// 客户端代码
+public class Client {
+    public static void main(String[] args) {
+        Composite company = new Composite("Company");
+
+        Composite department1 = new Composite("Department 1");
+        department1.add(new Leaf("Employee 1"));
+        department1.add(new Leaf("Employee 2"));
+
+        Composite department2 = new Composite("Department 2");
+        department2.add(new Leaf("Employee 3"));
+        department2.add(new Leaf("Employee 4"));
+
+        company.add(department1);
+        company.add(department2);
+
+        company.showName();
+    }
+}
+
+```
+### 4、优缺点
+```
+优点： 1、高层模块调用简单。 2、节点自由增加。
+
+缺点：在使用组合模式时，其叶子和树枝的声明都是实现类，而不是接口，违反了依赖倒置原则。
+
+使用场景：部分、整体场景，如树形菜单，文件、文件夹的管理。
+```
 
 
 
@@ -75,5 +139,5 @@ license: ""
 
  [设计模式-视频讲解](https://www.bilibili.com/video/BV1G4411c7N4?p=6&vd_source=7c47b6d72612787b009ac686785b509a)
 
- [设计模式-原则](https://github-yuteng.github.io/2019/08/01/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B8%83%E5%A4%A7%E5%8E%9F%E5%88%99/)
- <!--more-->
+ [设计模式-组合模式](https://www.runoob.com/design-pattern/composite-pattern.html)
+ <!--more--> 
