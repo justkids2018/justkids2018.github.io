@@ -98,5 +98,8 @@ https://cdn.jsdelivr.net/gh/justkids2018/cdn/
  图库更新至 https://statically.io/
  域名替换成使用:
  https://cdn.staticaly.com/gh/
+ 
+ 2024年7月替换：
+ https://cdn.jsdelivr.net
 ```
 <!--more-->

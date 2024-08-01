@@ -1,15 +1,15 @@
 ---
-title: "入股笔记-新手-01"
+title: "投资小白笔记--2301"
 subtitle: ""
 date: 2023-10-25T07:07:14+08:00
 lastmod: 2023-10-25T07:07:14+08:00
-draft: true
+draft: false
 author: ""
 authorLink: ""
 description: ""
 
-tags: [stock-record]
-categories: [stock]
+tags: [股票]
+categories: [投资]
 
 hiddenFromHomePage: false
 hiddenFromSearch: false
@@ -41,7 +41,5 @@ license: ""
   6、每周五可查看股市行情，前天时间
 ```
   写投资心得，一是想记录投资中的心态变化，二是记录当时是如何选择该股票的，再回看的时候便于去反思和总结。
-
-
 
 <!--more-->

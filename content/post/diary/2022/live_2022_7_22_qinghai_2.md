@@ -3,7 +3,7 @@ title: "亲子环青海湖骑行-环湖篇"
 subtitle: "梦想之旅"
 date: 2022-08-02T15:43:00+08:00
 lastmod: 2022-08-02T15:43:00+08:00
-image: "https://cdn.staticaly.com/gh/justkids2018/cdn@main/tool/20220803145353.jpeg"
+image: "https://cdn.jsdelivr.net/gh/justkids2018/cdn@main/tool/20220803145353.jpeg"
 draft: false
 author: ""
 authorLink: ""
@@ -15,7 +15,7 @@ categories: [游记]
 hiddenFromHomePage: true
 hiddenFromSearch: false
 
-featuredImage: "https://cdn.staticaly.com/gh/justkids2018/cdn@main/tool/20220803145133.jpeg"
+featuredImage: "https://cdn.jsdelivr.net/gh/justkids2018/cdn@main/tool/20220803145133.jpeg"
 featuredImagePreview: ""
 
 toc:
@@ -29,7 +29,7 @@ license: ""
 
 ## 亲子环青海湖骑行
 
-![亲子环湖](https://cdn.staticaly.com/gh/justkids2018/cdn@main/tool/20220803145133.jpeg)
+![亲子环湖](https://cdn.jsdelivr.net/gh/justkids2018/cdn@main/tool/20220803145133.jpeg)
 
 
 
@@ -86,7 +86,7 @@ $\color{red}{塔尔寺注意事项:}$
 
 ### D3 西海镇-湖东种羊场-江西沟(60KM)--(环湖开始)
 
-![出发](https://cdn.staticaly.com/gh/justkids2018/cdn@main/tool/20220803144917.jpeg)
+![出发](https://cdn.jsdelivr.net/gh/justkids2018/cdn@main/tool/20220803144917.jpeg)
 #### 行程:
  $\color{red}{环湖Day1:}$
 
@@ -119,7 +119,7 @@ $\color{red}{塔尔寺注意事项:}$
 旺湖酒店，亲子房250左右一间。接待很多团队，需提前预定。因小朋友生病，造成我们晚了一天才到酒店，预定的时间也没有改，造成差点没房住的尴尬(切记，要核实预定酒店的日期)。最后协商住进了一楼的临时房间，里面很冷，没有地暖。提供了电热毯，算是插曲吧。旁边有个西海酒店看着还行，可以看看网上评价，出酒店就是桥，早上可以沿着河边走到湖边看日出，最好是6点15之前出去看日出，不然就晚了。我们实在太累，错过了日出，有点后悔。
 
 ###  D5 黑马河-茶卡-鸟岛(57KM)(风景最漂亮，一路下坡)
-![途中](https://cdn.staticaly.com/gh/justkids2018/cdn@main/tool/20220803145852.JPG)
+![途中](https://cdn.jsdelivr.net/gh/justkids2018/cdn@main/tool/20220803145852.JPG)
 
 #### 行程:
 
@@ -175,7 +175,7 @@ $\color{red}{一定一定要考虑核酸报告}$
 在西宁不要打出租到机场，出租司机一听到机场，就不打表，直接要价150元，西宁本地同学帮忙还价到120元，同学建议打滴滴，不到90元。
 
 青海湖:
-![合影留念](https://cdn.staticaly.com/gh/justkids2018/cdn@main/tool/20220803145353.jpeg)
+![合影留念](https://cdn.jsdelivr.net/gh/justkids2018/cdn@main/tool/20220803145353.jpeg)
 
 
 ### 行程总结

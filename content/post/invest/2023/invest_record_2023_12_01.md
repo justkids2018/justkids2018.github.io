@@ -1,15 +1,15 @@
 ---
-title: "小白投资笔记-231201"
+title: "投资小白笔记-2302"
 subtitle: ""
 date: 2023-10-25T07:07:14+08:00
 lastmod: 2023-10-25T07:07:14+08:00
-draft: true
+draft: false
 author: ""
 authorLink: ""
 description: ""
 
-tags: [stock-record]
-categories: [stock]
+tags: [股票]
+categories: [投资]
 
 hiddenFromHomePage: false
 hiddenFromSearch: false

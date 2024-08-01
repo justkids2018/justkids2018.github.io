@@ -13,11 +13,6 @@ title: JustKids
 #         languageName: 中文
 #         title: 演示站点
 #         weight: 2
-#     ar:
-#         languageName: عربي
-#         languagedirection: rtl
-#         title: موقع تجريبي
-#         weight: 3
 
 # Change it to your Disqus shortname before using
 disqusShortname: hugo-theme-stack
@@ -46,13 +41,13 @@ params:
 
     footer:
         since: 2020
-        customText: 真实、独立、有趣
+        customText: 真实 | 独立 | 有趣
 
     dateFormat:
         # published: Jan 02, 2006
         # lastUpdated: Jan 02, 2022 15:04 MST
         published: 2006年1月2日 
-        lastUpdated: 2006年1月2日 12点14分
+        lastUpdated: 2024年8月1日 1点14分
 
     sidebar:
         emoji: 🍥
@@ -60,7 +55,7 @@ params:
         avatar:
             enabled: false
             local: true
-            src: img/qimanman.jpg
+            # src: img/qimanman.jpg
 
     article:
         math: true
@@ -134,7 +129,7 @@ params:
             categoryID:
             mapping:
             lightTheme:
-            darkTheme:
+            darkTheme: 
             reactionsEnabled: 1
             emitMetadata: 0
 
@@ -180,9 +175,8 @@ params:
     colorScheme:
         # Display toggle
         toggle: true
-
         # Available values: auto, light, dark
-        default: auto
+        default: dark
 
     imageProcessing:
         cover:
@@ -196,12 +190,12 @@ params:
 menu:
     
     main:
-        - identifier: home
-          name: 首页
-          url: /
-          weight: -100
-          params:
-            icon: home
+        # - identifier: main
+        #   name: 首页
+        #   url: /
+        #   weight: -91
+        #   params:
+        #     icon: archives
             
 
         - identifier: archive
@@ -226,12 +220,12 @@ menu:
         #    icon: book
 
 
-    # social:
-        # - identifier: github
-        #   name: GitHub
-        #   url: https://github.com/CaiJimmy/hugo-theme-stack
-        #   params:
-        #       icon: brand-github
+    social:
+        - identifier: github
+          name: GitHub
+          url: https://github.com/justkids2018
+          params:
+              icon: brand-github
 
         # - identifier: twitter
         #   name: Twitter

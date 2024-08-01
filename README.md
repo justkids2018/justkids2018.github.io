@@ -15,4 +15,10 @@
 * hugo new  /posts/test.md
 * 
 * hugo server --theme=hyde --buildDrafts
-* hugo server  --buildDrafts
+# 显示草稿
+* hugo server  --buildDrafts   
+# 可以直接运行脚本
+```
+chmod +x hugo_run.sh
+./hugo_run.sh
+```
