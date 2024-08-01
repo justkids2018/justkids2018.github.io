@@ -50,8 +50,10 @@ UML是一个通用的标准建模语言，
 
 <IMG SRC="https://i.loli.net/2019/08/06/ysxabt1DfXLoBKj.png">
 <IMG src="img/uml_class.webp">
+
 ----
-#### 3.1 实现关系（Realization）
+
+#### 3.1 实现关系（Realization） 
 
 实现关系：使用的是一个**带空心箭头的虚线**表示。
  
