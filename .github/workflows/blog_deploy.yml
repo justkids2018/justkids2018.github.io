@@ -3,7 +3,7 @@ name: GitHub Page Deploy
 on:
   push:
     branches:
-      - main
+      - page
 
 jobs:
   deploy:
@@ -27,3 +27,5 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
           publish_dir: ./public
+          public allow_empty_commit: true
+          commit_message: ${{ github.event.head_commit.message }}
