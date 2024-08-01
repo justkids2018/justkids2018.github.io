@@ -22,7 +22,8 @@ jobs:
 
       - name: Build 
         run:  
-          hugo --minify -E
+          hugo --minify --gc
+          # hugo --minify -E
           # hugo server -e
           # hugo -D 
           # hugo server -e production
