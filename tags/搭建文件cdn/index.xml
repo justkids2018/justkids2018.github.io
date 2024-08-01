@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>搭建文件CDN on JustKids</title><link>https://justkids.top/tags/%E6%90%AD%E5%BB%BA%E6%96%87%E4%BB%B6cdn/</link><description>Recent content in 搭建文件CDN on JustKids</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 07 Aug 2021 08:45:57 +0800</lastBuildDate><atom:link href="https://justkids.top/tags/%E6%90%AD%E5%BB%BA%E6%96%87%E4%BB%B6cdn/index.xml" rel="self" type="application/rss+xml"/><item><title>Github + jsDelivr+picGO CDN 托管（文件、图片）</title><link>https://justkids.top/p/github--jsdelivr-picgo-cdn-%E6%89%98%E7%AE%A1%E6%96%87%E4%BB%B6%E5%9B%BE%E7%89%87/</link><pubDate>Sat, 07 Aug 2021 08:45:57 +0800</pubDate><guid>https://justkids.top/p/github--jsdelivr-picgo-cdn-%E6%89%98%E7%AE%A1%E6%96%87%E4%BB%B6%E5%9B%BE%E7%89%87/</guid><description>&lt;h3 id="github-创建仓库">github 创建仓库&lt;/h3>
-&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>搭建文件CDN on JustKids</title><link>https://justkids.top/tags/%E6%90%AD%E5%BB%BA%E6%96%87%E4%BB%B6cdn/</link><description>Recent content in 搭建文件CDN on JustKids</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 07 Aug 2021 08:45:57 +0800</lastBuildDate><atom:link href="https://justkids.top/tags/%E6%90%AD%E5%BB%BA%E6%96%87%E4%BB%B6cdn/index.xml" rel="self" type="application/rss+xml"/><item><title>Github + jsDelivr+picGO CDN 托管（文件、图片）</title><link>https://justkids.top/p/github--jsdelivr-picgo-cdn-%E6%89%98%E7%AE%A1%E6%96%87%E4%BB%B6%E5%9B%BE%E7%89%87/</link><pubDate>Sat, 07 Aug 2021 08:45:57 +0800</pubDate><guid>https://justkids.top/p/github--jsdelivr-picgo-cdn-%E6%89%98%E7%AE%A1%E6%96%87%E4%BB%B6%E5%9B%BE%E7%89%87/</guid><description>&lt;h3 id="github-创建仓库">github 创建仓库
+&lt;/h3>&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">
 &lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
 &lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">0
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
@@ -7,8 +7,8 @@
 &lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>公共仓库 项目名称cdn
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;h3 id="本地下载仓库操作">本地下载仓库操作&lt;/h3>
-&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">
+&lt;/div>&lt;h3 id="本地下载仓库操作">本地下载仓库操作
+&lt;/h3>&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">
 &lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
 &lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">0
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
@@ -20,8 +20,8 @@
 loading="lazy"
 alt="截图"
 >&lt;/p>
-&lt;h3 id="上次文件或者图片">上次文件或者图片&lt;/h3>
-&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">
+&lt;h3 id="上次文件或者图片">上次文件或者图片
+&lt;/h3>&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">
 &lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
 &lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">0
 &lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
@@ -34,8 +34,8 @@ alt="截图"
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;p>github 发布release 版本 &lt;strong>（可进行版本控制，方便迭代）&lt;/strong>&lt;/p>
-&lt;h3 id="增加picgo-的使用方式">增加picGO 的使用方式&lt;/h3>
-&lt;p>&lt;a class="link" href="https://github.com/Molunerfinn/PicGo" target="_blank" rel="noopener"
+&lt;h3 id="增加picgo-的使用方式">增加picGO 的使用方式
+&lt;/h3>&lt;p>&lt;a class="link" href="https://github.com/Molunerfinn/PicGo" target="_blank" rel="noopener"
 >下载picgo软件&lt;/a>&lt;/p>
 &lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">
 &lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
@@ -72,8 +72,8 @@ loading="lazy"
 &lt;/div>
 &lt;/div>&lt;p>&lt;a class="link" href="https://blog.csdn.net/shuimqs/article/details/109179005" target="_blank" rel="noopener"
 >参考方案&lt;/a>&lt;/p>
-&lt;h3 id="通过jsdelivr--引用资源">通过JsDelivr 引用资源&lt;/h3>
-&lt;blockquote>
+&lt;h3 id="通过jsdelivr--引用资源">通过JsDelivr 引用资源
+&lt;/h3>&lt;blockquote>
 &lt;p>jsDelivr &lt;a class="link" href="https://www.jsdelivr.com/?docs=gh" target="_blank" rel="noopener"
 >开源的CDN简介&lt;/a>&lt;/p>
 &lt;/blockquote>
@@ -124,8 +124,8 @@ loading="lazy"
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>https://cdn.jsdelivr.net/gh/justkids2018/cdn/
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;h4 id="2022年8月更新">2022年8月更新：&lt;/h4>
-&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">
+&lt;/div>&lt;h4 id="2022年8月更新">2022年8月更新：
+&lt;/h4>&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">
 &lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
 &lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">0
 &lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
