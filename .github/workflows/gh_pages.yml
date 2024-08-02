@@ -22,7 +22,7 @@ jobs:
 
       - name: Build 
         run:  
-          hugo --minify --gc
+          hugo --minify -E
           # hugo --minify -E
           # hugo server -e
           # hugo -D 
@@ -33,5 +33,5 @@ jobs:
          PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
          PUBLISH_BRANCH: gh-pages
          PUBLISH_DIR: ./public
-        #  public allow_empty_commit: true
-        #  commit_message: ${{ github.event.head_commit.message }}
+         public allow_empty_commit: true
+         commit_message: ${{ github.event.head_commit.message }}
