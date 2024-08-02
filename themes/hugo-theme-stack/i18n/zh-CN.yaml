@@ -60,8 +60,13 @@ search:
         other: "#PAGES_COUNT 个结果 （用时 #TIME_SECONDS 秒）"
 
 footer:
-    builtWith:
-        other: 使用 {{ .Generator }} 构建
+    # builtWith:
+    #     other: 使用 {{ .Generator }} 构建
+    # designedBy:
+    #     other: 主题 {{ .Theme }} 由 {{ .DesignedBy }} 设计
+    aboutWe:
+        other: 联系 {{ .email }} 
 
-    designedBy:
-        other: 主题 {{ .Theme }} 由 {{ .DesignedBy }} 设计
+    # social:
+    #     twitter: 在 Twitter 上关注我们: @yourtwitterhandle
+    #     github: 在 GitHub 上查看我们的项目: github.com/yourusername
