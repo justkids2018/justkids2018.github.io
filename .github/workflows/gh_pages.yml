@@ -22,9 +22,7 @@ jobs:
 
       - name: Build 
         run:  
-          echo "Starting Hugo build..."       
-          hugo --minify -E
-          echo "Hugo build completed."
+          hugo --minify --gc
           # hugo --minify -E
           # hugo server -e
           # hugo -D 
@@ -32,12 +30,7 @@ jobs:
       - name: Deploy Hugo to page
         uses: peaceiris/actions-gh-pages@v3
         with:
-         PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
-         PUBLISH_BRANCH: gh-pages
-         PUBLISH_DIR: ./public
-      
-      - name: Verify Deployment
-        run: |
-          echo "Deployment completed."
-          echo "Listing contents of public directory..."
-          # ls -la ./public
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
+          PUBLISH_BRANCH: gh-pages
+          PUBLISH_DIR: ./public
