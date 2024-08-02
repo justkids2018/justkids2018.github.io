@@ -31,15 +31,22 @@ license: ""
 * hugo server --buildDrafts
 ```
 ### github page 自定义域名
+```
 创建文件CNAME，目录（~/blog项目/static/CNAME）
 内容：域名地址
 > eg： justkids.top
-
+```
 
 ### hugo 更新记录
 - V1.0.0  2021.6   创建博客  主题 LoveIt
 - V1.1.0  2021.8.05  更新主题为tack
+- V1.1.1  2023.8.2   更改主题：hugo-theme-stack
 
+### 主题stack下载
+```
+git clone https://github.com/CaiJimmy/hugo-theme-stack/ themes/hugo-theme-stack
+
+```
 
 ### hugo 借鉴资料
 [github action 部署](https://io-oi.me/tech/deploy-hugo-to-github-pages-via-github-actions/)
