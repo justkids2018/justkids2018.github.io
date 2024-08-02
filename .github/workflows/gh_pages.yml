@@ -22,7 +22,9 @@ jobs:
 
       - name: Build 
         run:  
+          echo "Starting Hugo build..."       
           hugo --minify -E
+          echo "Hugo build completed."
           # hugo --minify -E
           # hugo server -e
           # hugo -D 
@@ -33,5 +35,9 @@ jobs:
          PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
          PUBLISH_BRANCH: gh-pages
          PUBLISH_DIR: ./public
-         public allow_empty_commit: true
-         commit_message: ${{ github.event.head_commit.message }}
+      
+      - name: Verify Deployment
+        run: |
+          echo "Deployment completed."
+          echo "Listing contents of public directory..."
+          ls -la ./public
