@@ -22,7 +22,7 @@ jobs:
 
       - name: Build 
         run:  
-          hugo --minify
+          hugo --minify -E
           # hugo --minify -E
           # hugo server -e
           # hugo -D 
