@@ -8,7 +8,7 @@ author: "qsd"
 authorLink: ""
 description: ""
 
-tags: []
+tags: [设计模式]
 categories: [DesignPattern]
 
 hiddenFromHomePage: false

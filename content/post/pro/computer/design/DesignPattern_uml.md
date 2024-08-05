@@ -1,14 +1,14 @@
 ---
-title: "设计模式-1-UML"
+title: "设计模式-UML"
 subtitle: ""
 date: 2022-12-01 
-lastmod: 2022-12-01 23:35
+lastmod: 2024-08-05 10:35
 draft: false
 author: "qsd"
 authorLink: ""
-description: "设计模式-UML基础"
+description: "UML基础"
 
-tags: []
+tags: [UML]
 categories: [DesignPattern]
 
 hiddenFromHomePage: false
@@ -91,7 +91,7 @@ UML是一个通用的标准建模语言，
 组合关系在UML中使用实心菱形的实线表示
 (转)看懂类图——UML类图基础
 
-<IMG SRC="https://www.likecs.com/default/index/img?u=aHR0cHM6Ly9pbWFnZXMyMDE3LmNuYmxvZ3MuY29tL2Jsb2cvMTIyNzMzMS8yMDE3MDkvMTIyNzMzMS0yMDE3MDkxODEwNDcwMzIyOC04ODY2NDk4NDgucG5n">
+<IMG SRC="https://www.likecs.com/default/index/img">
 
 #### 3.5 关联关系 
 
@@ -116,7 +116,176 @@ UML是一个通用的标准建模语言，
 
 在最终代码中，依赖关系体现为类构造方法及类方法的传入参数，箭头的指向为调用关系；依赖关系除了临时知道对方外，还“使用”对方的方法和属性.
 
+### 4
+#### 4.1 关联和依赖区别
+**依赖**
 
+```
+public class MathOperation {
+    public int add(int a, int b) {
+        return a + b;
+    }
+}
+
+// Calculator.java
+public class Calculator {
+    public int calculateSum(int a, int b) {
+        MathOperation operation = new MathOperation();
+        return operation.add(a, b);
+    }
+}
+
+```
+
+**关联**
+
+```
+public class Address {
+    private String street;
+    private String city;
+
+    public Address(String street, String city) {
+        this.street = street;
+        this.city = city;
+    }
+
+    public String getStreet() {
+        return street;
+    }
+
+    public String getCity() {
+        return city;
+    }
+}
+
+// Person.java
+public class Person {
+    private String name;
+    private Address address;
+
+    public Person(String name, Address address) {
+        this.name = name;
+        this.address = address;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public Address getAddress() {
+        return address;
+    }
+}
+
+```
+
+**依赖：** Calculator类在需要执行计算时才创建MathOperation的实例，这种关系是暂时的，一旦方法执行完毕，MathOperation的实例就不再被需要。
+
+**关联：** Person类始终拥有一个Address实例，这种关系是持久的，只要Person对象存在，那么Address对象也就存在。
+
+
+
+#### 组合和聚合区别
+
+组合（Composition）和聚合（Aggregation）是面向对象编程中的两种设计模式，用于描述对象之间的关系。它们的主要区别在于对象的生命周期管理。
+
+##### 组合 (Composition)
+
+组合是一种强关系，表示一个对象包含另一个对象，并且包含的对象的生命周期由包含者负责。当包含者被销毁时，包含的对象也会被销毁。
+
+
+```java
+class Engine {
+    private int horsepower;
+
+    public Engine(int horsepower) {
+        this.horsepower = horsepower;
+    }
+
+    public int getHorsepower() {
+        return horsepower;
+    }
+}
+
+class Car {
+    private String make;
+    private String model;
+    private Engine engine;  // 组合关系
+
+    public Car(String make, String model, int horsepower) {
+        this.make = make;
+        this.model = model;
+        this.engine = new Engine(horsepower);
+    }
+
+    public void displayInfo() {
+        System.out.println(make + " " + model + " with " + engine.getHorsepower() + " HP");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Car car = new Car("Toyota", "Corolla", 132);
+        car.displayInfo();
+        // 当 car 对象被销毁时，engine 对象也会被销毁
+    }
+}
+```
+
+在这个例子中，`Car` 类包含一个 `Engine` 对象，这是一个组合关系，因为 `Engine` 对象的生命周期由 `Car` 对象管理。
+
+#####  聚合 (Aggregation)
+
+聚合是一种弱关系，表示一个对象可以包含另一个对象，但包含的对象的生命周期独立于包含者。当包含者被销毁时，包含的对象不一定会被销毁。
+
+
+```java
+class Engine {
+    private int horsepower;
+
+    public Engine(int horsepower) {
+        this.horsepower = horsepower;
+    }
+
+    public int getHorsepower() {
+        return horsepower;
+    }
+}
+
+class Car {
+    private String make;
+    private String model;
+    private Engine engine;  // 聚合关系
+
+    public Car(String make, String model, Engine engine) {
+        this.make = make;
+        this.model = model;
+        this.engine = engine;
+    }
+
+    public void displayInfo() {
+        System.out.println(make + " " + model + " with " + engine.getHorsepower() + " HP");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Engine engine = new Engine(132);
+        Car car = new Car("Toyota", "Corolla", engine);
+        car.displayInfo();
+        // 当 car 对象被销毁时，engine 对象仍然存在
+    }
+}
+```
+
+在这个例子中，`Car` 类也包含一个 `Engine` 对象，但这是一个聚合关系，因为 `Engine` 对象的生命周期独立于 `Car` 对象。
+
+##### 总结
+
+- **组合 (Composition)**: 包含关系，对象的生命周期由包含者管理。
+- **聚合 (Aggregation)**: 包含关系，对象的生命周期独立于包含者。
+
+这两种关系有助于更好地组织和管理代码中的对象和它们之间的关系。
 
 ### 参考资料
  [设计模式资料](http://www.jasongj.com/design_pattern/simple_factory/)

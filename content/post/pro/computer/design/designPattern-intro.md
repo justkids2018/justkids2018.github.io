@@ -90,7 +90,13 @@ class Vehicle {
 
  
  #### ** 不符合设计模式UML**
- <IMG SRC="https://img-blog.csdnimg.cn/4ef0a747466f4c2ab2a2949fec9a4729.png#pic_center">
+
+ <IMG SRC="https://img-blog.csdnimg.cn/4ef0a747466f4c2ab2a2949fec9a4729.png">
+
+
+
+ <!-- ![Google22](images/iShot_2024-01-29_14.39.23.png) -->
+
 分析：
 
 ​ 1）类A通过接口Interface1依赖类B，类C通过 接口Interface1依赖类D，如果接口 Interface1对于类A和类C来说不是最小接口， 那么类B和类D必须去实现他们不需要的方法。
@@ -106,7 +112,7 @@ class Vehicle {
 * 2、将接口 Interface 拆分为独立的几个接口，类A 和 类C 分别与他们需要的接口建立依赖关系。也就是采用接口隔离原则。
 * 3、接口 Interface 中出现的方法，根据实际情祝拆分为三个接口。
 
-<IMG SRC="https://img-blog.csdnimg.cn/e978714a00cb4ef688dee2d52a2a8e17.png#pic_center">
+<IMG SRC="https://img-blog.csdnimg.cn/e978714a00cb4ef688dee2d52a2a8e17.png">
 
 代码
 ```

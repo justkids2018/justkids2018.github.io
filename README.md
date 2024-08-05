@@ -12,7 +12,7 @@
 ### 常用命令
 
 * hugo new  test.md
-* hugo new  /posts/test.md
+* hugo new  content/post/test1.md 
 * 
 * hugo server --theme=hyde --buildDrafts
 # 显示草稿
