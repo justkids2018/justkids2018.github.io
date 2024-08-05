@@ -1,5 +1,5 @@
 ---
-title: "设计模式-适配器模式"
+title: "设计模式-结构-适配器模式"
 subtitle: "结构型"
 date: 2022-12-01 
 lastmod: 2022-12-01 
@@ -25,7 +25,8 @@ lightgallery: true
 license: ""
 ---
 
-#### 1、适配器模式
+## 适配器模式
+
 1、模式类型：
     结构型
 2、定义：适配器模式（Adapter Pattern）
@@ -46,13 +47,13 @@ license: ""
 4) 用户收到反馈结果，感觉只是和目标接口交互，如图
 
 ```
-#### 2、原理uml图
+### 原理uml图
 
 
+![](https://cdn.jsdelivr.net/gh/justkids2018/cdn@main/tool/202408051714542.png)
+<!-- <img src="img/disign-dp-适配器模式.drawio.png"> -->
 
-<img src="img/disign-dp-适配器模式.drawio.png">
-
-#### 3、实例：
+###  实例：
 ```
 //类适配器
 public class Client {
@@ -107,7 +108,9 @@ public class VoltageAdapter extends Voltage220V implements IVoltage5V {
 ```
 
 
-#### 4、应用场景
+
+
+### 应用场景
 ```
 1 封装有缺陷的接口设计
 2 统一多个类的接口设计

@@ -61,6 +61,8 @@ brew  install picgo --cask
      1）https://cdn.jsdelivr.net/gh/justkids2018/cdn@分支/
      2）另一方式：就是增加版本号 （需要每次都发布reales版本）
        https://cdn.jsdelivr.net/gh/justkids2018/cdn@version/
+
+3、上传图片请求401；解决方案：更新token       
 ```
 
 [参考方案](https://blog.csdn.net/shuimqs/article/details/109179005)
