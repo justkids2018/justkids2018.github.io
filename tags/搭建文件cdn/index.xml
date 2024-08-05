@@ -61,6 +61,8 @@ loading="lazy"
 &lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
 &lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
 &lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">6
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
 &lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>1、github 最新创建分支默认是main 分支，不再是master 分支
@@ -68,6 +70,8 @@ loading="lazy"
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> 1）https://cdn.jsdelivr.net/gh/justkids2018/cdn@分支/
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> 2）另一方式：就是增加版本号 （需要每次都发布reales版本）
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> https://cdn.jsdelivr.net/gh/justkids2018/cdn@version/
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>3、上传图片请求401；解决方案：更新token
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;p>&lt;a class="link" href="https://blog.csdn.net/shuimqs/article/details/109179005" target="_blank" rel="noopener"
