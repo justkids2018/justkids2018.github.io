@@ -49,17 +49,14 @@ UML是一个通用的标准建模语言，
 ```
 
 <IMG SRC="https://i.loli.net/2019/08/06/ysxabt1DfXLoBKj.png">
-<IMG src="img/uml_class.webp">
+<img src="https://cdn.jsdelivr.net/gh/justkids2018/cdn@main/tool/202408051729029.webp">
+<!-- ![](tool/202408051729029.webp) -->
 
 ----
 
 #### 3.1 实现关系（Realization） 
 
 实现关系：使用的是一个**带空心箭头的虚线**表示。
- 
-<IMG SRC="https://www.likecs.com/default/index/img?u=aHR0cHM6Ly9pbWFnZXMyMDE3LmNuYmxvZ3MuY29tL2Jsb2cvMTIyNzMzMS8yMDE3MDkvMTIyNzMzMS0yMDE3MDkxODEwMDEwOTA3MS04ODIyMTg2MjQucG5n">
-
-
 
 上述类图我们可以说A实现了B，B是一个抽象概念，
 在现实中无法直接用来定义对象，只有指明具体的子类，才能用来定义对象.
@@ -79,7 +76,6 @@ UML是一个通用的标准建模语言，
 整体与部分之间是弱依赖关系，整体不存在了，部分依然可以独立存在，也就是说部分和整体的生命周期是独立的。
 聚合关系在UML中使用带空心菱形的实线表示
 
-<IMG SRC="https://www.likecs.com/default/index/img?u=aHR0cHM6Ly9pbWFnZXMyMDE3LmNuYmxvZ3MuY29tL2Jsb2cvMTIyNzMzMS8yMDE3MDkvMTIyNzMzMS0yMDE3MDkxODEwMjAzNjA4Ny0yMDc2ODkwOTg5LnBuZw==">
 
 例如班级不存在了，学生仍然能够单独存在
 
@@ -91,7 +87,6 @@ UML是一个通用的标准建模语言，
 组合关系在UML中使用实心菱形的实线表示
 (转)看懂类图——UML类图基础
 
-<IMG SRC="https://www.likecs.com/default/index/img">
 
 #### 3.5 关联关系 
 
@@ -101,7 +96,7 @@ UML是一个通用的标准建模语言，
 比如，乘车人和车票之间就是一种关联关系
 关联关系默认不强调方向，表示对象间相互知道；如果特别强调方向，如下图，表示A知道B，但 B不知道A，如下图
 (转)看懂类图——UML类图基础
-<IMG SRC="https://www.likecs.com/default/index/img?u=aHR0cHM6Ly9pbWFnZXMyMDE3LmNuYmxvZ3MuY29tL2Jsb2cvMTIyNzMzMS8yMDE3MDkvMTIyNzMzMS0yMDE3MDkxODEwNTAyMzQ3OC0xMjU0MDk1NDM0LnBuZw==">
+
 
 注：在最终代码中，关联对象通常是以成员变量的形式实现的；
 
