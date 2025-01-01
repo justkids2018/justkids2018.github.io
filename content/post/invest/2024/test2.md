@@ -8,11 +8,17 @@ math:
 license: 
 hidden: false
 comments: true
-draft: false
+draft: true
 
 
 tags: [阅读笔记]
 categories: [投资]
 ---
+
+
+| version | 时间       |
+| :------ | :--------- |
+| 1       | 2023-01-16 |
+
 作者：威廉·格林
 

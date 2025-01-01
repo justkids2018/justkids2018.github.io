@@ -1,5 +1,5 @@
 ---
-title: "投资笔记-010-摇摆"
+title: "投资日记-选股原则-01"
 subtitle: ""
 date: 2023-10-25T07:07:14+08:00
 lastmod: 2023-10-25T07:07:14+08:00
@@ -8,7 +8,7 @@ author: ""
 authorLink: ""
 description: ""
 
-tags: [股票]
+tags: [选股原则]
 categories: [投资]
 
 hiddenFromHomePage: false
