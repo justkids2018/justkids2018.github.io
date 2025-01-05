@@ -2,7 +2,7 @@
 title: "设计模式-UML"
 subtitle: ""
 date: 2022-12-01 
-lastmod: 2024-08-05 10:35
+lastmod: 2024-08-05
 draft: false
 author: "qsd"
 authorLink: ""
