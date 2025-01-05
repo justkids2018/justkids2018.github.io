@@ -2644,23 +2644,190 @@ loading="lazy"
 &lt;p>&lt;a class="link" href="https://www.bilibili.com/video/BV1G4411c7N4?p=6&amp;amp;vd_source=7c47b6d72612787b009ac686785b509a" target="_blank" rel="noopener"
 >设计模式-视频讲解&lt;/a>&lt;/p>
 &lt;p>&lt;a class="link" href="https://github-yuteng.github.io/2019/08/01/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B8%83%E5%A4%A7%E5%8E%9F%E5%88%99/" target="_blank" rel="noopener"
->设计模式-原则&lt;/a>&lt;/p></description></item><item><title>设计模式【行为】职责链模式</title><link>https://justkids.top/p/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E8%A1%8C%E4%B8%BA%E8%81%8C%E8%B4%A3%E9%93%BE%E6%A8%A1%E5%BC%8F/</link><pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate><guid>https://justkids.top/p/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E8%A1%8C%E4%B8%BA%E8%81%8C%E8%B4%A3%E9%93%BE%E6%A8%A1%E5%BC%8F/</guid><description>&lt;h3 id="1模式">1、模式
+>设计模式-原则&lt;/a>&lt;/p></description></item><item><title>设计模式【行为】职责链模式</title><link>https://justkids.top/p/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E8%A1%8C%E4%B8%BA%E8%81%8C%E8%B4%A3%E9%93%BE%E6%A8%A1%E5%BC%8F/</link><pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate><guid>https://justkids.top/p/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E8%A1%8C%E4%B8%BA%E8%81%8C%E8%B4%A3%E9%93%BE%E6%A8%A1%E5%BC%8F/</guid><description>&lt;h3 id="模式">模式
 &lt;/h3>&lt;h4 id="1模式类型">1、模式类型：
-&lt;/h4>&lt;pre>&lt;code>结构型
+&lt;/h4>&lt;pre>&lt;code> 行为型模式
 &lt;/code>&lt;/pre>
 &lt;h4 id="2定义">2、定义：
-&lt;/h4>&lt;h4 id="3原理类图">3、原理类图
-&lt;/h4>&lt;h4 id="4工作原理">4、工作原理
+&lt;/h4>&lt;p>职责链模式（ChainofResponsibilityPattern）,又叫责任链模式，为请求创建了一个接收者对象的链，&lt;strong>这种模式对请求的发送者和接收者进行解耦&lt;/strong>。
+2)职责链模式通常每个接收者都包含对另一个接收者的引用。如果一个对象不能处理该请求，那么它会把相同的请求传给下一个接收者，依此类推。
+3)这种类型的设计模式属于&lt;strong>行为型模式&lt;/strong>&lt;/p>
+&lt;h4 id="3原理类图">3、原理类图
+&lt;/h4>&lt;p>职责链模式的原理类图对原理类图的说明-即(职责链模式的角色及职责)
+1)Handler:抽象的处理者,定义了一个处理请求的接口,同时含义另外Handler
+2)ConcreteHandlerA,B是具体的处理者,处理它自己负责的请求，可以访问它的后继者(即下一个处理者),如果可以处理当前请求，则处理，否则就将该请求交个后继者去处理，从而形成一个职责链
+3)Request，含义很多属性，表示一个请求26.6职责链模式解决OA系统采购审批&lt;/p>
+&lt;h4 id="4代码">4、代码
 &lt;/h4>&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">
 &lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
-&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code>&lt;/code>&lt;/pre>&lt;/td>
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 0
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">23
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">24
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">25
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">26
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">27
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">28
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">29
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">30
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">31
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">32
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">33
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">34
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">35
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">36
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">37
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">38
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">39
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">40
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">41
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">42
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">43
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">44
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">45
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">46
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">47
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">48
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">49
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">50
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">51
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">52
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">53
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">54
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">55
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">56
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">57
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">58
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">59
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">60
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">61
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">62
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">63
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">64
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">65
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">66
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">67
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">68
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">69
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">70
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">71
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">72
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">73
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">74
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">75
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">76
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">77
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">78
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">79
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code class="language-fallback" data-lang="fallback">&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code class="language-gdscript3" data-lang="gdscript3">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">//&lt;/span> &lt;span style="color:#960050;background-color:#1e0010">抽象类&lt;/span> Logger&lt;span style="color:#960050;background-color:#1e0010">，表示处理者（&lt;/span>Handler&lt;span style="color:#960050;background-color:#1e0010">）&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>abstract &lt;span style="color:#66d9ef">class&lt;/span> Logger {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">static&lt;/span> &lt;span style="color:#66d9ef">const&lt;/span> &lt;span style="color:#a6e22e">int&lt;/span> INFO &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#ae81ff">1&lt;/span>; &lt;span style="color:#f92672">//&lt;/span> &lt;span style="color:#960050;background-color:#1e0010">定义日志级别常量&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">static&lt;/span> &lt;span style="color:#66d9ef">const&lt;/span> &lt;span style="color:#a6e22e">int&lt;/span> DEBUG &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#ae81ff">2&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">static&lt;/span> &lt;span style="color:#66d9ef">const&lt;/span> &lt;span style="color:#a6e22e">int&lt;/span> ERROR &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#ae81ff">3&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> final &lt;span style="color:#a6e22e">int&lt;/span> level; &lt;span style="color:#f92672">//&lt;/span> &lt;span style="color:#960050;background-color:#1e0010">当前处理者能够处理的日志级别&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Logger&lt;span style="color:#960050;background-color:#1e0010">?&lt;/span> nextLogger; &lt;span style="color:#f92672">//&lt;/span> &lt;span style="color:#960050;background-color:#1e0010">下一个处理者的引用&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Logger(this&lt;span style="color:#f92672">.&lt;/span>level);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">//&lt;/span> &lt;span style="color:#960050;background-color:#1e0010">设置下一个处理者的方法&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> void setNextLogger(Logger nextLogger) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> this&lt;span style="color:#f92672">.&lt;/span>nextLogger &lt;span style="color:#f92672">=&lt;/span> nextLogger;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">//&lt;/span> &lt;span style="color:#960050;background-color:#1e0010">处理日志信息的方法，根据日志级别决定是否处理&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> void logMessage(&lt;span style="color:#a6e22e">int&lt;/span> level, &lt;span style="color:#a6e22e">String&lt;/span> message) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">if&lt;/span> (this&lt;span style="color:#f92672">.&lt;/span>level &lt;span style="color:#f92672">&amp;lt;=&lt;/span> level) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> write(message); &lt;span style="color:#f92672">//&lt;/span> &lt;span style="color:#960050;background-color:#1e0010">如果当前处理者可以处理日志，则执行写入操作&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> nextLogger&lt;span style="color:#960050;background-color:#1e0010">?&lt;/span>&lt;span style="color:#f92672">.&lt;/span>logMessage(level, message); &lt;span style="color:#f92672">//&lt;/span> &lt;span style="color:#960050;background-color:#1e0010">否则，将请求传递给链条上的下一个处理者&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">//&lt;/span> &lt;span style="color:#960050;background-color:#1e0010">抽象方法，用于具体处理日志信息&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> void write(&lt;span style="color:#a6e22e">String&lt;/span> message);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">//&lt;/span> &lt;span style="color:#960050;background-color:#1e0010">具体的处理者之一：&lt;/span>InfoLogger&lt;span style="color:#960050;background-color:#1e0010">，处理信息级别的日志&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">class&lt;/span> InfoLogger &lt;span style="color:#66d9ef">extends&lt;/span> Logger {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> InfoLogger(&lt;span style="color:#a6e22e">int&lt;/span> level) : super(level);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#960050;background-color:#1e0010">@&lt;/span>override
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> void write(&lt;span style="color:#a6e22e">String&lt;/span> message) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> print(&lt;span style="color:#e6db74">&amp;#34;INFO: $message&amp;#34;&lt;/span>); &lt;span style="color:#f92672">//&lt;/span> &lt;span style="color:#960050;background-color:#1e0010">处理并输出信息级别的日志&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">//&lt;/span> &lt;span style="color:#960050;background-color:#1e0010">具体的处理者之一：&lt;/span>DebugLogger&lt;span style="color:#960050;background-color:#1e0010">，处理调试级别的日志&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">class&lt;/span> DebugLogger &lt;span style="color:#66d9ef">extends&lt;/span> Logger {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> DebugLogger(&lt;span style="color:#a6e22e">int&lt;/span> level) : super(level);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#960050;background-color:#1e0010">@&lt;/span>override
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> void write(&lt;span style="color:#a6e22e">String&lt;/span> message) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> print(&lt;span style="color:#e6db74">&amp;#34;DEBUG: $message&amp;#34;&lt;/span>); &lt;span style="color:#f92672">//&lt;/span> &lt;span style="color:#960050;background-color:#1e0010">处理并输出调试级别的日志&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">//&lt;/span> &lt;span style="color:#960050;background-color:#1e0010">具体的处理者之一：&lt;/span>ErrorLogger&lt;span style="color:#960050;background-color:#1e0010">，处理错误级别的日志&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">class&lt;/span> ErrorLogger &lt;span style="color:#66d9ef">extends&lt;/span> Logger {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ErrorLogger(&lt;span style="color:#a6e22e">int&lt;/span> level) : super(level);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#960050;background-color:#1e0010">@&lt;/span>override
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> void write(&lt;span style="color:#a6e22e">String&lt;/span> message) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> print(&lt;span style="color:#e6db74">&amp;#34;ERROR: $message&amp;#34;&lt;/span>); &lt;span style="color:#f92672">//&lt;/span> &lt;span style="color:#960050;background-color:#1e0010">处理并输出错误级别的日志&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">//&lt;/span> &lt;span style="color:#960050;background-color:#1e0010">创建责任链的方法&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Logger getChainOfLoggers() {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">var&lt;/span> errorLogger &lt;span style="color:#f92672">=&lt;/span> ErrorLogger(Logger&lt;span style="color:#f92672">.&lt;/span>ERROR);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">var&lt;/span> debugLogger &lt;span style="color:#f92672">=&lt;/span> DebugLogger(Logger&lt;span style="color:#f92672">.&lt;/span>DEBUG);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">var&lt;/span> infoLogger &lt;span style="color:#f92672">=&lt;/span> InfoLogger(Logger&lt;span style="color:#f92672">.&lt;/span>INFO);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">//&lt;/span> &lt;span style="color:#960050;background-color:#1e0010">设置责任链的顺序：&lt;/span>INFO &lt;span style="color:#f92672">-&amp;gt;&lt;/span> DEBUG &lt;span style="color:#f92672">-&amp;gt;&lt;/span> ERROR
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> infoLogger&lt;span style="color:#f92672">.&lt;/span>setNextLogger(debugLogger);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> debugLogger&lt;span style="color:#f92672">.&lt;/span>setNextLogger(errorLogger);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">return&lt;/span> infoLogger; &lt;span style="color:#f92672">//&lt;/span> &lt;span style="color:#960050;background-color:#1e0010">返回链的起点，即信息级别的处理者&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">//&lt;/span> &lt;span style="color:#960050;background-color:#1e0010">客户端代码：测试责任链模式的实现&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>void main() {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">var&lt;/span> loggerChain &lt;span style="color:#f92672">=&lt;/span> getChainOfLoggers(); &lt;span style="color:#f92672">//&lt;/span> &lt;span style="color:#960050;background-color:#1e0010">获取责任链&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">//&lt;/span> &lt;span style="color:#960050;background-color:#1e0010">测试不同级别的日志信息，观察责任链的处理过程&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> loggerChain&lt;span style="color:#f92672">.&lt;/span>logMessage(Logger&lt;span style="color:#f92672">.&lt;/span>INFO, &lt;span style="color:#e6db74">&amp;#34;This is an informational message.&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> loggerChain&lt;span style="color:#f92672">.&lt;/span>logMessage(Logger&lt;span style="color:#f92672">.&lt;/span>DEBUG, &lt;span style="color:#e6db74">&amp;#34;This is a debug level message.&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> loggerChain&lt;span style="color:#f92672">.&lt;/span>logMessage(Logger&lt;span style="color:#f92672">.&lt;/span>ERROR, &lt;span style="color:#e6db74">&amp;#34;This is an error message.&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;h3 id="2实例">2、实例：
-&lt;/h3>&lt;h3 id="3注意事项">3、注意事项
+&lt;/div>&lt;h3 id="3注意事项">3、注意事项
 &lt;/h3>&lt;h3 id="4应用场景">4、应用场景
-&lt;/h3>&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">
+&lt;/h3>&lt;p>okhttp&lt;/p>
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">
 &lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
 &lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;">&lt;code>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
