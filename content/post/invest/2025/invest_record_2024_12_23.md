@@ -1,12 +1,13 @@
 ---
 title: "投资笔记-202501"
-subtitle: "关于李录的全球现代化的演讲"
+subtitle: "李录投资心得"
 date: 2025-01-05
 lastmod: 2025-01-05
 draft: false
+image: /invest/jiazhitouzi_lilu.jpg
 author: ""
 authorLink: ""
-description: ""
+description: "李录北大演讲心得-在不确定的经济中如何保持财富"
 
 tags: [股票]
 categories: [投资]
