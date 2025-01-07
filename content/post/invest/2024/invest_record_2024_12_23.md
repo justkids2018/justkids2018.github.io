@@ -1,8 +1,8 @@
 ---
 title: "投资笔记-2024年终总结"
 subtitle: ""
-date: 2024-10-25T07:07:14+08:00
-lastmod: 2024-10-25T07:07:14+08:00
+date: 2025-1-1
+lastmod: 2025-1-1
 draft: false
 author: ""
 authorLink: ""
