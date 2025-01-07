@@ -1,8 +1,8 @@
 ---
 title: "投资笔记-202501"
 subtitle: "关于李录的全球现代化的演讲和段永平的浙大对谈感想"
-date: 2024-10-25T07:07:14+08:00
-lastmod: 2024-10-25T07:07:14+08:00
+date: 2025-01-05
+lastmod: 2025-01-05
 draft: false
 author: ""
 authorLink: ""
