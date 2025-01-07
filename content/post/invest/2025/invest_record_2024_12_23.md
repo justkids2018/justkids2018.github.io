@@ -80,7 +80,8 @@ license: ""
   
 
 
-> 备注  
+> 资料
+
 [李录最新演讲：全球价值投资与时代](https://baijiahao.baidu.com/s?id=1819571815290462188&wfr=spider&for=pc)
 
 
