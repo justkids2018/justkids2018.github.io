@@ -7,7 +7,7 @@ draft: false
 # image: /invest/jiazhitouzi_lilu.jpg
 author: ""
 authorLink: ""
-description: "投资感悟"
+description: "投资心得"
 
 tags: [股票]
 categories: [投资]
