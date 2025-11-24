@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>部署 on JustKids</title><link>https://justkids.top/tags/%E9%83%A8%E7%BD%B2/</link><description>Recent content in 部署 on JustKids</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 07 Aug 2021 07:13:20 +0800</lastBuildDate><atom:link href="https://justkids.top/tags/%E9%83%A8%E7%BD%B2/index.xml" rel="self" type="application/rss+xml"/><item><title>服务器部署在线和本地</title><link>https://justkids.top/p/%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%83%A8%E7%BD%B2%E5%9C%A8%E7%BA%BF%E5%92%8C%E6%9C%AC%E5%9C%B0/</link><pubDate>Sat, 07 Aug 2021 07:13:20 +0800</pubDate><guid>https://justkids.top/p/%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%83%A8%E7%BD%B2%E5%9C%A8%E7%BA%BF%E5%92%8C%E6%9C%AC%E5%9C%B0/</guid><description>&lt;h3 id=""&gt;
 &lt;/h3&gt;&lt;h3 id="本地工具部署-指南"&gt;本地工具部署 指南
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;安装my sql&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;安装my sql&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;&lt;a class="link" href="https://www.jianshu.com/p/199492627ccc/" target="_blank" rel="noopener"
 &gt;借鉴安装教程&lt;/a&gt;&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;登录mysql&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;登录mysql&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;div class="highlight"&gt;&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;"&gt;
 &lt;table style="border-spacing:0;padding:0;margin:0;border:0;"&gt;&lt;tr&gt;&lt;td style="vertical-align:top;padding:0;margin:0;border:0;"&gt;
 &lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;"&gt;&lt;code&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;0
@@ -23,7 +25,8 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;blockquote&gt;
-&lt;p&gt;可视化Navicat 安装&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;可视化Navicat 安装&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;&lt;a class="link" href="https://www.jianshu.com/p/d6340569559e" target="_blank" rel="noopener"
 &gt;借鉴Navicat文档&lt;/a&gt;&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;"&gt;
@@ -37,6 +40,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;blockquote&gt;
-&lt;p&gt;Mysql navicat 连接&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Mysql navicat 连接&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;&lt;a class="link" href="https://www.cnblogs.com/ljj-Andrew-519/p/9638784.html" target="_blank" rel="noopener"
 &gt;借鉴文档&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>

@@ -79,7 +79,8 @@ loading="lazy"
 &lt;h3 id="通过jsdelivr--引用资源"&gt;通过JsDelivr 引用资源
 &lt;/h3&gt;&lt;blockquote&gt;
 &lt;p&gt;jsDelivr &lt;a class="link" href="https://www.jsdelivr.com/?docs=gh" target="_blank" rel="noopener"
-&gt;开源的CDN简介&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&gt;开源的CDN简介&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;JsDeliver 引用参数说明&lt;/strong&gt;&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:5;-o-tab-size:5;tab-size:5;"&gt;
 &lt;table style="border-spacing:0;padding:0;margin:0;border:0;"&gt;&lt;tr&gt;&lt;td style="vertical-align:top;padding:0;margin:0;border:0;"&gt;
