@@ -1,8 +1,8 @@
 ---
 title: "投资笔记-重新梳理投资策略"
 subtitle: "投资清单"
-date: 2025-14-13
-lastmod: 2025-14-13
+date: 2025-11-13
+lastmod: 2025-11-13
 draft: false
 author: ""
 authorLink: ""
