@@ -67,7 +67,7 @@ params:
 
     comments:
         enabled: true
-        provider: disqus
+        provider: giscus
 
         disqusjs:
             shortname:
@@ -94,21 +94,16 @@ params:
             clientSecret:
             autoCreateIssue: false
 
-        # Waline client configuration see: https://waline.js.org/en/reference/client.html
         waline:
-            serverURL: https://justkids.top
-            lang: zh_CN
+            serverURL:
+            lang: zh-CN
             visitor:
             avatar:
             emoji:
-                - https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo
             requiredMeta:
-                - name   阿东
-                - email  justkids2018101@gmail.com
-                - url
             placeholder:
             locale:
-                admin: Admin
+                admin: 博主
 
         twikoo:
             envId:
@@ -116,22 +111,22 @@ params:
             path:
             lang:
 
-        # See https://cactus.chat/docs/reference/web-client/#configuration for description of the various options
         cactus:
             defaultHomeserverUrl: "https://matrix.cactus.chat:8448"
             serverName: "cactus.chat"
-            siteName: "" # You must insert a unique identifier here matching the one you registered (See https://cactus.chat/docs/getting-started/quick-start/#register-your-site)
+            siteName:
 
         giscus:
-            repo:
-            repoID:
-            category:
-            categoryID:
-            mapping:
-            lightTheme:
-            darkTheme: 
+            repo: justkids2018/justkids2018.github.io
+            repoID: MDEwOlJlcG9zaXRvcnkxNjI0NTUxMTI=
+            category: Announcements
+            categoryID: DIC_kwDOCa7eSM4CzEjK
+            mapping: pathname
+            lightTheme: light
+            darkTheme: dark
             reactionsEnabled: 1
             emitMetadata: 0
+            lang: zh-CN
 
         gitalk:
             owner:
