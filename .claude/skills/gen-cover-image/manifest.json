@@ -1,0 +1,34 @@
+{
+  "name": "gen-cover-image",
+  "description": "根据文章内容自动生成16:9封面图并更新到image字段",
+  "version": "1.0.0",
+  "usage": "/gen-cover-image [文件路径]",
+  "parameters": [
+    {
+      "name": "file_path",
+      "description": "Markdown文件路径（可选，默认使用当前文件）",
+      "required": false
+    }
+  ],
+  "environment": {
+    "OPENAI_API_KEY": {
+      "description": "OpenAI API密钥（使用DALL-E生成图片）",
+      "required": false
+    },
+    "CLAUDE_IMAGE_SERVICE": {
+      "description": "图片生成服务：openai、stable-diffusion、manual（仅生成提示词）",
+      "default": "manual",
+      "required": false
+    }
+  },
+  "examples": [
+    {
+      "command": "/gen-cover-image",
+      "description": "为当前打开的文章生成封面图"
+    },
+    {
+      "command": "/gen-cover-image content/post/my-article.md",
+      "description": "为指定文章生成封面图"
+    }
+  ]
+}

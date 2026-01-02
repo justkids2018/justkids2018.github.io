@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(chmod:*)",
+      "Bash(CLAUDE_IMAGE_SERVICE=manual ./.claude/skills/gen-cover-image/run.sh:*)"
+    ]
+  }
+}
+
+
+
