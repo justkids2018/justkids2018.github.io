@@ -1,0 +1,33 @@
+{
+  "name": "review-doc",
+  "description": "审核文档内容：检查时间一致性、错别字、评估写作风格是否符合汪曾祺式朴实自然风格",
+  "version": "1.0.0",
+  "usage": "/review-doc [文件路径]",
+  "parameters": [
+    {
+      "name": "file_path",
+      "description": "Markdown文件路径（可选，默认使用当前文件）",
+      "required": false
+    }
+  ],
+  "environment": {
+    "ANTHROPIC_API_KEY": {
+      "description": "Anthropic API密钥（用于AI审核）",
+      "required": false
+    },
+    "ANTHROPIC_BASE_URL": {
+      "description": "Anthropic API基础URL（可选，默认为官方API）",
+      "required": false
+    }
+  },
+  "examples": [
+    {
+      "command": "/review-doc",
+      "description": "审核当前打开的文档"
+    },
+    {
+      "command": "/review-doc content/post/thinking/2026/article.md",
+      "description": "审核指定文档"
+    }
+  ]
+}
