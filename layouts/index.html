@@ -1,0 +1,96 @@
+{{ define "main" }}
+    {{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
+    {{ $visible := where $pages "Params.hidden" "!=" true }}
+    {{ $visible = where $visible "Params.hiddenFromHomePage" "!=" true }}
+    {{ $featuredTitles := slice "建立自己的投资系统：四年投资心得" "设计模式-七原则" "听【袁希和张笑宇】博客对话有感" }}
+    {{ $featured := where $visible "Title" "in" $featuredTitles }}
+    {{ $recent := first 8 (where $visible "Title" "not in" $featuredTitles) }}
+
+    <div class="home-studio">
+        <header class="home-intro" aria-labelledby="home-title">
+            <div class="home-intro__copy">
+                <p class="home-eyebrow">JUSTKIDS · SINCE 2020</p>
+                <h1 id="home-title">在变化的世界里，<br><span>建立自己的判断。</span></h1>
+                <p class="home-intro__lead">这里记录技术实践、投资认知与生活思考。写作不是展示答案，而是留下判断形成的过程。</p>
+                <p class="home-intro__motto">真实 · 独立 · 有趣</p>
+            </div>
+        </header>
+
+        <nav class="knowledge-paths" aria-label="内容地图">
+            <a class="knowledge-path knowledge-path--tech" href="{{ "wiki/tech/" | relURL }}">
+                <span class="knowledge-path__number">01</span>
+                <span class="knowledge-path__body">
+                    <strong>技术工程</strong>
+                    <small>设计模式、Android、Flutter 与工程工具</small>
+                </span>
+                <span class="knowledge-path__arrow" aria-hidden="true">↗</span>
+            </a>
+            <a class="knowledge-path knowledge-path--invest" href="{{ "wiki/invest/" | relURL }}">
+                <span class="knowledge-path__number">02</span>
+                <span class="knowledge-path__body">
+                    <strong>投资体系</strong>
+                    <small>理念、原则、决策系统与年度复盘</small>
+                </span>
+                <span class="knowledge-path__arrow" aria-hidden="true">↗</span>
+            </a>
+            <a class="knowledge-path knowledge-path--life" href="{{ "wiki/life/" | relURL }}">
+                <span class="knowledge-path__number">03</span>
+                <span class="knowledge-path__body">
+                    <strong>思考与生活</strong>
+                    <small>阅读、成长、旅行与长期记录</small>
+                </span>
+                <span class="knowledge-path__arrow" aria-hidden="true">↗</span>
+            </a>
+        </nav>
+
+        {{ with $featured }}
+        <section class="home-section home-featured" aria-labelledby="featured-title">
+            <div class="home-section__heading">
+                <div>
+                    <p class="home-section__kicker">START HERE</p>
+                    <h2 id="featured-title">从这些文章开始</h2>
+                </div>
+                <p>三条不同的路径，共同构成这个博客的坐标。</p>
+            </div>
+            <div class="featured-list">
+                {{ range $index, $page := . }}
+                <a class="featured-story" href="{{ $page.RelPermalink }}">
+                    <span class="featured-story__index">0{{ add $index 1 }}</span>
+                    <div class="featured-story__content">
+                        <p>{{ with $page.Params.categories }}{{ index . 0 }}{{ else }}文章{{ end }}</p>
+                        <h3>{{ $page.Title }}</h3>
+                        {{ with $page.Description }}<span>{{ . }}</span>{{ else }}<span>{{ $page.Summary | plainify | truncate 72 }}</span>{{ end }}
+                    </div>
+                    <time datetime="{{ $page.Date.Format "2006-01-02" }}">{{ $page.Date.Format "2006.01" }}</time>
+                </a>
+                {{ end }}
+            </div>
+        </section>
+        {{ end }}
+
+        <section class="home-section home-recent" aria-labelledby="recent-title">
+            <div class="home-section__heading home-section__heading--inline">
+                <div>
+                    <p class="home-section__kicker">RECENT NOTES</p>
+                    <h2 id="recent-title">最近更新</h2>
+                </div>
+                <a class="home-all-link" href="{{ "archives/" | relURL }}">查看全部文章 <span aria-hidden="true">→</span></a>
+            </div>
+            <div class="recent-list">
+                {{ range $recent }}
+                <a class="recent-note" href="{{ .RelPermalink }}">
+                    <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006.01.02" }}</time>
+                    <strong>{{ .Title }}</strong>
+                    <span>{{ with .Params.categories }}{{ index . 0 }}{{ else }}随笔{{ end }}</span>
+                </a>
+                {{ end }}
+            </div>
+        </section>
+    </div>
+
+    {{- partial "footer/footer" . -}}
+{{ end }}
+
+{{ define "right-sidebar" }}
+    {{ partial "sidebar/right.html" (dict "Context" . "Scope" "homepage") }}
+{{ end }}
