@@ -3,7 +3,7 @@ title: "我为什么不做空：一条借来的原则｜2026-11-08"
 slug: "why-i-do-not-short"
 date: 2026-11-08
 lastmod: 2026-11-08
-draft: true
+draft: false
 image: /invest/stop-doing-list-cover.jpg
 description: ""
 tags: [投资, 做空, 能力圈, 独立思考, 不为清单]
