@@ -4,7 +4,7 @@ slug: "why-i-do-not-short"
 date: 2026-11-08
 lastmod: 2026-11-08
 draft: false
-image: /invest/stop-doing-list-cover.jpg
+image: /invest/why-not-short-cover.jpg
 description: ""
 tags: [投资, 做空, 能力圈, 独立思考, 不为清单]
 categories: [投资]
